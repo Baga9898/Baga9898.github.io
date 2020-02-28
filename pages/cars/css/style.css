@@ -1,0 +1,204 @@
+/* Specification. */
+
+body {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header. */
+
+.header {
+    background: url(img/mbndmnimg.jpg) no-repeat center top / cover;
+    height: 100vh;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.menu img {
+    height: 80px;
+    width: 110px;
+}
+
+/* Second section. */
+
+.second {
+    color: #000;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.second p {
+    color: dimgray;
+}
+
+/* Third section. */
+
+.third {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.left {
+    padding: 0;
+    margin: 0;
+}
+
+.left img {
+    height: 500px;
+    width: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+.right {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.right .icon {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.right .salon222 {
+    height: 150px;
+    width: 463px;
+}
+
+.right p {
+    padding-bottom: 70px;
+}
+
+.leftsalon {
+    margin: 0;
+    padding: 0;
+}
+
+.salon {
+    margin: 0;
+    padding: 0;
+}
+
+/* Forth section. */
+
+.forth .icon {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.forth .rightsalon {
+    height: 500px;
+    width: 800px;
+}
+
+.forth {
+    display: flex;
+    text-align: center;
+}
+
+.leftsalon {
+    height: 210px;
+    width: 463px;
+}
+
+.forth p {
+    padding-bottom: 10px;
+}
+
+/* Fifth section. */
+
+.fifth {
+    display: flex;
+}
+
+.fifth .l {
+    height: 500px;
+    width: 453px;
+}
+
+.secondc .icon {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.secondc {
+    text-align: center;
+}
+
+.s {
+    height: 200px;
+    width: 400px;
+    padding-top: 20px;
+}
+
+.r {
+    height: 500px;
+    width: 410px;
+}
+
+/* Sixth section. */
+
+.sixth {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.i a img {
+    height: 40px;
+    width: 40px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.i a {
+    text-decoration: none;
+}
+
+/* Footer. */
+
+.footer {
+    height: 60px;
+    background: #000;
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+}
