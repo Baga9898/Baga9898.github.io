@@ -40,7 +40,8 @@ li {
 .menu {
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 20px;
+    align-items: center;
 }
 
 .menu img {
