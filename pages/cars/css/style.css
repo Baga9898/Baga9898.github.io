@@ -66,26 +66,27 @@ li {
 
 .third {
     display: flex;
-    padding: 0;
-    margin: 0;
+
 }
 
 .left {
-    padding: 0;
-    margin: 0;
+    width: 70%;
 }
 
-.left img {
-    height: 500px;
-    width: 800px;
-    padding: 0;
-    margin: 0;
+.left-background {
+    background-image: url(img/salon.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .right {
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .right .icon {
@@ -96,25 +97,28 @@ li {
 }
 
 .right .salon222 {
-    height: 150px;
-    width: 463px;
+    width: 100%;
+    height: auto;
 }
 
 .right p {
     padding-bottom: 70px;
-}
-
-.leftsalon {
-    margin: 0;
-    padding: 0;
-}
-
-.salon {
-    margin: 0;
-    padding: 0;
+    text-align: center;
 }
 
 /* Forth section. */
+
+.left2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right2 {
+    width: 70%;
+}
 
 .forth .icon {
     height: 100px;
@@ -123,23 +127,26 @@ li {
     padding-top: 30px;
 }
 
-.forth .rightsalon {
-    height: 500px;
-    width: 800px;
+.right-background {
+    background-image: url(img/29.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .forth {
     display: flex;
-    text-align: center;
 }
 
 .leftsalon {
-    height: 210px;
-    width: 463px;
+    width: 100%;
+    height: auto;
 }
 
-.forth p {
-    padding-bottom: 10px;
+.left2 p {
+    padding-bottom: 70px;
+    text-align: center;
 }
 
 /* Fifth section. */
@@ -148,9 +155,46 @@ li {
     display: flex;
 }
 
-.fifth .l {
-    height: 500px;
-    width: 453px;
+.firstc {
+    width: 30%;
+}
+
+.s {
+    width: 100%;
+    height: auto;
+}
+
+.secondc {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondc p {
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.thirthc {
+    width: 30%;
+}
+
+.thirthc-background {
+    background-image: url(img/iMCAX3BZ4.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.firstc-background {
+    background-image: url(img/iQRYET1G2.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .secondc .icon {
@@ -158,21 +202,6 @@ li {
     width: 100px;
     padding-bottom: 50px;
     padding-top: 30px;
-}
-
-.secondc {
-    text-align: center;
-}
-
-.s {
-    height: 200px;
-    width: 400px;
-    padding-top: 20px;
-}
-
-.r {
-    height: 500px;
-    width: 410px;
 }
 
 /* Sixth section. */
