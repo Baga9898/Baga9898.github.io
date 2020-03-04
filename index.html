@@ -10,23 +10,24 @@
 
 <body>
     <header class="header">
-        <div class="container">
-           <!-- <div class="header__menu">
-                <a href="pages/cars/index.html">Cars</a>
-                <a href="pages/cosmo/index.html">Cosmo</a>
-            </div> -->
-        </div>
-        <div class="berger-menu ">
-            <a href="#" class="burger-menu__button">
-                <span class="burger-menu__lines">
-                    
-                </span>
-            </a>
-            <nav class="burger-menu__nav">
-            <a href="pages/cars/index.html" class="burger-menu__link">Cars</a>
-            <a href="pages/cosmo/index.html" class="burger-menu__link">Cosmo</a>
-            </nav>
-            <div class="burger-menu__overlay"></div>
+        <div class="nav-container">
+            <div class="nav-wrapper">
+
+                <div id="menu-toggle" class="menu-icon">
+                    <div class="menu-icon-line"></div>
+                </div>
+                <div id="mobile-nav" class="mobile-nav">
+                    <div class="mobile-nav__title">Menu</div>
+                    <ul class="mobile-nav__list">
+                        <li class="mobile-nav__item">
+                            <a href="pages/cars/index.html" class="mobile-nav__link">Cars</a>
+                        </li>
+                        <li class="mobile-nav__item">
+                            <a href="pages/cosmo/index.html" class="mobile-nav__link">Cosmo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
     <section class="second">
@@ -43,7 +44,7 @@
     <script src="js/style.js"></script>
 
     <!-- UP button. -->
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
         jQuery(document).ready(function() {
@@ -66,11 +67,8 @@
             });
 
         });
-        
-        
 
     </script>
-    
 
 </body>
 
