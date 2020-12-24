@@ -171,6 +171,8 @@ p {
     display: flex;
 }
 
+/*LeftsideSeason*/
+
 .season__leftside {
     width: 55%;
     height: 730px;
@@ -178,12 +180,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.season__rightside {
-    width: 45%;
-    height: 730px;
-    background: url(img/Rectangle%208.png) no-repeat center top /cover;
 }
 
 .sleftside__title {
@@ -219,13 +215,68 @@ p {
 
 .watches__block h3 {
     margin-top: 25px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .watches__block h4 {
-    color: #fff;
+    color: #D0D0D0;
     margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 .season__watches {
     display: flex;
+}
+
+/*RightsideSeason*/
+
+.season__rightside {
+    width: 45%;
+    height: 730px;
+    background: url(img/Rectangle%208.png) no-repeat center top /cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.srightside__title {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+
+.srightside__line {
+    border: 1px solid #fff;
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.srightside__button {
+    width: 156px;
+    height: 48px;
+    border: 1px solid #fff;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srightside__button p {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 23px;
 }
