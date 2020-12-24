@@ -43,11 +43,9 @@ p {
     background-color: #000;
 }
 
-.logo a {
-    font-family: 'Post No Bills Jaffna ExtraBold', sans-serif;
-    text-transform: uppercase;
-    font-size: 36px;
-    color: #fff;
+.logo a img {
+    width: 104px;
+    height: 49px;
 }
 
 .logo {
@@ -180,6 +178,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .sleftside__title {
@@ -245,6 +244,7 @@ p {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .srightside__title {
@@ -266,7 +266,6 @@ p {
     width: 156px;
     height: 48px;
     border: 1px solid #fff;
-    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
