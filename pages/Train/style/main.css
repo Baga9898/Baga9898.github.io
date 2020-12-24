@@ -171,7 +171,7 @@ p {
     display: flex;
 }
 
-/*LeftsideSeason*/
+/*SeasonLeftside*/
 
 .season__leftside {
     width: 55%;
@@ -235,7 +235,7 @@ p {
     display: flex;
 }
 
-/*RightsideSeason*/
+/*SeasonRightside*/
 
 .season__rightside {
     width: 45%;
@@ -279,4 +279,76 @@ p {
     font-size: 18px;
     text-transform: uppercase;
     line-height: 23px;
+}
+
+/*Collection*/
+
+.collection {
+    display: flex;
+}
+
+/*CollectionLeftside*/
+
+.collection__leftside {
+    background: url(img/Rectangle%209.png) no-repeat center top /cover;
+    width: 45%;
+    height: 600px;
+}
+
+/*CollectionRightside*/
+
+.collection__rightside {
+    background-color: #000;
+    width: 55%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collection__rightside h1 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.crightside__line {
+    border: 1px solid #fff;
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+.collection__rightside p {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 61px;
+    width: 471px;
+    height: 173px;
+}
+
+.crightside__button {
+    width: 310px;
+    height: 72px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchcollection {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
 }
