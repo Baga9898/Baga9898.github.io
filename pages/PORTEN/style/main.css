@@ -646,3 +646,24 @@ p {
     font-weight: 400;
     color: #fff;
 }
+
+/*Footer*/
+
+.footer {
+    background-color: #000;
+    height: 50px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h6 {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 17px;
+}
