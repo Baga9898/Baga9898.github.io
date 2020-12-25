@@ -126,7 +126,7 @@ p {
     margin-left: 22px;
 }
 
-.search {
+.margin__search {
     margin-left: 45px;
 }
 
@@ -508,6 +508,7 @@ p {
 
 .category__layers1 {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .category__layers2 {
@@ -518,8 +519,6 @@ p {
     background-color: #000;
     width: 70px;
     height: 41px;
-    margin-right: 20px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -529,7 +528,6 @@ p {
     background-color: #000;
     width: 98px;
     height: 41px;
-    margin-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -548,10 +546,21 @@ p {
     background-color: #000;
     width: 164px;
     height: 41px;
-    margin-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.margins11 {
+    margin-right: 20px;
+}
+
+.margins12 {
+    margin-right: 20px;
+}
+
+.margins24 {
+    margin-right: 20px;
 }
 
 .layer5 {
@@ -563,7 +572,7 @@ p {
     align-items: center;
 }
 
-.layer1 a h3 {
+.layer1 h3 {
     color: #D0D0D0;
     font-size: 14px;
     line-height: 21px;
@@ -571,7 +580,7 @@ p {
     font-weight: 400;
 }
 
-.layer2 a h3 {
+.layer2 h3 {
     color: #D0D0D0;
     font-size: 14px;
     line-height: 21px;
@@ -579,7 +588,7 @@ p {
     font-weight: 400;
 }
 
-.layer3 a h3 {
+.layer3 h3 {
     color: #D0D0D0;
     font-size: 14px;
     line-height: 21px;
@@ -587,7 +596,7 @@ p {
     font-weight: 400;
 }
 
-.layer4 a h3 {
+.layer4 h3 {
     color: #D0D0D0;
     font-size: 14px;
     line-height: 21px;
@@ -595,7 +604,7 @@ p {
     font-weight: 400;
 }
 
-.layer5 a h3 {
+.layer5 h3 {
     color: #D0D0D0;
     font-size: 14px;
     line-height: 21px;
