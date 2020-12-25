@@ -452,7 +452,7 @@ p {
 .navigation {
     background-image: url(img/Rectangle%2015.png);
     height: 400px;
-} 
+}
 
 .navigation__boxes {
     display: flex;
@@ -613,11 +613,36 @@ p {
     margin-bottom: 37px;
 }
 
-/*
-.boxes__form input {
+.mailing__fullform {
+    display: flex;
+}
+
+.fullform__form input {
     height: 42px;
     width: 210px;
     background-color: #fff;
     border: 0;
     opacity: 0.4;
-}*/
+}
+
+.fullform__form input:focus {
+    opacity: 1;
+}
+
+.fullform__button {
+    background-color: #000;
+    width: 140px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullform__button h1 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
