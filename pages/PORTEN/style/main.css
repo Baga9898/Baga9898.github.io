@@ -91,23 +91,35 @@ p {
     justify-content: space-between;
 }
 
-.menu ul {
-    display: flex;
-}
-
 .rightside {
     display: flex;
     align-items: center;
 }
 
-.menu ul li {
+.menu__buttons {
     display: flex;
-    margin-right: 40px;
 }
 
-.menu ul li a {
+.mbuttons__button {
+    background-color: #0F0F0F;
+    width: 136px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mbuttons__button:hover {
+    background-color: #1F1F1F;
+}
+
+.mbuttons__button p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .cartsearch {
