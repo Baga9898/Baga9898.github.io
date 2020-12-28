@@ -875,7 +875,7 @@ p {
     display: block;
     animation-name: bounce;
     animation-duration: 0.6s;
-    
+
 }
 
 @keyframes bounce {
@@ -918,7 +918,8 @@ p {
 
     20%,
     40%,
-    60%, 80% {
+    60%,
+    80% {
         transform: translateX(10px);
     }
 }
@@ -926,33 +927,33 @@ p {
 /*Scrollbar*/
 
 ::-webkit-scrollbar-button {
-background-image:url('');
-background-repeat:no-repeat;
-width:5px;
-height:0px
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0px
 }
 
 ::-webkit-scrollbar-track {
-background-color:#383735;
+    background-color: #383735;
 }
 
 ::-webkit-scrollbar-thumb {
--webkit-border-radius: 0px;
-border-radius: 0px;
-background-color:#663d15;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #663d15;
 }
 
-::-webkit-scrollbar-thumb:hover{
-background-color:#4f3f0a;
+::-webkit-scrollbar-thumb:hover {
+    background-color: #4f3f0a;
 }
 
-::-webkit-resizer{
-background-image:url('');
-background-repeat:no-repeat;
-width:4px;
-height:0px
+::-webkit-resizer {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 0px
 }
 
-::-webkit-scrollbar{
-width: 4px;
+::-webkit-scrollbar {
+    width: 4px;
 }
