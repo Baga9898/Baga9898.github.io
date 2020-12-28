@@ -697,19 +697,23 @@ p {
     background-position: 0 0;
     background-color: #f8f3f0;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+        /*    Включение/Отключение окна авторизации*/
+    display: none;
+}
+
+.modal-show{
+    display: block;
 }
 
 .modal-login {
     top: 120px;
     left: 50%;
 
-    /*    Включение/Отключение окна авторизации*/
-    display: none;
-
     width: 300px;
     padding: 50px 80px;
     margin-left: -230px;
 }
+
 
 .modal-close {
     position: absolute;
