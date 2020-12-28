@@ -820,7 +820,7 @@ p {
 .login-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
     border-color: #66d315;
     outline: thin dotted;
-    outline: 5px auto webkit-focus-ring-color;
+    outline: 5px auto -webkit-focus-ring-color;
 }
 
 .visually-hidden {
@@ -921,4 +921,38 @@ p {
     60%. 80% {
         transform: translateX(10px; );
     }
+}
+
+/*Scrollbar*/
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:5px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:#383735;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+border-radius: 0px;
+background-color:#663d15;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color:#4f3f0a;
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:4px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 4px;
 }
