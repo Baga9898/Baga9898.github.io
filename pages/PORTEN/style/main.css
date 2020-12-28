@@ -780,7 +780,6 @@ p {
 
     font: inherit;
     color: #000;
-    text-transform: uppercase;
 
     border: 2px solid #000;
 }
@@ -860,4 +859,9 @@ p {
     height: 45px;
     color: #fff;
     background-color: #000;
+}
+
+.login-form .button:hover {
+    background-color: #663d15;
+    cursor: pointer;
 }
