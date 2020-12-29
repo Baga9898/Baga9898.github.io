@@ -5,6 +5,9 @@ var login = popup.querySelector("[name=login]");
 var form = popup.querySelector("form");
 var password = popup.querySelector("[name=password]");
 var storage = localStorage.getItem("login");
+var registration = popup.querySelector("a.reglink");
+var regpopup = document.querySelector(".modal-registration");
+
 
 var isStorageSupport = true;
 var storage = "";
@@ -55,4 +58,10 @@ window.addEventListener("keydown", function (evt) {
             popup.classList.remove("modal-error");
         }
     }
+});
+
+registration.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.remove("modal-show");
+    
 });
