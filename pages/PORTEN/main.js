@@ -8,7 +8,6 @@ var storage = localStorage.getItem("login");
 var registration = popup.querySelector("a.reglink");
 var regpopup = document.querySelector(".modal-registration");
 
-
 var isStorageSupport = true;
 var storage = "";
 
@@ -63,5 +62,5 @@ window.addEventListener("keydown", function (evt) {
 registration.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.remove("modal-show");
-    
+    regpopup.classList.add("active");
 });
