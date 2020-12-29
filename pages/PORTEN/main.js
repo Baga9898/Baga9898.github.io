@@ -1,12 +1,15 @@
 var link = document.querySelector(".login__link");
 var popup = document.querySelector(".modal-login");
 var close = document.querySelector(".modal-close");
+
 var login = popup.querySelector("[name=login]");
 var form = popup.querySelector("form");
 var password = popup.querySelector("[name=password]");
 var storage = localStorage.getItem("login");
+
 var registration = popup.querySelector("a.reglink");
 var regpopup = document.querySelector(".modal-registration");
+var regclose = document.querySelector(".regmodal-close");
 
 var isStorageSupport = true;
 var storage = "";
@@ -55,6 +58,11 @@ window.addEventListener("keydown", function (evt) {
             evt.preventDefault();
             popup.classList.remove("modal-show");
             popup.classList.remove("modal-error");
+        } else {
+            if (regpopup.classList.contains("active")) {
+                evt.preventDefault();
+                regpopup.classList.remove("active");
+            }
         }
     }
 });
@@ -64,3 +72,8 @@ registration.addEventListener("click", function (evt) {
     popup.classList.remove("modal-show");
     regpopup.classList.add("active");
 });
+
+regclose.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    regpopup.classList.remove("active");
+})

@@ -943,6 +943,42 @@ a.reglink {
     cursor: pointer;
 }
 
+.regmodal-close {
+    position: absolute;
+    top: 0;
+    right: -34px;
+
+    width: 22px;
+    height: 22px;
+
+    background-color: transparent;
+    border: 0;
+
+    cursor: pointer;
+}
+
+.regmodal-close::before,
+.regmodal-close::after {
+    content: "";
+
+    position: absolute;
+    top: 10px;
+    left: 2px;
+
+    width: 19px;
+    height: 3px;
+
+    background-color: #d0d0d0;
+}
+
+.regmodal-close::before {
+    transform: rotate(45deg);
+}
+
+.regmodal-close::after {
+    transform: rotate(-45deg);
+}
+
 /*AnimationStyle*/
 
 .modal-show {
