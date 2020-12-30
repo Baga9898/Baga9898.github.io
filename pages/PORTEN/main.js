@@ -20,7 +20,7 @@ try {
     isStorageSupport = false;
 }
 
-link.addEventListener("click", function (evt) {
+link.addEventListener("click", function(evt) {
     evt.preventDefault();
     popup.classList.add("modal-show");
 
@@ -32,13 +32,13 @@ link.addEventListener("click", function (evt) {
     }
 });
 
-close.addEventListener("click", function (evt) {
+close.addEventListener("click", function(evt) {
     evt.preventDefault();
     popup.classList.remove("modal-show");
     popup.classList.remove("modal-error");
 });
 
-form.addEventListener("submit", function (evt) {
+form.addEventListener("submit", function(evt) {
     if (!login.value || !password.value) {
         evt.preventDefault();
         popup.classList.remove("modal-error");
@@ -52,7 +52,7 @@ form.addEventListener("submit", function (evt) {
 });
 
 
-window.addEventListener("keydown", function (evt) {
+window.addEventListener("keydown", function(evt) {
     if (evt.keyCode === 27) {
         if (popup.classList.contains("modal-show")) {
             evt.preventDefault();
@@ -67,13 +67,13 @@ window.addEventListener("keydown", function (evt) {
     }
 });
 
-registration.addEventListener("click", function (evt) {
+registration.addEventListener("click", function(evt) {
     evt.preventDefault();
     popup.classList.remove("modal-show");
     regpopup.classList.add("active");
 });
 
-regclose.addEventListener("click", function (evt) {
+regclose.addEventListener("click", function(evt) {
     evt.preventDefault();
     regpopup.classList.remove("active");
 })
