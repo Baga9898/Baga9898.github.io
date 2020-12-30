@@ -222,6 +222,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .block__box2 {
@@ -231,6 +232,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .block__box3 {
@@ -240,6 +242,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .watches__block1 {
@@ -266,7 +269,70 @@ p {
     line-height: 24px;
 }
 
+.watches__block1 h3 {
+    margin-top: 25px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.watches__block2 h3 {
+    margin-top: 25px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.watches__block3 h3 {
+    margin-top: 25px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .watches__block h4 {
+    color: #D0D0D0;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.watches__block1 h4 {
+    color: #D0D0D0;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.watches__block2 h4 {
+    color: #D0D0D0;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.watches__block3 h4 {
+    color: #D0D0D0;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.watches__block4 h4 {
     color: #D0D0D0;
     margin-top: 10px;
     font-family: 'Playfair Display', serif;
@@ -410,12 +476,18 @@ p {
     color: #fff;
 }
 
+.newcollectionhh {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+}
+
 
 /*NewArrivalsSection*/
 
 .newarrivals {
     background-color: #000;
-    height: 1289px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1083,6 +1155,9 @@ a.reglink {
     width: 4px;
 }
 
+
+/* Media */
+
 @media screen and (max-width: 1670px) {
     .watches__block3 {
         display: none;
@@ -1134,6 +1209,7 @@ a.reglink {
         display: flex;
         flex-direction: column;
         text-align: center;
+        display: block;
     }
 }
 
@@ -1143,6 +1219,7 @@ a.reglink {
     }
     .season__leftside {
         width: 100%;
+        padding-bottom: 0;
     }
     .season__rightside {
         width: 100%;
@@ -1161,5 +1238,14 @@ a.reglink {
     }
     .collection__rightside {
         width: 100%;
+    }
+    .container {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .watches__block3 {
+        display: none;
     }
 }
