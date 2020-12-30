@@ -138,10 +138,59 @@ p {
     display: none;
 }
 
+.show-menu .mbuttons__button {
+    background-color: transparent;
+}
+
+.show-menu .mbuttons__button p:hover {
+    color: saddlebrown;
+}
+
 .rightside .show-menu {
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 40px 0px 20px 0px;
+}
+
+.cross__close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    display: none;
+}
+
+.cross__active {
     display: block;
 }
 
+.cross__close:hover {
+    opacity: 1;
+}
+
+.cross__close::after,
+.cross__close::before {
+    position: absolute;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #fff;
+    right: 0;
+}
+
+.cross__close::before {
+    transform: rotate(45deg);
+}
+
+.cross__close::after {
+    transform: rotate(-45deg);
+}
 
 /*AboutSection*/
 
