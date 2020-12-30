@@ -131,6 +131,17 @@ p {
     margin-left: 45px;
 }
 
+.menu-open {
+    width: 25px;
+    height: 25px;
+    margin-right: 42px;
+    display: none;
+}
+
+.rightside .show-menu {
+    display: block;
+}
+
 
 /*AboutSection*/
 

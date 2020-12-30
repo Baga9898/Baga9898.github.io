@@ -118,4 +118,8 @@
     .menu__buttons {
         display: none;
     }
+    .menu-open {
+        display: inline-block;
+    }
+    /* Сделать выпадающее меню и прописать ему видимый класс. */
 }
