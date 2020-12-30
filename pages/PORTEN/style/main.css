@@ -1,1131 +1,1165 @@
-            /*Specifications*/
-            
-            body {
-                margin: 0;
-                padding: 0;
-                font-family: 'PT Sans', sans-serif;
-                font-size: 12px;
-            }
-            
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-                padding: 0;
-                margin: 0;
-            }
-            
-            * {
-                padding: 0;
-                margin: 0;
-            }
-            
-            a {
-                text-decoration: none;
-                color: #969696;
-            }
-            
-            p {
-                margin: 0;
-                padding: 0;
-            }
-            
-            .container {
-                width: 1100px;
-                margin: 0 auto;
-            }
-            /*Header*/
-            
-            .header {
-                background-color: #000;
-            }
-            
-            .logo a img {
-                width: 104px;
-                height: 49px;
-            }
-            
-            .logo {
-                padding-top: 15px;
-                padding-bottom: 16px;
-            }
-            
-            .header__first {
-                display: flex;
-                padding-top: 14px;
-                justify-content: space-between;
-                align-items: center;
-                padding-bottom: 14px;
-            }
-            
-            .first__content {
-                display: flex;
-                color: #969696;
-                font-size: 12px;
-                align-items: center;
-            }
-            
-            .first__login {
-                display: flex;
-                align-items: center;
-            }
-            
-            .tel {
-                margin-right: 16px;
-            }
-            
-            .door {
-                margin-right: 12px;
-            }
-            
-            .porten {
-                background-color: #0F0F0F;
-            }
-            
-            .porten__full {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-            
-            .rightside {
-                display: flex;
-                align-items: center;
-            }
-            
-            .menu__buttons {
-                display: flex;
-            }
-            
-            .mbuttons__button {
-                background-color: #0F0F0F;
-                width: 136px;
-                height: 80px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .mbuttons__button:hover {
-                background-color: #1F1F1F;
-            }
-            
-            .mbuttons__button p {
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 18px;
-                color: #fff;
-                text-transform: uppercase;
-            }
-            
-            .cartsearch {
-                margin-left: 22px;
-            }
-            
-            .margin__search {
-                margin-left: 45px;
-            }
-            /*AboutSection*/
-            
-            .about {
-                background: url(img/Rectangle%203.png) no-repeat center top /cover;
-            }
-            
-            .about__text p {
-                color: #fff;
-                font-size: 16px;
-                line-height: 24px;
-                width: 730px;
-                height: 96px;
-                text-align: center;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-                text-transform: uppercase;
-                margin-bottom: 154px;
-            }
-            
-            .square__title a {
-                font-family: 'Post No Bills Jaffna ExtraBold', sans-serif;
-                text-transform: uppercase;
-                font-size: 64px;
-                color: #fff;
-                margin-bottom: 0px;
-                padding-bottom: 0px;
-            }
-            
-            .content__square {
-                border: 4px solid #fff;
-                width: 320px;
-                height: 320px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 160px;
-                margin-bottom: 80px;
-            }
-            
-            .about__content {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            /*SeasonSection*/
-            
-            .season {
-                display: flex;
-            }
-            /*SeasonLeftside*/
-            
-            .season__leftside {
-                width: 55%;
-                height: 730px;
-                background-color: #000;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding-bottom: 100px;
-            }
-            
-            .sleftside__title {
-                color: #fff;
-                font-size: 36px;
-                font-weight: 700;
-                line-height: 48px;
-                text-align: center;
-                font-family: 'Playfair Display', serif;
-                margin-top: 93px;
-                margin-bottom: 50px;
-                text-transform: uppercase;
-            }
-            
-            .sleftside__line {
-                border: 1px solid #fff;
-                width: 120px;
-                margin-bottom: 50px;
-            }
-            
-            .block__box1 {
-                width: 260px;
-                height: 325px;
-                background-color: #191B1C;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            
-            .block__box2 {
-                width: 260px;
-                height: 325px;
-                background-color: #191B1C;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            
-            .block__box3 {
-                width: 260px;
-                height: 325px;
-                background-color: #191B1C;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            
-            .watches__block1 {
-                margin-left: 25px;
-                margin-right: 25px;
-            }
-            
-            .watches__block2 {
-                margin-left: 25px;
-                margin-right: 25px;
-            }
-            
-            .watches__block3 {
-                margin-left: 25px;
-                margin-right: 25px;
-            }
-            
-            .watches__block h3 {
-                margin-top: 25px;
-                color: #fff;
-                font-family: 'Playfair Display', serif;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            
-            .watches__block h4 {
-                color: #D0D0D0;
-                margin-top: 10px;
-                font-family: 'Playfair Display', serif;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 21px;
-            }
-            
-            .season__watches {
-                display: flex;
-            }
-            /*SeasonRightside*/
-            
-            .season__rightside {
-                width: 45%;
-                height: 730px;
-                background: url(img/Rectangle%208.png) no-repeat center top /cover;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                align-items: center;
-                padding-bottom: 100px;
-            }
-            
-            .srightside__title {
-                color: #fff;
-                font-family: 'Playfair Display', serif;
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 48px;
-                margin-bottom: 30px;
-                text-transform: uppercase;
-            }
-            
-            .srightside__line {
-                border: 1px solid #fff;
-                width: 120px;
-                margin-bottom: 30px;
-            }
-            
-            .srightside__button {
-                width: 156px;
-                height: 48px;
-                border: 1px solid #fff;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .srightside__button p {
-                color: #fff;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-                font-size: 18px;
-                text-transform: uppercase;
-                line-height: 23px;
-            }
-            /*Collection*/
-            
-            .collection {
-                display: flex;
-            }
-            /*CollectionLeftside*/
-            
-            .collection__leftside {
-                background: url(img/Rectangle%209.png) no-repeat center top /cover;
-                width: 45%;
-                height: 600px;
-            }
-            
-            .collection__leftside2 {
-                background: url(img/Rectangle%209.png) no-repeat center top /cover;
-                width: 100%;
-                height: 600px;
-                display: none;
-            }
-            /*CollectionRightside*/
-            
-            .collection__rightside {
-                background-color: #000;
-                width: 55%;
-                height: 600px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .collection__rightside h1 {
-                color: #fff;
-                font-family: 'Playfair Display', serif;
-                font-weight: 400;
-                font-size: 36px;
-                line-height: 48px;
-                margin-top: 100px;
-                margin-bottom: 40px;
-                text-transform: uppercase
-            }
-            
-            .crightside__line {
-                border: 1px solid #fff;
-                width: 120px;
-                margin-bottom: 40px;
-            }
-            
-            .collection__rightside p {
-                color: #fff;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-                text-transform: uppercase;
-                font-size: 14px;
-                line-height: 21px;
-                text-align: center;
-                margin-bottom: 61px;
-                width: 471px;
-                height: 173px;
-            }
-            
-            .crightside__button {
-                width: 310px;
-                height: 72px;
-                border: 1px solid #fff;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .watchcollection {
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-                text-transform: uppercase;
-                font-size: 18px;
-                line-height: 23px;
-                color: #fff;
-            }
-            /*NewArrivalsSection*/
-            
-            .newarrivals {
-                background-color: #000;
-                height: 1289px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .newarrivals h1 {
-                color: #fff;
-                font-family: 'Playfair Display', serif;
-                font-size: 36px;
-                line-height: 48px;
-                font-weight: 700;
-                margin-top: 120px;
-                margin-bottom: 40px;
-                text-transform: uppercase;
-            }
-            
-            .newarrivals__line {
-                border: 1px solid #fff;
-                width: 120px;
-                margin-bottom: 81px;
-            }
-            
-            .newarrivals__watches1 {
-                display: flex;
-            }
-            
-            .newarrivals__watches2 {
-                display: flex;
-            }
-            
-            .newarrivals__watches1 .watches__block {
-                margin-left: 11px;
-                margin-right: 11px;
-            }
-            
-            .newarrivals__watches2 .watches__block {
-                margin-left: 11px;
-                margin-right: 11px;
-            }
-            
-            .newarrivals__watches1 .watches__block h4 {
-                margin-bottom: 40px;
-            }
-            
-            .newarrivals__watches2 .watches__block h4 {
-                margin-bottom: 150px;
-            }
-            /*OurBrands*/
-            
-            .ourbrands {
-                background-color: #0F0F0F;
-                height: 362px;
-            }
-            
-            .ourbrands h1 {
-                color: #fff;
-                text-transform: uppercase;
-                font-family: 'Playfair Display', serif;
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 48px;
-                margin-top: 60px;
-            }
-            
-            .ourbrands__line {
-                border: 1px solid #fff;
-                width: 120px;
-                margin-top: 40px;
-                margin-bottom: 40px;
-            }
-            
-            .ourbrands .container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .brands__box {
-                display: flex;
-            }
-            
-            .brands__box a img {
-                margin-left: 15px;
-                margin-right: 15px;
-            }
-            /*Navigation*/
-            
-            .navigation {
-                background-image: url(img/Rectangle%2015.png);
-                height: 400px;
-            }
-            
-            .navigation__boxes {
-                display: flex;
-            }
-            
-            .boxes__about {
-                color: #fff;
-            }
-            
-            .boxes__about h1 {
-                text-transform: uppercase;
-                font-size: 24px;
-                line-height: 32px;
-                font-family: 'Playfair Display', serif;
-                font-weight: 400;
-                margin-top: 80px;
-                margin-bottom: 40px;
-            }
-            
-            .boxes__about p {
-                width: 350px;
-                height: 147px;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 21px;
-                margin-right: 30px;
-            }
-            
-            .boxes__category h1 {
-                color: #fff;
-                text-transform: uppercase;
-                font-size: 24px;
-                line-height: 32px;
-                font-family: 'Playfair Display', serif;
-                font-weight: 400;
-                margin-top: 80px;
-                margin-bottom: 40px;
-                margin-right: 238px;
-            }
-            
-            .category__layers1 {
-                display: flex;
-                margin-bottom: 20px;
-            }
-            
-            .category__layers2 {
-                display: flex;
-            }
-            
-            .layer1 {
-                background-color: #000;
-                width: 70px;
-                height: 41px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .layer2 {
-                background-color: #000;
-                width: 98px;
-                height: 41px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .layer3 {
-                background-color: #000;
-                width: 79px;
-                height: 41px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .layer4 {
-                background-color: #000;
-                width: 164px;
-                height: 41px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .margins11 {
-                margin-right: 20px;
-            }
-            
-            .margins12 {
-                margin-right: 20px;
-            }
-            
-            .margins24 {
-                margin-right: 20px;
-            }
-            
-            .layer5 {
-                background-color: #000;
-                width: 91px;
-                height: 41px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .layer1 h3 {
-                color: #D0D0D0;
-                font-size: 14px;
-                line-height: 21px;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-            }
-            
-            .layer2 h3 {
-                color: #D0D0D0;
-                font-size: 14px;
-                line-height: 21px;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-            }
-            
-            .layer3 h3 {
-                color: #D0D0D0;
-                font-size: 14px;
-                line-height: 21px;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-            }
-            
-            .layer4 h3 {
-                color: #D0D0D0;
-                font-size: 14px;
-                line-height: 21px;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-            }
-            
-            .layer5 h3 {
-                color: #D0D0D0;
-                font-size: 14px;
-                line-height: 21px;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-            }
-            
-            .boxes__mailing h1 {
-                color: #fff;
-                text-transform: uppercase;
-                font-size: 24px;
-                line-height: 32px;
-                font-family: 'Playfair Display', serif;
-                font-weight: 400;
-                margin-top: 80px;
-                margin-bottom: 40px;
-            }
-            
-            .boxes__mailing p {
-                font-size: 14px;
-                line-height: 21px;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-                color: #fff;
-                width: 350px;
-                height: 42px;
-                margin-bottom: 37px;
-            }
-            
-            .mailing__fullform {
-                display: flex;
-            }
-            
-            .fullform__form input {
-                height: 42px;
-                width: 210px;
-                background-color: #fff;
-                border: 0;
-                opacity: 0.4;
-            }
-            
-            .fullform__form input:focus {
-                opacity: 1;
-            }
-            
-            .fullform__button {
-                background-color: #000;
-                width: 140px;
-                height: 41px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            .fullform__button h1 {
-                margin: 0;
-                font-size: 14px;
-                line-height: 21px;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-                color: #fff;
-            }
-            /*Footer*/
-            
-            .footer {
-                background-color: #000;
-                height: 50px;
-            }
-            
-            .footer .container {
-                display: flex;
-                justify-content: space-between;
-            }
-            
-            .footer h6 {
-                color: #fff;
-                font-family: 'PT Sans', sans-serif;
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 15px;
-                margin-top: 17px;
-            }
-            /*ModalWindow*/
-            /*ModalLogin*/
-            
-            .modal {
-                position: fixed;
-                color: #000;
-                background-position: 0 0;
-                background-color: #f8f3f0;
-                box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
-                /*    Включение/Отключение окна авторизации*/
-                /*    display: none;*/
-            }
-            
-            .modal-login {
-                top: 120px;
-                left: 50%;
-                width: 300px;
-                padding: 50px 80px;
-                margin-left: -230px;
-                /*Включение/Отключение модального окна входа*/
-                display: none;
-            }
-            
-            .modal-close {
-                position: absolute;
-                top: 0;
-                right: -34px;
-                width: 22px;
-                height: 22px;
-                background-color: transparent;
-                border: 0;
-                cursor: pointer;
-            }
-            
-            .modal-close::before,
-            .modal-close::after {
-                content: "";
-                position: absolute;
-                top: 10px;
-                left: 2px;
-                width: 19px;
-                height: 3px;
-                background-color: #d0d0d0;
-            }
-            
-            .modal-close::before {
-                transform: rotate(45deg);
-            }
-            
-            .modal-close::after {
-                transform: rotate(-45deg);
-            }
-            
-            .modal-login h2 {
-                margin: 0;
-                margin-bottom: 20px;
-                font-size: 30px;
-                line-height: 42px;
-                text-transform: uppercase;
-                font-weight: 700;
-            }
-            
-            .modal-description {
-                margin: 0;
-                margin-bottom: 10px;
-            }
-            
-            .login-form p {
-                margin: 0;
-                margin-bottom: 10px;
-            }
-            
-            .login-form input[type="text"],
-            .login-form input[type="password"] {
-                box-sizing: border-box;
-                width: 100%;
-                padding: 10px 15px;
-                padding-right: 40px;
-                font: inherit;
-                color: #000;
-                border: 2px solid #000;
-            }
-            
-            .login-form .login-help {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                margin: 15px 0;
-            }
-            
-            .login-checkbox {
-                position: relative;
-                padding-left: 30px;
-                cursor: pointer;
-            }
-            
-            .login-checkbox:hover,
-            .login-checkbox:focus {
-                color: #663d15;
-            }
-            
-            .login-checkbox input[type="checkbox"]+.checkbox-indicator {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 17px;
-                height: 17px;
-                border: 2px solid #000;
-            }
-            
-            .login-checkbox input[type="checkbox"]:focus+.checkbox-indicator {
-                border-color: #66d315;
-                outline: thin dotted;
-                outline: 5px auto -webkit-focus-ring-color;
-            }
-            
-            .visually-hidden {
-                display: none;
-            }
-            
-            .login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::before,
-            .login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after {
-                content: "";
-                position: absolute;
-                top: 8px;
-                left: 1px;
-                width: 15px;
-                height: 2px;
-                background-color: #000;
-            }
-            
-            .login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::before {
-                transform: rotate(45deg);
-            }
-            
-            .login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after {
-                transform: rotate(-45deg);
-            }
-            
-            .restore:hover,
-            .restore:focus {
-                color: #000;
-            }
-            
-            .login-form .button {
-                width: 100%;
-                margin-right: 0;
-                border: 0;
-                height: 45px;
-                color: #fff;
-                background-color: #000;
-            }
-            
-            .login-form .button:hover {
-                background-color: #663d15;
-                cursor: pointer;
-            }
-            
-            a.reglink {
-                width: 100%;
-                margin-right: 0;
-                height: 45px;
-                color: #000;
-                background-color: dimgrey;
-                margin-top: 10px;
-                display: block;
-                text-align: center;
-                line-height: 45px;
-                font-family: 'PT Sans', sans-serif;
-                font-size: 14px;
-            }
-            
-            .reglink:hover {
-                background-color: #663d15;
-                cursor: pointer;
-                color: #fff;
-            }
-            /*ModalRegistration*/
-            
-            .modal-registration {
-                top: 120px;
-                left: 50%;
-                width: 300px;
-                padding: 50px 80px;
-                margin-left: -230px;
-                /*Включение/Отключение модального окна регистрации*/
-                display: none;
-            }
-            
-            .active.modal-registration {
-                display: block;
-            }
-            
-            .modal-registration h2 {
-                margin: 0;
-                margin-bottom: 20px;
-                font-size: 30px;
-                line-height: 42px;
-                text-transform: uppercase;
-                font-weight: 700;
-            }
-            
-            .regform input[type="text"],
-            .regform input[type="password"] {
-                box-sizing: border-box;
-                width: 100%;
-                padding: 10px 15px;
-                padding-right: 40px;
-                margin-bottom: 10px;
-                font: inherit;
-                color: #000;
-                border: 2px solid #000;
-            }
-            
-            .btn-success {
-                width: 100%;
-                margin-right: 0;
-                border: 0;
-                height: 45px;
-                color: #fff;
-                background-color: #000;
-            }
-            
-            .btn-success:hover {
-                background-color: #663d15;
-                cursor: pointer;
-            }
-            
-            .regmodal-close {
-                position: absolute;
-                top: 0;
-                right: -34px;
-                width: 22px;
-                height: 22px;
-                background-color: transparent;
-                border: 0;
-                cursor: pointer;
-            }
-            
-            .regmodal-close::before,
-            .regmodal-close::after {
-                content: "";
-                position: absolute;
-                top: 10px;
-                left: 2px;
-                width: 19px;
-                height: 3px;
-                background-color: #d0d0d0;
-            }
-            
-            .regmodal-close::before {
-                transform: rotate(45deg);
-            }
-            
-            .regmodal-close::after {
-                transform: rotate(-45deg);
-            }
-            /*AnimationStyle*/
-            
-            .modal-show {
-                display: block;
-                animation-name: bounce;
-                animation-duration: 0.6s;
-            }
-            
-            @keyframes bounce {
-                0% {
-                    transform: translateY(-2000px);
-                }
-                70% {
-                    transform: translateY(30px);
-                }
-                90% {
-                    transform: translateY(-10px);
-                }
-                100% {
-                    transform: translateY(0px);
-                }
-            }
-            
-            .modal-error {
-                animation-name: shake;
-                animation-duration: 0.6s;
-            }
-            
-            @keyframes shake {
-                0%,
-                100% {
-                    transform: translateX(0);
-                }
-                10%,
-                30%,
-                50%,
-                70%,
-                90% {
-                    transform: translateX(-10px);
-                }
-                20%,
-                40%,
-                60%,
-                80% {
-                    transform: translateX(10px);
-                }
-            }
-            /*Scrollbar*/
-            
-             ::-webkit-scrollbar-button {
-                background-image: url('');
-                background-repeat: no-repeat;
-                width: 5px;
-                height: 0px
-            }
-            
-             ::-webkit-scrollbar-track {
-                background-color: #383735;
-            }
-            
-             ::-webkit-scrollbar-thumb {
-                -webkit-border-radius: 0px;
-                border-radius: 0px;
-                background-color: #663d15;
-            }
-            
-             ::-webkit-scrollbar-thumb:hover {
-                background-color: #4f3f0a;
-            }
-            
-             ::-webkit-resizer {
-                background-image: url('');
-                background-repeat: no-repeat;
-                width: 4px;
-                height: 0px
-            }
-            
-             ::-webkit-scrollbar {
-                width: 4px;
-            }
-            
-            @media screen and (max-width: 1670px) {
-                .watches__block3 {
-                    display: none;
-                }
-            }
-            
-            @media screen and (max-width: 1380px) {
-                .srightside__title {
-                    width: 50%;
-                    text-align: center;
-                }
-            }
-            
-            @media screen and (max-width: 1150px) {
-                .navigation__boxes {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                }
-                .navigation {
-                    height: auto;
-                }
-                .brand4 {
-                    display: none;
-                }
-                .boxes__about {
-                    text-align: center;
-                }
-                .boxes__category {
-                    margin: 0 auto;
-                    text-align: center;
-                }
-                .boxes__category h1 {
-                    margin: 0 auto;
-                    margin-top: 50px;
-                    margin-bottom: 40px;
-                }
-                .boxes__mailing {
-                    text-align: center;
-                    margin-bottom: 30px;
-                }
-                .container {
-                    width: 900px;
-                }
-                .srightside__title h1 {
-                    display: none;
-                }
-                .newcollectionhh {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                }
-            }
-            
-            @media screen and (max-width: 1100px) {
-                .season {
-                    flex-direction: column;
-                }
-                .season__leftside {
-                    width: 100%;
-                }
-                .season__rightside {
-                    width: 100%;
-                }
-                .watches__block3 {
-                    display: block;
-                }
-                .collection {
-                    flex-direction: column;
-                }
-                .collection__leftside {
-                    display: none;
-                }
-                .collection__leftside2 {
-                    display: block;
-                }
-                .collection__rightside {
-                    width: 100%;
-                }
-            }
+/*Specifications*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #969696;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*Header*/
+
+.header {
+    background-color: #000;
+}
+
+.logo a img {
+    width: 104px;
+    height: 49px;
+}
+
+.logo {
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+.header__first {
+    display: flex;
+    padding-top: 14px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+.first__content {
+    display: flex;
+    color: #969696;
+    font-size: 12px;
+    align-items: center;
+}
+
+.first__login {
+    display: flex;
+    align-items: center;
+}
+
+.tel {
+    margin-right: 16px;
+}
+
+.door {
+    margin-right: 12px;
+}
+
+.porten {
+    background-color: #0F0F0F;
+}
+
+.porten__full {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+}
+
+.menu__buttons {
+    display: flex;
+}
+
+.mbuttons__button {
+    background-color: #0F0F0F;
+    width: 136px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mbuttons__button:hover {
+    background-color: #1F1F1F;
+}
+
+.mbuttons__button p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.cartsearch {
+    margin-left: 22px;
+}
+
+.margin__search {
+    margin-left: 45px;
+}
+
+
+/*AboutSection*/
+
+.about {
+    background: url(img/Rectangle%203.png) no-repeat center top /cover;
+}
+
+.about__text p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    width: 730px;
+    height: 96px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 154px;
+}
+
+.square__title a {
+    font-family: 'Post No Bills Jaffna ExtraBold', sans-serif;
+    text-transform: uppercase;
+    font-size: 64px;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.content__square {
+    border: 4px solid #fff;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*SeasonSection*/
+
+.season {
+    display: flex;
+}
+
+
+/*SeasonLeftside*/
+
+.season__leftside {
+    width: 55%;
+    height: 730px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.sleftside__title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-top: 93px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.sleftside__line {
+    border: 1px solid #fff;
+    width: 120px;
+    margin-bottom: 50px;
+}
+
+.block__box1 {
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__box2 {
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__box3 {
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watches__block1 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.watches__block2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.watches__block3 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.watches__block h3 {
+    margin-top: 25px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.watches__block h4 {
+    color: #D0D0D0;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.season__watches {
+    display: flex;
+}
+
+
+/*SeasonRightside*/
+
+.season__rightside {
+    width: 45%;
+    height: 730px;
+    background: url(img/Rectangle%208.png) no-repeat center top /cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.srightside__title {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.srightside__line {
+    border: 1px solid #fff;
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.srightside__button {
+    width: 156px;
+    height: 48px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srightside__button p {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+
+/*Collection*/
+
+.collection {
+    display: flex;
+}
+
+
+/*CollectionLeftside*/
+
+.collection__leftside {
+    background: url(img/Rectangle%209.png) no-repeat center top /cover;
+    width: 45%;
+    height: 600px;
+}
+
+.collection__leftside2 {
+    background: url(img/Rectangle%209.png) no-repeat center top /cover;
+    width: 100%;
+    height: 600px;
+    display: none;
+}
+
+
+/*CollectionRightside*/
+
+.collection__rightside {
+    background-color: #000;
+    width: 55%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collection__rightside h1 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-transform: uppercase
+}
+
+.crightside__line {
+    border: 1px solid #fff;
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+.collection__rightside p {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 61px;
+    width: 471px;
+    height: 173px;
+}
+
+.crightside__button {
+    width: 310px;
+    height: 72px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchcollection {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+}
+
+
+/*NewArrivalsSection*/
+
+.newarrivals {
+    background-color: #000;
+    height: 1289px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newarrivals h1 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.newarrivals__line {
+    border: 1px solid #fff;
+    width: 120px;
+    margin-bottom: 81px;
+}
+
+.newarrivals__watches1 {
+    display: flex;
+}
+
+.newarrivals__watches2 {
+    display: flex;
+}
+
+.newarrivals__watches1 .watches__block {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.newarrivals__watches2 .watches__block {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.newarrivals__watches1 .watches__block h4 {
+    margin-bottom: 40px;
+}
+
+.newarrivals__watches2 .watches__block h4 {
+    margin-bottom: 150px;
+}
+
+
+/*OurBrands*/
+
+.ourbrands {
+    background-color: #0F0F0F;
+    height: 362px;
+}
+
+.ourbrands h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 60px;
+}
+
+.ourbrands__line {
+    border: 1px solid #fff;
+    width: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ourbrands .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brands__box {
+    display: flex;
+}
+
+.brands__box a img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/*Navigation*/
+
+.navigation {
+    background-image: url(img/Rectangle%2015.png);
+    height: 400px;
+}
+
+.navigation__boxes {
+    display: flex;
+}
+
+.boxes__about {
+    color: #fff;
+}
+
+.boxes__about h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.boxes__about p {
+    width: 350px;
+    height: 147px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 30px;
+}
+
+.boxes__category h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-right: 238px;
+}
+
+.category__layers1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.category__layers2 {
+    display: flex;
+}
+
+.layer1 {
+    background-color: #000;
+    width: 70px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer2 {
+    background-color: #000;
+    width: 98px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer3 {
+    background-color: #000;
+    width: 79px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer4 {
+    background-color: #000;
+    width: 164px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margins11 {
+    margin-right: 20px;
+}
+
+.margins12 {
+    margin-right: 20px;
+}
+
+.margins24 {
+    margin-right: 20px;
+}
+
+.layer5 {
+    background-color: #000;
+    width: 91px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer1 h3 {
+    color: #D0D0D0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.layer2 h3 {
+    color: #D0D0D0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.layer3 h3 {
+    color: #D0D0D0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.layer4 h3 {
+    color: #D0D0D0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.layer5 h3 {
+    color: #D0D0D0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.boxes__mailing h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.boxes__mailing p {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    width: 350px;
+    height: 42px;
+    margin-bottom: 37px;
+}
+
+.mailing__fullform {
+    display: flex;
+}
+
+.fullform__form input {
+    height: 42px;
+    width: 210px;
+    background-color: #fff;
+    border: 0;
+    opacity: 0.4;
+}
+
+.fullform__form input:focus {
+    opacity: 1;
+}
+
+.fullform__button {
+    background-color: #000;
+    width: 140px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullform__button h1 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: #000;
+    height: 50px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h6 {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 17px;
+}
+
+
+/*ModalWindow*/
+
+
+/*ModalLogin*/
+
+.modal {
+    position: fixed;
+    color: #000;
+    background-position: 0 0;
+    background-color: #f8f3f0;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+    /*    Включение/Отключение окна авторизации*/
+    /*    display: none;*/
+}
+
+.modal-login {
+    top: 120px;
+    left: 50%;
+    width: 300px;
+    padding: 50px 80px;
+    margin-left: -230px;
+    /*Включение/Отключение модального окна входа*/
+    display: none;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: -34px;
+    width: 22px;
+    height: 22px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    width: 19px;
+    height: 3px;
+    background-color: #d0d0d0;
+}
+
+.modal-close::before {
+    transform: rotate(45deg);
+}
+
+.modal-close::after {
+    transform: rotate(-45deg);
+}
+
+.modal-login h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.modal-description {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.login-form p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 15px;
+    padding-right: 40px;
+    font: inherit;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.login-form .login-help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.login-checkbox {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+    color: #663d15;
+}
+
+.login-checkbox input[type="checkbox"]+.checkbox-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #000;
+}
+
+.login-checkbox input[type="checkbox"]:focus+.checkbox-indicator {
+    border-color: #66d315;
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::before,
+.login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 1px;
+    width: 15px;
+    height: 2px;
+    background-color: #000;
+}
+
+.login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after {
+    transform: rotate(-45deg);
+}
+
+.restore:hover,
+.restore:focus {
+    color: #000;
+}
+
+.login-form .button {
+    width: 100%;
+    margin-right: 0;
+    border: 0;
+    height: 45px;
+    color: #fff;
+    background-color: #000;
+}
+
+.login-form .button:hover {
+    background-color: #663d15;
+    cursor: pointer;
+}
+
+a.reglink {
+    width: 100%;
+    margin-right: 0;
+    height: 45px;
+    color: #000;
+    background-color: dimgrey;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.reglink:hover {
+    background-color: #663d15;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/*ModalRegistration*/
+
+.modal-registration {
+    top: 120px;
+    left: 50%;
+    width: 300px;
+    padding: 50px 80px;
+    margin-left: -230px;
+    /*Включение/Отключение модального окна регистрации*/
+    display: none;
+}
+
+.active.modal-registration {
+    display: block;
+}
+
+.modal-registration h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.regform input[type="text"],
+.regform input[type="password"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 15px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+    font: inherit;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.btn-success {
+    width: 100%;
+    margin-right: 0;
+    border: 0;
+    height: 45px;
+    color: #fff;
+    background-color: #000;
+}
+
+.btn-success:hover {
+    background-color: #663d15;
+    cursor: pointer;
+}
+
+.regmodal-close {
+    position: absolute;
+    top: 0;
+    right: -34px;
+    width: 22px;
+    height: 22px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.regmodal-close::before,
+.regmodal-close::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    width: 19px;
+    height: 3px;
+    background-color: #d0d0d0;
+}
+
+.regmodal-close::before {
+    transform: rotate(45deg);
+}
+
+.regmodal-close::after {
+    transform: rotate(-45deg);
+}
+
+
+/*AnimationStyle*/
+
+.modal-show {
+    display: block;
+    animation-name: bounce;
+    animation-duration: 0.6s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-2000px);
+    }
+    70% {
+        transform: translateY(30px);
+    }
+    90% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.modal-error {
+    animation-name: shake;
+    animation-duration: 0.6s;
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+
+/*Scrollbar*/
+
+ ::-webkit-scrollbar-button {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0px
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #383735;
+}
+
+ ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #663d15;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background-color: #4f3f0a;
+}
+
+ ::-webkit-resizer {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 0px
+}
+
+ ::-webkit-scrollbar {
+    width: 4px;
+}
+
+@media screen and (max-width: 1670px) {
+    .watches__block3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .srightside__title {
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .navigation__boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation {
+        height: auto;
+    }
+    .brand4 {
+        display: none;
+    }
+    .boxes__about {
+        text-align: center;
+    }
+    .boxes__category {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .boxes__category h1 {
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .boxes__mailing {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .container {
+        width: 900px;
+    }
+    .srightside__title h1 {
+        display: none;
+    }
+    .newcollectionhh {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .season {
+        flex-direction: column;
+    }
+    .season__leftside {
+        width: 100%;
+    }
+    .season__rightside {
+        width: 100%;
+    }
+    .watches__block3 {
+        display: block;
+    }
+    .collection {
+        flex-direction: column;
+    }
+    .collection__leftside {
+        display: none;
+    }
+    .collection__leftside2 {
+        display: block;
+    }
+    .collection__rightside {
+        width: 100%;
+    }
+}
