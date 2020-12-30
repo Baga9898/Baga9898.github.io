@@ -580,7 +580,7 @@ p {
 /*Navigation*/
 
 .navigation {
-    background-image: url(img/Rectangle%2015.png);
+    background: url(img/Rectangle%2015.png);
     height: 400px;
 }
 
@@ -1153,99 +1153,4 @@ a.reglink {
 
  ::-webkit-scrollbar {
     width: 4px;
-}
-
-
-/* Media */
-
-@media screen and (max-width: 1670px) {
-    .watches__block3 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1380px) {
-    .srightside__title {
-        width: 50%;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 1150px) {
-    .navigation__boxes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .navigation {
-        height: auto;
-    }
-    .brand4 {
-        display: none;
-    }
-    .boxes__about {
-        text-align: center;
-    }
-    .boxes__category {
-        margin: 0 auto;
-        text-align: center;
-    }
-    .boxes__category h1 {
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 40px;
-    }
-    .boxes__mailing {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    .container {
-        width: 900px;
-    }
-    .srightside__title h1 {
-        display: none;
-    }
-    .newcollectionhh {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .season {
-        flex-direction: column;
-    }
-    .season__leftside {
-        width: 100%;
-        padding-bottom: 0;
-    }
-    .season__rightside {
-        width: 100%;
-    }
-    .watches__block3 {
-        display: block;
-    }
-    .collection {
-        flex-direction: column;
-    }
-    .collection__leftside {
-        display: none;
-    }
-    .collection__leftside2 {
-        display: block;
-    }
-    .collection__rightside {
-        width: 100%;
-    }
-    .container {
-        width: 800px;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .watches__block3 {
-        display: none;
-    }
 }
