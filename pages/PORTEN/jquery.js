@@ -15,3 +15,10 @@ $(function() {
         $('.menu__buttons').toggleClass('show-menu')
     })
 });
+
+$(function() {
+    $('.reverse').click(function() {
+        $('.modal-registration').removeClass('active')
+        $('.modal-login').toggleClass('modal-show')
+    })
+});

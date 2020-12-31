@@ -1096,6 +1096,26 @@ a.reglink {
     background-color: #000;
 }
 
+.reverse {
+    width: 100%;
+    margin-right: 0;
+    height: 45px;
+    color: #000;
+    background-color: dimgrey;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.reverse:hover {
+    color: #fff;
+    background-color: #663d15;
+    cursor: pointer;
+}
+
 .btn-success:hover {
     background-color: #663d15;
     cursor: pointer;
