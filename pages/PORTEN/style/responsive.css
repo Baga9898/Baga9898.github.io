@@ -138,6 +138,23 @@
     }
 }
 
+@media screen and (max-width: 540px) {
+    .modal-close {
+        top: 15px;
+        right: 30px;
+    }
+    .modal-close::before, .modal-close::after {
+        background-color: #838383;
+    }
+    .regmodal-close {
+        top: 15px;
+        right: 30px;
+    }
+    .regmodal-close::before, .regmodal-close::after {
+        background-color: #838383;
+    }
+}
+
 @media screen and (max-width: 505px) {
     .about__text p {
         width: 320px;
@@ -151,6 +168,15 @@
     .collection__rightside a {
         margin-top: 100px;
         margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .modal-close {
+        right: 75px;
+    }
+    .regmodal-close {
+        right: 75px;
     }
 }
 
