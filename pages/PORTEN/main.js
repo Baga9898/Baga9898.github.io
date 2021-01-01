@@ -71,6 +71,8 @@ registration.addEventListener("click", function(evt) {
     evt.preventDefault();
     popup.classList.remove("modal-show");
     regpopup.classList.add("active");
+    regpopup.classList.add("regmodal-show");
+
 });
 
 regclose.addEventListener("click", function(evt) {

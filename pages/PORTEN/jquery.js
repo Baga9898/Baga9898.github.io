@@ -19,6 +19,7 @@ $(function() {
 $(function() {
     $('.reverse').click(function() {
         $('.modal-registration').removeClass('active')
-        $('.modal-login').toggleClass('modal-show')
+        $('.modal-registration').removeClass('regmodal-show')
+        $('.modal-login').addClass('modal-show')
     })
 });
