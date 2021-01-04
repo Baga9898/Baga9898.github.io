@@ -21,5 +21,6 @@ $(function() {
         $('.modal-registration').removeClass('active')
         $('.modal-registration').removeClass('regmodal-show')
         $('.modal-login').addClass('modal-show')
+        $('.modal-login').toggleClass('modal-error')
     })
 });
