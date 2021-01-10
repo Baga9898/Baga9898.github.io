@@ -1240,3 +1240,27 @@ a.reglink {
  ::-webkit-scrollbar {
     width: 4px;
 }
+
+/* ScrollToTop */
+
+.topbtn {
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+    border-radius: 15px;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    z-index: 999;
+}
+
+.topbtn:hover {
+    cursor: pointer;
+    background-color: #663d15;
+    transition: 1s;
+}
+
+.topbtn__arrow {
+    text-align: center;
+    padding-top: 7px;
+}
