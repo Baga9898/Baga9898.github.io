@@ -21,6 +21,18 @@ $(function() {
         $('.modal-registration').removeClass('active')
         $('.modal-registration').removeClass('regmodal-show')
         $('.modal-login').addClass('modal-show')
-        $('.modal-login').toggleClass('modal-error')
+        $('.modal-login').removeClass('modal-error')
+    })
+});
+
+$(function() {
+    $('.login__link').click(function() {
+        $('.modal-registration').removeClass('regmodal-show')
+    })
+});
+
+$(function() {
+    $('.reglink').click(function() {
+        $('.modal-login').removeClass('modal-error')
     })
 });
