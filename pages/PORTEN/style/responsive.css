@@ -127,6 +127,9 @@
     .about__text p {
         width: 500px;
     }
+    .topbtn {
+        right: 20px;
+    }
 }
 
 @media screen and (max-width: 620px) {
@@ -143,14 +146,16 @@
         top: 15px;
         right: 30px;
     }
-    .modal-close::before, .modal-close::after {
+    .modal-close::before,
+    .modal-close::after {
         background-color: #838383;
     }
     .regmodal-close {
         top: 15px;
         right: 30px;
     }
-    .regmodal-close::before, .regmodal-close::after {
+    .regmodal-close::before,
+    .regmodal-close::after {
         background-color: #838383;
     }
 }
