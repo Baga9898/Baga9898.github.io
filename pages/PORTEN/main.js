@@ -20,6 +20,8 @@ try {
     isStorageSupport = false;
 }
 
+//LoginModalOpen
+
 link.addEventListener("click", function(evt) {
     evt.preventDefault();
     popup.classList.add("modal-show");
@@ -32,11 +34,15 @@ link.addEventListener("click", function(evt) {
     }
 });
 
+//LoginModalClose
+
 close.addEventListener("click", function(evt) {
     evt.preventDefault();
     popup.classList.remove("modal-show");
     popup.classList.remove("modal-error");
 });
+
+//ShakeAnimation
 
 form.addEventListener("submit", function(evt) {
     if (!login.value || !password.value) {
@@ -51,6 +57,7 @@ form.addEventListener("submit", function(evt) {
     }
 });
 
+//CloseOnEscBtn
 
 window.addEventListener("keydown", function(evt) {
     if (evt.keyCode === 27) {
@@ -67,20 +74,23 @@ window.addEventListener("keydown", function(evt) {
     }
 });
 
+//RegModalOpen
+
 registration.addEventListener("click", function(evt) {
     evt.preventDefault();
     popup.classList.remove("modal-show");
-    regpopup.classList.add("active");
     regpopup.classList.add("regmodal-show");
 
 });
 
+//RegModalClose
+
 regclose.addEventListener("click", function(evt) {
     evt.preventDefault();
-    regpopup.classList.remove("active");
+    regpopup.classList.remove("regmodal-show");
 });
 
-//UpButton
+//UpButtonScroll
 
 document.getElementById("top").onclick = function scrollUpFunction() {
     document.body.scrollTop = 0;
@@ -88,6 +98,8 @@ document.getElementById("top").onclick = function scrollUpFunction() {
 }
 
 window.onscroll = function() { scrollFunction() }
+
+//UpButtonHide
 
 function scrollFunction() {
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
