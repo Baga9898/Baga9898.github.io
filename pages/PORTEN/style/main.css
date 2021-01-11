@@ -7,6 +7,10 @@ body {
     font-size: 12px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -191,6 +195,7 @@ p {
 .cross__close::after {
     transform: rotate(-45deg);
 }
+
 
 /*AboutSection*/
 
@@ -1241,6 +1246,7 @@ a.reglink {
     width: 4px;
 }
 
+
 /* ScrollToTop */
 
 .topbtn {
@@ -1252,6 +1258,7 @@ a.reglink {
     right: 50px;
     bottom: 20px;
     z-index: 999;
+    display: none;
 }
 
 .topbtn:hover {

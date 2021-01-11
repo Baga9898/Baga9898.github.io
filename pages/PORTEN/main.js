@@ -78,4 +78,19 @@ registration.addEventListener("click", function(evt) {
 regclose.addEventListener("click", function(evt) {
     evt.preventDefault();
     regpopup.classList.remove("active");
-})
+});
+
+document.getElementById("top").onclick = function scrollUpFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+window.onscroll = function() { scrollFunction() }
+
+function scrollFunction() {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        document.getElementById("top").style.display = "block";
+    } else {
+        document.getElementById("top").style.display = "none";
+    }
+}
