@@ -1252,7 +1252,7 @@ a.reglink {
 .topbtn {
     height: 50px;
     width: 50px;
-    background-color: #000;
+    background-color: rgb(70, 70, 70);
     border-radius: 15px;
     position: fixed;
     right: 50px;
@@ -1264,7 +1264,7 @@ a.reglink {
 .topbtn:hover {
     cursor: pointer;
     background-color: #663d15;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .topbtn__arrow {

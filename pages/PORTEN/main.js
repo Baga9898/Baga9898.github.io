@@ -80,6 +80,8 @@ regclose.addEventListener("click", function(evt) {
     regpopup.classList.remove("active");
 });
 
+//UpButton
+
 document.getElementById("top").onclick = function scrollUpFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
