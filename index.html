@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>MAIN PAGE</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/main_style.css">
 </head>
 
@@ -12,7 +14,6 @@
     <header class="header">
         <div class="nav-container">
             <div class="nav-wrapper">
-
                 <div id="menu-toggle" class="menu-icon">
                     <div class="menu-icon-line"></div>
                 </div>
@@ -20,55 +21,25 @@
                     <div class="mobile-nav__title">Menu</div>
                     <ul class="mobile-nav__list">
                         <li class="mobile-nav__item">
+                            <a href="pages/PORTEN/index.html" class="mobile-nav__link">PORTEN</a>
+                        </li>
+                        <!-- <li class="mobile-nav__item">
                             <a href="pages/cars/index.html" class="mobile-nav__link">Cars</a>
                         </li>
                         <li class="mobile-nav__item">
                             <a href="pages/cosmo/index.html" class="mobile-nav__link">Cosmo</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
         </div>
     </header>
-    <section class="second">
-        <div class="container">
-
-        </div>
-    </section>
     <footer class="footer">
         Copyright =)=), all rights reserved.
     </footer>
-    <a id="button"></a>
+
     <script src="code.jquery.com/jquery-3.4.1.min.js"></script>
-
     <script src="js/style.js"></script>
-
-    <!-- UP button. -->
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script>
-        jQuery(document).ready(function() {
-
-            var btn = $('#button');
-
-            $(window).scroll(function() {
-                if ($(window).scrollTop() > 300) {
-                    btn.addClass('show');
-                } else {
-                    btn.removeClass('show');
-                }
-            });
-
-            btn.on('click', function(e) {
-                e.preventDefault();
-                $('html, body').animate({
-                    scrollTop: 0
-                }, '300');
-            });
-
-        });
-
-    </script>
 
 </body>
 
