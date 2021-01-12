@@ -23,7 +23,7 @@ canvas {
 }
 
 .header {
-    background: url('../img/back.jpg');
+    background: url('../img/back.jpg') no-repeat center top /cover;
     height: 100vh;
 }
 
