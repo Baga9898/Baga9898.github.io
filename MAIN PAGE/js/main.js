@@ -114,6 +114,8 @@ jQuery(document).ready(function() {
     });
 });
 
+// BurgerMenu
+
 const menuToggle = document.querySelector('#menu-toggle');
 const mobileNavContainer = document.querySelector('#mobile-nav');
 
