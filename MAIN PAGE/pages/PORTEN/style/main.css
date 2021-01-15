@@ -1258,8 +1258,16 @@ a.reglink {
     right: 50px;
     bottom: 20px;
     z-index: 999;
+<<<<<<< Updated upstream:MAIN PAGE/pages/PORTEN/style/main.css
     display: none;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+=======
+    /* display: none; */
+}
+
+.topbtn-show {
+    display: block;
+>>>>>>> Stashed changes:pages/PORTEN/style/main.css
 }
 
 .topbtn:hover {

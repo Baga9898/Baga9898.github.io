@@ -17,7 +17,7 @@ if (mb_strlen($login) < 5 || mb_strlen($login) > 90) {
     exit();
 }
     
-$musql = new mysqli('porten', 'root', 'root', 'porten-bd');
+$mysql = new mysqli('porten', 'root', 'root', 'porten-bd');
 $mysql->query('INSERT INTO `users` (login, password, name) VALUES($login,$password,name)');
 
 $mysql->close();
