@@ -1850,6 +1850,90 @@ li.slick-active {
     height: 44px;
 }
 
+.facebook-icon {
+    background: url('../img/facebook.png') no-repeat center top;
+    width: 20px;
+    height: 20px;
+}
+
+.facebook-icon:hover {
+    background: url('../img/facebook.png') no-repeat center top;
+}
+
+.facebook-btn {
+    padding-left: 11px;
+}
+
+.tweeter-icon {
+    background: url('../img/tweeter.png') no-repeat center top;
+    width: 22px;
+    height: 19px;
+}
+
+.tweeter-icon:hover {
+    background: url('../img/tweeter.png') no-repeat center top;
+}
+
+.tweeter-btn {
+    padding-left: 11px;
+}
+
+.utube-icon {
+    background: url('../img/youtube.png') no-repeat center top;
+    width: 22px;
+    height: 16px;
+}
+
+.utube-icon:hover {
+    background: url('../img/youtube.png') no-repeat center top;
+}
+
+.utube-btn {
+    padding-left: 11px;
+}
+
+.vk-icon {
+    background: url('../img/Vector.png') no-repeat center top;
+    width: 20px;
+    height: 15px;
+}
+
+.vk-icon:hover {
+    background: url('../img/Vector.png') no-repeat center top;
+}
+
+.vk-btn {
+    padding-left: 11px;
+}
+
+.inst-icon {
+    background: url('../img/instagram.png') no-repeat center top;
+    width: 20px;
+    height: 20px;
+}
+
+.inst-icon:hover {
+    background: url('../img/instagram.png') no-repeat center top;
+}
+
+.inst-btn {
+    padding-left: 11px;
+}
+
+.telegram-icon {
+    background: url('../img/telegram.png') no-repeat center top;
+    width: 20px;
+    height: 18px;
+}
+
+.telegram-icon:hover {
+    background: url('../img/telegram.png') no-repeat center top;
+}
+
+.telegram-btn {
+    padding-left: 11px;
+}
+
 .footer__icons li button {
     background-color: #fff;
     width: 44px;
