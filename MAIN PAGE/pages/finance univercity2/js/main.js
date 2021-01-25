@@ -546,6 +546,20 @@ $(document).ready(function() {
         });
     });
 
-    // var link = document.querySelectorAll('.modal-a');
+    // ButtonsHover
+
+    $(function() {
+        $('.login-btn').hover(function() {
+            $('.login-icon').toggleClass('login-icon-hvr')
+        });
+
+        $('.exclude-btn').hover(function() {
+            $('.exclude-icon').toggleClass('exclude-icon-hvr')
+        });
+
+        $('.menu-btn').hover(function() {
+            $('.menu-icon').toggleClass('menu-icon-hvr')
+        });
+    });
 
 });
