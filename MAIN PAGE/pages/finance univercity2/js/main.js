@@ -44,10 +44,12 @@ $(document).ready(function() {
         $('.menu-btn').click(function() {
             $('.menu__modal').toggleClass('menu__modal-active')
             $('body').toggleClass('body-active')
-            $('.menuicon').toggleClass('menuicon-unactive')
+            $('.menu-icon').toggleClass('menuicon-unactive')
             $('.menuicon-cross').toggleClass('menuicon-cross-active')
             $('.menu-par').toggleClass('menu-par-active')
+            $('.menu-btn').toggleClass('menu-btn-modal-active')
         });
+
     });
 
     // ModalLinks

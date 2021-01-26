@@ -212,6 +212,28 @@ ul {
     transition: 0.5s;
 }
 
+.menu-btn-modal {
+    border: 1px solid #F0F0F0;
+    border-radius: 10px;
+    width: 118px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #2E374B;
+    position: relative;
+    padding-left: 20px;
+    transition: 0.5s;
+    display: none;
+}
+
+.menu-btn-modal-active {
+    display: block;
+    right: 5px;
+}
+
 .menu-m {
     z-index: 12;
 }
@@ -244,9 +266,16 @@ ul {
 
 .menuicon-cross-active {
     display: block;
+    display: flex;
+    background: url('../img/Cross.png') no-repeat center top;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
 }
 
-.menuicon-cross::before,
+
+/* .menuicon-cross::before,
 .menuicon-cross::after {
     position: absolute;
     left: 27px;
@@ -263,10 +292,11 @@ ul {
 
 .menuicon-cross::after {
     transform: rotate(-45deg);
-}
+} */
 
 .menu-btn p {
-    margin-top: 16px;
+    margin-top: 13px;
+    margin-left: 0;
 }
 
 .header__buttons {
@@ -290,8 +320,7 @@ ul {
 }
 
 .menu-par-active {
-    margin-left: 33px;
-    text-transform: uppercase;
+    margin-left: 32px !important;
 }
 
 
@@ -2024,7 +2053,7 @@ li.slick-active {
 
 .modal-menu {
     margin-top: 147px;
-    width: 585px;
+    width: 590px;
 }
 
 .modal-menu ul {
