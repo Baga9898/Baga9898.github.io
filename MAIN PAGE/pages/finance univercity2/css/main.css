@@ -1373,35 +1373,39 @@ li.slick-active {
 }
 
 .cnt-1 {
-    top: 42px;
+    top: 47px;
 }
 
 .cnt-2 {
-    top: 42px;
+    top: 47px;
 }
 
 .cnt-3 {
-    top: 42px;
+    top: 47px;
 }
 
 .cnt-4 {
-    top: 42px;
+    top: 47px;
 }
 
 .cnt-5 {
-    top: 42px;
+    top: 47px;
 }
 
 .cnt-6 {
-    top: 42px;
+    top: 47px;
 }
 
 .cnt-7 {
-    top: 42px;
+    top: 47px;
 }
 
 .cnt-8 {
-    top: 42px;
+    top: 47px;
+}
+
+.first-line-count__block {
+    margin-top: 117px;
 }
 
 .first-line-count__block img {
@@ -1409,7 +1413,31 @@ li.slick-active {
 }
 
 .first-line-count__block p {
-    margin-top: 30px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626E79;
+}
+
+.second-line-count__block img {
+    margin: 0;
+}
+
+.second-line-count__block p {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626E79;
+}
+
+.third-line-count__block img {
+    margin: 0;
+}
+
+.third-line-count__block p {
+    margin-top: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -1426,6 +1454,51 @@ li.slick-active {
     width: 210px;
     position: relative;
     margin-bottom: 40px;
+}
+
+.flc__block-3 {
+    width: 210px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.flc__block-4 {
+    width: 210px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.flc__block-4 img {
+    margin-bottom: 14px;
+}
+
+.flc__block-5 {
+    width: 210px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.flc__block-6 {
+    width: 210px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.flc__block-7 {
+    width: 210px;
+    position: relative;
+    margin-bottom: 100px;
+    margin-right: 36px;
+}
+
+.flc__block-7 img {
+    margin-bottom: 4px;
+}
+
+.flc__block-8 {
+    width: 210px;
+    position: relative;
+    margin-bottom: 100px;
 }
 
 
@@ -1681,8 +1754,8 @@ li.slick-active {
 }
 
 .maptag {
-    width: 17px;
-    height: 19px;
+    width: 12px;
+    height: 15px;
     margin: 0 !important;
 }
 
@@ -1703,6 +1776,7 @@ li.slick-active {
     line-height: 22px;
     color: #2E374B;
     width: 204px;
+    font-family: 'LatoWeb';
 }
 
 .dropdown-item.active,
@@ -1714,7 +1788,7 @@ li.slick-active {
 
 .dropdown-menu {
     border: none;
-    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.3);
 }
 
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
