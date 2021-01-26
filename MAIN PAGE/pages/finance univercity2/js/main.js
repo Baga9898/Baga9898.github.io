@@ -600,4 +600,22 @@ $(document).ready(function() {
 
     // DownBtnsHover
 
+    $(function() {
+        $('.db-1').hover(function() {
+            $('.phvr_1').toggleClass('phvr_1-hvr')
+        });
+
+        $('.db-2').hover(function() {
+            $('.phvr_2').toggleClass('phvr_2-hvr')
+        });
+
+        $('.db-3').hover(function() {
+            $('.phvr_3').toggleClass('phvr_3-hvr')
+        });
+
+        $('.db-4').hover(function() {
+            $('.phvr_4').toggleClass('phvr_4-hvr')
+        });
+    });
+
 });

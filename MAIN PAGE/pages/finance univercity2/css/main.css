@@ -1715,8 +1715,8 @@ li.slick-active {
     transition: 0.5s;
 }
 
-.phvr_1 {
-    color: #2F64B0;
+.phvr_1-hvr {
+    color: #2F64B0 !important;
 }
 
 .db-1:hover {
@@ -1729,8 +1729,8 @@ li.slick-active {
     transition: 0.5s;
 }
 
-.phvr_2 {
-    color: #2F64B0;
+.phvr_2-hvr {
+    color: #2F64B0 !important;
 }
 
 .db-2:hover {
@@ -1743,8 +1743,8 @@ li.slick-active {
     transition: 0.5s;
 }
 
-.phvr_3 {
-    color: #2F64B0;
+.phvr_3-hvr {
+    color: #2F64B0 !important;
 }
 
 .db-3:hover {
@@ -1757,8 +1757,8 @@ li.slick-active {
     transition: 0.5s;
 }
 
-.phvr_4 {
-    color: #2F64B0;
+.phvr_4-hvr {
+    color: #2F64B0 !important;
 }
 
 .db-4:hover {
