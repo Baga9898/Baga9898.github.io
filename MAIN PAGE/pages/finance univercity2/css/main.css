@@ -740,11 +740,10 @@ ul {
 .tabs>label {
     display: inline-block;
     text-align: center;
-    vertical-align: middle;
     user-select: none;
     background-color: #fff;
     border: 1px solid #f0f0f0;
-    padding: 2px 8px;
+    padding: 6px 7px;
     font-size: 16px;
     line-height: 1.5;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
@@ -754,7 +753,6 @@ ul {
     font-weight: normal;
     font-size: 14px;
     line-height: 140%;
-    padding-top: 5px;
     margin-bottom: 30px;
 }
 
