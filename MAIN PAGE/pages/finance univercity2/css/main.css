@@ -743,7 +743,7 @@ ul {
     user-select: none;
     background-color: #fff;
     border: 1px solid #f0f0f0;
-    padding: 6px 7px;
+    padding: 8px 0px;
     font-size: 16px;
     line-height: 1.5;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
