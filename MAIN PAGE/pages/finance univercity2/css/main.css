@@ -1365,6 +1365,71 @@ li.slick-active {
     margin-top: 122px;
 }
 
+.counter {
+    position: absolute;
+    display: table-cell;
+    font-size: 50px;
+    vertical-align: middle;
+    color: #2F64B0;
+    text-shadow: -0 -3px 0 #ffffff, 0 -3px 0 #FFFFFF, -0 3px 0 #FFFFFF, 0 3px 0 #FFFFFF, -3px -0 0 #FFFFFF, 3px -0 0 #FFFFFF, -3px 0 0 #FFFFFF, 3px 0 0 #FFFFFF, -1px -3px 0 #FFFFFF, 1px -3px 0 #FFFFFF, -1px 3px 0 #FFFFFF, 1px 3px 0 #FFFFFF, -3px -1px 0 #FFFFFF, 3px -1px 0 #FFFFFF, -3px 1px 0 #FFFFFF, 3px 1px 0 #FFFFFF, -2px -3px 0 #FFFFFF, 2px -3px 0 #FFFFFF, -2px 3px 0 #FFFFFF, 2px 3px 0 #FFFFFF, -3px -2px 0 #FFFFFF, 3px -2px 0 #FFFFFF, -3px 2px 0 #FFFFFF, 3px 2px 0 #FFFFFF, -3px -3px 0 #FFFFFF, 3px -3px 0 #FFFFFF, -3px 3px 0 #FFFFFF, 3px 3px 0 #FFFFFF, -3px -3px 0 #FFFFFF, 3px -3px 0 #FFFFFF, -3px 3px 0 #FFFFFF, 3px 3px 0 #FFFFFF;
+}
+
+.cnt-1 {
+    top: 42px;
+}
+
+.cnt-2 {
+    top: 42px;
+}
+
+.cnt-3 {
+    top: 42px;
+}
+
+.cnt-4 {
+    top: 42px;
+}
+
+.cnt-5 {
+    top: 42px;
+}
+
+.cnt-6 {
+    top: 42px;
+}
+
+.cnt-7 {
+    top: 42px;
+}
+
+.cnt-8 {
+    top: 42px;
+}
+
+.first-line-count__block img {
+    margin: 0;
+}
+
+.first-line-count__block p {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626E79;
+}
+
+.flc__block-1 {
+    width: 210px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.flc__block-2 {
+    width: 210px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
 
 /* Calendar */
 
