@@ -1715,6 +1715,10 @@ li.slick-active {
     transition: 0.5s;
 }
 
+.phvr_1 {
+    color: #2F64B0;
+}
+
 .db-1:hover {
     margin-top: 95px;
     box-shadow: 0px 4px 20px rgba(40, 64, 99, 0.1);
@@ -1723,6 +1727,10 @@ li.slick-active {
 .db-2 {
     margin-top: 100px;
     transition: 0.5s;
+}
+
+.phvr_2 {
+    color: #2F64B0;
 }
 
 .db-2:hover {
@@ -1735,6 +1743,10 @@ li.slick-active {
     transition: 0.5s;
 }
 
+.phvr_3 {
+    color: #2F64B0;
+}
+
 .db-3:hover {
     margin-top: 95px;
     box-shadow: 0px 4px 20px rgba(40, 64, 99, 0.1);
@@ -1743,6 +1755,10 @@ li.slick-active {
 .db-4 {
     margin-top: 100px;
     transition: 0.5s;
+}
+
+.phvr_4 {
+    color: #2F64B0;
 }
 
 .db-4:hover {
@@ -1854,10 +1870,11 @@ li.slick-active {
     background: url('../img/facebook.png') no-repeat center top;
     width: 20px;
     height: 20px;
+    transition: 0.5s;
 }
 
-.facebook-icon:hover {
-    background: url('../img/facebook.png') no-repeat center top;
+.facebook-icon-hvr {
+    background: url('../img/facebook.svg') no-repeat center top;
 }
 
 .facebook-btn {
@@ -1868,27 +1885,29 @@ li.slick-active {
     background: url('../img/tweeter.png') no-repeat center top;
     width: 22px;
     height: 19px;
+    transition: 0.5s;
 }
 
-.tweeter-icon:hover {
-    background: url('../img/tweeter.png') no-repeat center top;
+.tweeter-icon-hvr {
+    background: url('../img/tweeter.svg') no-repeat center top;
 }
 
 .tweeter-btn {
     padding-left: 11px;
 }
 
-.utube-icon {
+.youtube-icon {
     background: url('../img/youtube.png') no-repeat center top;
     width: 22px;
     height: 16px;
+    transition: 0.5s;
 }
 
-.utube-icon:hover {
-    background: url('../img/youtube.png') no-repeat center top;
+.youtube-icon-hvr {
+    background: url('../img/youtube.svg') no-repeat center top;
 }
 
-.utube-btn {
+.youtube-btn {
     padding-left: 11px;
 }
 
@@ -1896,27 +1915,29 @@ li.slick-active {
     background: url('../img/Vector.png') no-repeat center top;
     width: 20px;
     height: 15px;
+    transition: 0.5s;
 }
 
-.vk-icon:hover {
-    background: url('../img/Vector.png') no-repeat center top;
+.vk-icon-hvr {
+    background: url('../img/Vector.svg') no-repeat center top;
 }
 
 .vk-btn {
     padding-left: 11px;
 }
 
-.inst-icon {
+.instagram-icon {
     background: url('../img/instagram.png') no-repeat center top;
     width: 20px;
     height: 20px;
+    transition: 0.5s;
 }
 
-.inst-icon:hover {
-    background: url('../img/instagram.png') no-repeat center top;
+.instagram-icon-hvr {
+    background: url('../img/instagram.svg') no-repeat center top;
 }
 
-.inst-btn {
+.instagram-btn {
     padding-left: 11px;
 }
 
@@ -1924,10 +1945,11 @@ li.slick-active {
     background: url('../img/telegram.png') no-repeat center top;
     width: 20px;
     height: 18px;
+    transition: 0.5s;
 }
 
-.telegram-icon:hover {
-    background: url('../img/telegram.png') no-repeat center top;
+.telegram-icon-hvr {
+    background: url('../img/telegram.svg') no-repeat center top;
 }
 
 .telegram-btn {
@@ -1966,6 +1988,7 @@ li.slick-active {
 .footer__btn:hover {
     margin-top: 25px;
     box-shadow: 0px 4px 20px rgba(40, 64, 99, 0.1);
+    color: #2F64B0;
 }
 
 .footer .fbtn {
@@ -1974,6 +1997,11 @@ li.slick-active {
     line-height: 140%;
     color: #2E374B;
     margin: 0;
+    transition: 0.5s;
+}
+
+.footer .fbtn-hvr {
+    color: #2F64B0;
 }
 
 
