@@ -267,11 +267,16 @@ ul {
 .menuicon-cross-active {
     display: block;
     display: flex;
-    background: url('../img/Cross.png') no-repeat center top;
+    background: url('../img/Cross.svg') no-repeat center top;
     width: 16px;
     height: 16px;
     position: absolute;
     top: 12px;
+    transition: 0.5s;
+}
+
+.menuicon-cross-active-hvr {
+    background: url('../img/Cross.png') no-repeat center top;
 }
 
 

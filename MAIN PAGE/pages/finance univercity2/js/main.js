@@ -49,7 +49,14 @@ $(document).ready(function() {
             $('.menu-par').toggleClass('menu-par-active')
             $('.menu-btn').toggleClass('menu-btn-modal-active')
         });
+    });
 
+    // ModalActive
+
+    $(function() {
+        $('.menu-btn').hover(function() {
+            $('.menuicon-cross-active').toggleClass('menuicon-cross-active-hvr')
+        });
     });
 
     // ModalLinks
