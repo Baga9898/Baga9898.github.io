@@ -36,6 +36,14 @@ $(document).ready(function() {
         appendArrows: $('.calendar__arrows'),
         prevArrow: '<button type="button" class="left-arrow3"><div class="la-arrow"></div></button>',
         nextArrow: '<button type="button" class="right-arrow3"><div class="ra-arrow"></div></button>',
+
+        responsive: [{
+            breakpoint: 1530,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }]
     });
 
     // ModalOpen

@@ -138,4 +138,38 @@
     .program-block {
         width: calc(50% - 15px);
     }
+    .innumbers {
+        width: 1150px;
+        margin: 0 auto;
+    }
+    .clnd-w {
+        width: 1150px;
+        margin: 0 auto;
+    }
+    .calendar__bg {
+        background-size: cover;
+        width: 90% !important;
+        height: auto;
+    }
+    .calendar__slider.slick-initialized.slick-slider {
+        width: 1075px;
+        margin-left: 27px;
+    }
+    .down-buttons {
+        width: 1150px;
+        margin: 0 auto;
+    }
+    .down-buttonsb {
+        margin: 19px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .footer-w {
+        width: 1150px;
+    }
+    .footer-1-a ul li {
+        width: 202px !important;
+    }
 }
+
+@media screen and (max-width: 1465px) {}

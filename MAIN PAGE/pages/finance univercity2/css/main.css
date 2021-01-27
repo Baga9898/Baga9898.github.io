@@ -1949,9 +1949,9 @@ li.slick-active {
 
 /* Footer */
 
-.footer {
-    background-color: #F4F5F9;
+.footer__bg {
     padding-top: 52px;
+    background-color: #F4F5F9;
 }
 
 .footer nav ul {
