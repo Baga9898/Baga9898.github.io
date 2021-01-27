@@ -1,0 +1,49 @@
+@media screen and (max-width: 1530px) {
+    .header {
+        width: 1150px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .header__buttons {
+        justify-content: flex-end;
+    }
+    .search {
+        width: 340px;
+    }
+    .search-btn {
+        left: 305px;
+        top: 26px;
+    }
+    .exclude-btn {
+        width: 45px;
+    }
+    .exclude-icon {
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+    .exclude-m p {
+        display: none;
+    }
+    .navigation {
+        display: none;
+    }
+    .slide__tourism {
+        width: 1150px !important;
+    }
+    .slide__fincontest {
+        width: 1150px !important;
+    }
+    .slide__third {
+        width: 1150px !important;
+    }
+    .left-arrow {
+        left: -597px;
+    }
+    .right-arrow {
+        right: -597px;
+    }
+    .covid {
+        width: 1150px;
+        margin: 0 auto;
+    }
+}
