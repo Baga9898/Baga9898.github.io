@@ -29,12 +29,18 @@
     }
     .slide__tourism {
         width: 1150px !important;
+        padding-top: 65px;
+        padding-left: 65px;
     }
     .slide__fincontest {
         width: 1150px !important;
+        padding-top: 65px;
+        padding-left: 65px;
     }
     .slide__third {
         width: 1150px !important;
+        padding-top: 65px;
+        padding-left: 65px;
     }
     .left-arrow {
         left: -597px;
@@ -45,5 +51,91 @@
     .covid {
         width: 1150px;
         margin: 0 auto;
+    }
+    .tabs>label {
+        font-size: 12px;
+    }
+    .tabs {
+        width: 1150px;
+        margin: 0 auto;
+    }
+    .tabs__btn1 {
+        width: 44px;
+        margin-right: 6px;
+    }
+    .tabs__btn2 {
+        width: 138px;
+        margin-right: 6px;
+    }
+    .tabs__btn3 {
+        width: 95px;
+        margin-right: 6px;
+    }
+    .tabs__btn4 {
+        width: 125px;
+        margin-right: 6px;
+    }
+    .tabs__btn5 {
+        width: 185px;
+        margin-right: 6px;
+    }
+    .tabs__btn6 {
+        width: 145px;
+        margin-right: 6px;
+    }
+    .tabs__btn7 {
+        width: 165px;
+        margin-right: 6px;
+    }
+    .tabs__btn8 {
+        width: 125px;
+        margin-right: 6px;
+    }
+    .tabs__btn9 {
+        width: 80px;
+    }
+    .ads {
+        width: 1150px;
+        margin: 0 auto;
+    }
+    .adg-h {
+        padding: 0;
+    }
+    .ads-wavewave {
+        padding: 0;
+    }
+    .tabs-tabs {
+        padding: 0;
+    }
+    .mini-1l-mg {
+        margin-left: 15px;
+        padding-left: 0;
+    }
+    .rightside::before {
+        top: -7px;
+        right: -105px;
+    }
+    .rightside-fincontest::before {
+        top: 17px;
+        right: -150px;
+    }
+    .tile1 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .ep-h {
+        padding: 0;
+    }
+    .epb-w {
+        width: 1150px;
+        margin: 0 auto;
+    }
+    .education-program__bg {
+        background-size: cover;
+        width: 90% !important;
+        height: auto;
+    }
+    .program-block {
+        width: calc(50% - 15px);
     }
 }

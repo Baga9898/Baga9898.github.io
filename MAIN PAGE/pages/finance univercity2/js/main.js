@@ -7,7 +7,7 @@ $(document).ready(function() {
         variableWidth: true,
         centerMode: true,
         centerPadding: '60px',
-        autoplay: true,
+        // autoplay: true,
         pauseOnFocus: true,
         appendArrows: $('.forarrows'),
         prevArrow: '<button type="button" class="left-arrow"><div class="la-arrow"></div></button>',
@@ -17,7 +17,7 @@ $(document).ready(function() {
     $(".big-news__items").slick({
         infinite: true,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         dots: true,
         fade: true,
         speed: 500,

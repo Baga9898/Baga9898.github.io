@@ -1063,10 +1063,10 @@ li.slick-active {
 
 /* EducationProgram */
 
-.educetion-program__bg {
-    background: url(../img/educationPrograms.png);
+.education-program__bg {
+    background: url(../img/educationPrograms.png) no-repeat;
     margin: 0 auto;
-    /* width: 1700px; */
+    width: 1700px !important;
     width: 100%;
     padding-top: 90px;
     padding-bottom: 100px;
@@ -1074,7 +1074,7 @@ li.slick-active {
     border-radius: 10px;
 }
 
-.educetion-program__bg h3 {
+.education-program__bg h3 {
     font-weight: 500;
     font-size: 40px;
     line-height: 48px;
