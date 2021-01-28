@@ -31,9 +31,9 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container wrapper4header">
             <div class="row row-border">
-                <div class="col-xl-6 d-flex">
+                <div class="col-xl-6 d-flex header__leftside">
                     <a class="logo-m" href="#">
                         <img class="logo" src="img/logo.png" alt="logo">
                     </a>
@@ -42,7 +42,7 @@
                         <a href="#" class="search-btn"><img src="img/searchicon.svg" alt="searchicon"></a>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 header__rightside">
                     <div class="header__buttons">
                         <a class="lenswitch-m" href="#">
                             <div class="lenswitch-btn">
@@ -1709,9 +1709,9 @@
                                 </li>
                             </ul>
                         </nav>
-                        <p>ФИНАНСОВЫЙ УНИВЕРСИТЕТ © ® 1998-2020</p>
+                        <p class="copyright">ФИНАНСОВЫЙ УНИВЕРСИТЕТ © ® 1998-2020</p>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 footer-2-a">
                         <nav>
                             <ul>
                                 <li>
@@ -1742,7 +1742,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 footer-3-a">
                         <nav>
                             <ul>
                                 <li>
@@ -1773,7 +1773,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 footer-4-a">
                         <div class="footer__contcts adress d-flex">
                             <img src="img/map.png" alt="mapIcon">
                             <p class="p-adress">125993, Москва,<br> Ленинградский проспект, 49</p>
@@ -1786,7 +1786,7 @@
                             <img src="img/mail.png" alt="mailIcon">
                             <a href="mailto: academy@fa.ru">academy@fa.ru</a>
                         </div>
-                        <nav>
+                        <nav class="footer__icons-nav">
                             <ul class="footer__icons d-flex justify-content-between">
                                 <li>
                                     <button class="facebook-btn" type="button">
@@ -2731,6 +2731,20 @@
                             </li>
                         </ul>
                     </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="search-modal">
+        <div class="search-modal__bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="search-box-modal">
+                            <input class="search-m-form" type="text" name="search" placeholder="Поиск...">
+                            <a href="#" class="search-btn-m"><img src="img/searchicon.svg" alt="searchicon"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

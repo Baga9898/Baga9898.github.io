@@ -1,175 +1,354 @@
-@media screen and (max-width: 1530px) {
-    .header {
-        width: 1150px;
-        margin: 0 auto;
-        margin-bottom: 25px;
+    @media screen and (max-width: 1530px) {
+        .header {
+            width: 1150px;
+            margin: 0 auto;
+            margin-bottom: 25px;
+        }
+        .header__buttons {
+            justify-content: flex-end;
+        }
+        .search {
+            width: 340px;
+        }
+        .search-btn {
+            left: 305px;
+            top: 26px;
+        }
+        .exclude-btn {
+            width: 45px;
+        }
+        .exclude-icon {
+            margin: 0 auto;
+            margin-top: 5px;
+        }
+        .exclude-m p {
+            display: none;
+        }
+        .navigation {
+            display: none;
+        }
+        .slide__tourism {
+            width: 1150px !important;
+            padding-top: 65px;
+            padding-left: 65px;
+        }
+        .slide__fincontest {
+            width: 1150px !important;
+            padding-top: 65px;
+            padding-left: 65px;
+        }
+        .slide__third {
+            width: 1150px !important;
+            padding-top: 65px;
+            padding-left: 65px;
+        }
+        .left-arrow {
+            left: -597px;
+        }
+        .right-arrow {
+            right: -597px;
+        }
+        .covid {
+            width: 1150px;
+            margin: 0 auto;
+        }
+        .tabs>label {
+            font-size: 12px;
+        }
+        .tabs {
+            width: 1150px;
+            margin: 0 auto;
+        }
+        .tabs__btn1 {
+            width: 44px;
+            margin-right: 6px;
+        }
+        .tabs__btn2 {
+            width: 138px;
+            margin-right: 6px;
+        }
+        .tabs__btn3 {
+            width: 95px;
+            margin-right: 6px;
+        }
+        .tabs__btn4 {
+            width: 125px;
+            margin-right: 6px;
+        }
+        .tabs__btn5 {
+            width: 185px;
+            margin-right: 6px;
+        }
+        .tabs__btn6 {
+            width: 145px;
+            margin-right: 6px;
+        }
+        .tabs__btn7 {
+            width: 165px;
+            margin-right: 6px;
+        }
+        .tabs__btn8 {
+            width: 125px;
+            margin-right: 6px;
+        }
+        .tabs__btn9 {
+            width: 80px;
+        }
+        .ads {
+            width: 1150px;
+            margin: 0 auto;
+        }
+        .adg-h {
+            padding: 0;
+        }
+        .ads-wavewave {
+            padding: 0;
+        }
+        .tabs-tabs {
+            padding: 0;
+        }
+        .mini-1l-mg {
+            margin-left: 15px;
+            padding-left: 0;
+        }
+        .rightside::before {
+            top: -7px;
+            right: -105px;
+        }
+        .rightside-fincontest::before {
+            top: 17px;
+            right: -150px;
+        }
+        .tile1 {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .ep-h {
+            padding: 0;
+        }
+        .epb-w {
+            width: 1150px;
+            margin: 0 auto;
+        }
+        .education-program__bg {
+            background-size: cover;
+            width: 90% !important;
+            height: auto;
+        }
+        .program-block {
+            width: calc(50% - 15px);
+        }
+        .innumbers {
+            width: 1150px;
+            margin: 0 auto;
+        }
+        .clnd-w {
+            width: 1150px;
+            margin: 0 auto;
+        }
+        .calendar__bg {
+            background-size: cover;
+            width: 90% !important;
+            height: auto;
+        }
+        .calendar__slider.slick-initialized.slick-slider {
+            width: 1075px;
+            margin-left: 27px;
+        }
+        .down-buttons {
+            width: 1150px;
+            margin: 0 auto;
+        }
+        .down-buttonsb {
+            margin: 19px;
+            margin-bottom: 100px;
+            margin-top: 100px;
+        }
+        .footer-w {
+            width: 1150px;
+            position: relative;
+        }
+        .footer-1-a ul li {
+            width: 202px !important;
+        }
     }
-    .header__buttons {
-        justify-content: flex-end;
+    
+    @media screen and (max-width: 1465px) {
+        .header {
+            width: 1150px;
+            margin: 0 auto;
+        }
+        .search {
+            width: 230px;
+        }
+        .search-btn {
+            left: 198px;
+        }
+        .header__rightside {
+            width: 50%;
+        }
+        .header__leftside {
+            width: 50%;
+        }
+        .wrapper4header {
+            display: contents;
+        }
+        .covid {
+            width: 100%;
+        }
+        .flc__block-7 {
+            margin-right: 150px;
+        }
+        .calendar__slide {
+            padding-left: 28px;
+            width: 416px;
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+        .clnd-w {
+            overflow: hidden;
+        }
+        .left-arrow3 {
+            left: 17px;
+        }
+        .right-arrow3 {
+            right: 13px;
+        }
+        .calendar__button {
+            margin-bottom: 38px;
+        }
+        .calendar__bg {
+            padding-bottom: 50px;
+        }
+        .footer-1-a {
+            width: 31%;
+        }
+        .footer-2-a {
+            width: 31%;
+            margin-left: 28px;
+        }
+        .footer-3-a {
+            width: 31%;
+            margin-left: 24px;
+        }
+        .footer-4-a {
+            width: 31%;
+            display: contents;
+        }
+        .footer__btn {
+            margin-top: 0;
+            width: auto;
+            padding-left: 20px;
+            padding-right: 10px;
+            margin-left: auto;
+            position: absolute;
+            bottom: -39px;
+            right: 0;
+        }
+        .footer__btn:hover {}
+        .adress {
+            width: 24%;
+        }
+        .call {
+            width: 24%;
+            position: absolute;
+            bottom: 34px;
+            left: 325px;
+        }
+        .mail {
+            width: 18%;
+            margin-top: 0;
+            margin-bottom: 45px;
+            position: absolute;
+            bottom: -27px;
+            left: 328px;
+        }
+        .footer__icons {
+            width: 24%;
+        }
+        .footer__icons li button {
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        .copyright {
+            position: absolute;
+            margin-top: 130px !important;
+        }
+        .footer__icons-nav {
+            height: 44px;
+            margin-left: auto;
+        }
+        .footer__bg {
+            padding-bottom: 60px;
+        }
+        .search-btn-m {
+            margin-top: 3px;
+            position: absolute;
+            margin-top: 26%;
+            margin-left: -3%;
+        }
+        .search-m-form {
+            margin-left: 25%;
+        }
     }
-    .search {
-        width: 340px;
+    
+    @media screen and (max-width: 1205px) {
+        .header {
+            width: 768px !important;
+        }
+        .search {
+            display: none;
+        }
+        .search-btn {
+            left: 6px;
+            border: 1px solid #F0F0F0;
+            border-radius: 10px;
+            width: 44px;
+            height: 44px;
+            font-size: 14px;
+            line-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+            top: 15px;
+        }
+        .slide__tourism {
+            width: 768px !important;
+            padding-top: 65px;
+            padding-left: 65px;
+        }
+        .slide__fincontest {
+            width: 768px !important;
+            padding-top: 65px;
+            padding-left: 65px;
+        }
+        .slide__third {
+            width: 768px !important;
+            padding-top: 65px;
+            padding-left: 65px;
+        }
+        .left-arrow {
+            left: -407px;
+        }
+        .right-arrow {
+            right: -407px;
+        }
+        .rightside::before {
+            z-index: -1;
+            opacity: .3;
+        }
+        .rightside-fincontest::before {
+            z-index: -1;
+            opacity: .2;
+        }
+        .leftside h1 {
+            width: 400px;
+        }
+        .leftside-fincontest h1 {
+            width: 555px;
+        }
+        .covid {
+            width: 768px;
+        }
     }
-    .search-btn {
-        left: 305px;
-        top: 26px;
-    }
-    .exclude-btn {
-        width: 45px;
-    }
-    .exclude-icon {
-        margin: 0 auto;
-        margin-top: 5px;
-    }
-    .exclude-m p {
-        display: none;
-    }
-    .navigation {
-        display: none;
-    }
-    .slide__tourism {
-        width: 1150px !important;
-        padding-top: 65px;
-        padding-left: 65px;
-    }
-    .slide__fincontest {
-        width: 1150px !important;
-        padding-top: 65px;
-        padding-left: 65px;
-    }
-    .slide__third {
-        width: 1150px !important;
-        padding-top: 65px;
-        padding-left: 65px;
-    }
-    .left-arrow {
-        left: -597px;
-    }
-    .right-arrow {
-        right: -597px;
-    }
-    .covid {
-        width: 1150px;
-        margin: 0 auto;
-    }
-    .tabs>label {
-        font-size: 12px;
-    }
-    .tabs {
-        width: 1150px;
-        margin: 0 auto;
-    }
-    .tabs__btn1 {
-        width: 44px;
-        margin-right: 6px;
-    }
-    .tabs__btn2 {
-        width: 138px;
-        margin-right: 6px;
-    }
-    .tabs__btn3 {
-        width: 95px;
-        margin-right: 6px;
-    }
-    .tabs__btn4 {
-        width: 125px;
-        margin-right: 6px;
-    }
-    .tabs__btn5 {
-        width: 185px;
-        margin-right: 6px;
-    }
-    .tabs__btn6 {
-        width: 145px;
-        margin-right: 6px;
-    }
-    .tabs__btn7 {
-        width: 165px;
-        margin-right: 6px;
-    }
-    .tabs__btn8 {
-        width: 125px;
-        margin-right: 6px;
-    }
-    .tabs__btn9 {
-        width: 80px;
-    }
-    .ads {
-        width: 1150px;
-        margin: 0 auto;
-    }
-    .adg-h {
-        padding: 0;
-    }
-    .ads-wavewave {
-        padding: 0;
-    }
-    .tabs-tabs {
-        padding: 0;
-    }
-    .mini-1l-mg {
-        margin-left: 15px;
-        padding-left: 0;
-    }
-    .rightside::before {
-        top: -7px;
-        right: -105px;
-    }
-    .rightside-fincontest::before {
-        top: 17px;
-        right: -150px;
-    }
-    .tile1 {
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .ep-h {
-        padding: 0;
-    }
-    .epb-w {
-        width: 1150px;
-        margin: 0 auto;
-    }
-    .education-program__bg {
-        background-size: cover;
-        width: 90% !important;
-        height: auto;
-    }
-    .program-block {
-        width: calc(50% - 15px);
-    }
-    .innumbers {
-        width: 1150px;
-        margin: 0 auto;
-    }
-    .clnd-w {
-        width: 1150px;
-        margin: 0 auto;
-    }
-    .calendar__bg {
-        background-size: cover;
-        width: 90% !important;
-        height: auto;
-    }
-    .calendar__slider.slick-initialized.slick-slider {
-        width: 1075px;
-        margin-left: 27px;
-    }
-    .down-buttons {
-        width: 1150px;
-        margin: 0 auto;
-    }
-    .down-buttonsb {
-        margin: 19px;
-        margin-bottom: 100px;
-        margin-top: 100px;
-    }
-    .footer-w {
-        width: 1150px;
-    }
-    .footer-1-a ul li {
-        width: 202px !important;
-    }
-}
-
-@media screen and (max-width: 1465px) {}

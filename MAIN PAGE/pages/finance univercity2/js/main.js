@@ -38,12 +38,20 @@ $(document).ready(function() {
         nextArrow: '<button type="button" class="right-arrow3"><div class="ra-arrow"></div></button>',
 
         responsive: [{
-            breakpoint: 1530,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                breakpoint: 1530,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 1465,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
             }
-        }]
+        ]
     });
 
     // ModalOpen
@@ -660,5 +668,12 @@ $(document).ready(function() {
             });
     });
 
+    // SearchModal
+
+    $(function() {
+        $('.search-btn').click(function() {
+            $('.search-modal').addClass('search-modal-active')
+        });
+    });
 
 });
