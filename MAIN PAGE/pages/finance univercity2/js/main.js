@@ -50,6 +50,13 @@ $(document).ready(function() {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                 }
+            },
+            {
+                breakpoint: 1205,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
             }
         ]
     });
@@ -673,6 +680,7 @@ $(document).ready(function() {
     $(function() {
         $('.search-btn').click(function() {
             $('.search-modal').addClass('search-modal-active')
+            $('.search-modal__bg').addClass('search-modal-active')
         });
     });
 

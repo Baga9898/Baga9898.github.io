@@ -1311,37 +1311,30 @@ li.slick-active {
 }
 
 .pb-1:hover {
-    margin-top: 20px;
     box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.15);
 }
 
 .pb-2:hover {
-    margin-top: 20px;
     box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.15);
 }
 
 .pb-3:hover {
-    margin-top: 20px;
     box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.15);
 }
 
 .pb-4:hover {
-    margin-top: 20px;
     box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.15);
 }
 
 .pb-5:hover {
-    margin-top: 20px;
     box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.15);
 }
 
 .pb-6:hover {
-    margin-top: 20px;
     box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.15);
 }
 
 .pb-7:hover {
-    margin-top: 20px;
     box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -2302,6 +2295,10 @@ li.slick-active {
     background-color: #000;
     opacity: .8;
     z-index: 20;
+    display: none;
+}
+
+.search-modal__bg {
     display: none;
 }
 
