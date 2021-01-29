@@ -312,22 +312,11 @@
         margin-bottom: 45px;
         position: absolute;
         bottom: -27px;
-        left: 328px;
-    }
-    .footer__icons {
-        width: 24%;
-    }
-    .footer__icons li button {
-        margin-left: 10px;
-        margin-top: 5px;
+        left: 325px;
     }
     .copyright {
         position: absolute;
         margin-top: 130px !important;
-    }
-    .footer__icons-nav {
-        height: 44px;
-        margin-left: auto;
     }
     .footer__bg {
         padding-bottom: 60px;
@@ -343,6 +332,11 @@
     }
     .downside__3 {
         right: -115px;
+    }
+    .footer__icons {
+        position: absolute;
+        right: 0;
+        bottom: 49px;
     }
 }
 
@@ -483,10 +477,6 @@
     .footer__btn {
         bottom: -108px;
     }
-    .footer__icons li button {
-        margin-left: 10px;
-        margin-top: 50px;
-    }
     .education-program {
         width: 768px;
         margin: 0 auto;
@@ -528,4 +518,88 @@
     }
 }
 
-@media screen and (max-width: 990px) {}
+@media screen and (max-width: 995px) {
+    .covid-sec-cont {
+        margin: 0;
+    }
+    .downside__3 {
+        right: -311px;
+    }
+    .down-buttons {
+        width: 768px;
+        margin: 0;
+    }
+    .down-buttons-w {
+        margin-right: 0;
+    }
+    .footer-1-a {
+        width: 50%;
+    }
+    .footer-2-a {
+        width: 50%;
+        margin-left: 0;
+    }
+    .footer-3-a {
+        width: 50%;
+        margin-left: 0;
+    }
+    .footer-4-a {
+        width: 50%;
+    }
+    .call {
+        bottom: 233px;
+        left: 360px;
+    }
+    .mail {
+        bottom: 142px;
+        left: 360px;
+    }
+    .copyright {
+        margin-top: 315px !important;
+    }
+    .down-buttonsb {
+        margin: 0px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .leftside p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        color: #626E79;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    .leftside h1 {
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 54px;
+        color: #2E374B;
+    }
+    .slide__third {
+        width: 425px !important;
+        padding-top: 35px;
+        padding-left: 35px;
+    }
+    .slide__tourism {
+        width: 425px !important;
+        padding-top: 35px;
+        padding-left: 35px;
+    }
+    .slide__fincontest {
+        width: 425px !important;
+        padding-top: 35px;
+        padding-left: 35px;
+    }
+    .leftside-fincontest p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        color: #626E79;
+        margin-bottom: 50px;
+        width: 305px;
+    }
+}

@@ -56,6 +56,7 @@ $(document).ready(function() {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    centerMode: true,
                 }
             }
         ]
@@ -591,34 +592,6 @@ $(document).ready(function() {
 
         $('.menu-btn').hover(function() {
             $('.menu-icon').toggleClass('menu-icon-hvr')
-        });
-    });
-
-    // SocialHover
-
-    $(function() {
-        $('.facebook-btn').hover(function() {
-            $('.facebook-icon').toggleClass('facebook-icon-hvr')
-        });
-
-        $('.tweeter-btn').hover(function() {
-            $('.tweeter-icon').toggleClass('tweeter-icon-hvr')
-        });
-
-        $('.youtube-btn').hover(function() {
-            $('.youtube-icon').toggleClass('youtube-icon-hvr')
-        });
-
-        $('.vk-btn').hover(function() {
-            $('.vk-icon').toggleClass('vk-icon-hvr')
-        });
-
-        $('.instagram-btn').hover(function() {
-            $('.instagram-icon').toggleClass('instagram-icon-hvr')
-        });
-
-        $('.telegram-btn').hover(function() {
-            $('.telegram-icon').toggleClass('telegram-icon-hvr')
         });
     });
 
