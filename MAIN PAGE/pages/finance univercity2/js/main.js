@@ -11,7 +11,7 @@ $(document).ready(function() {
         pauseOnFocus: true,
         appendArrows: $('.forarrows'),
         prevArrow: '<button type="button" class="left-arrow"><div class="la-arrow"></div></button>',
-        nextArrow: '<button type="button" class="right-arrow"><div class="ra-arrow"></div></button>'
+        nextArrow: '<button type="button" class="right-arrow"><div class="ra-arrow"></div></button>',
     });
 
     $(".big-news__items").slick({
@@ -650,11 +650,11 @@ $(document).ready(function() {
 
     // SearchModal
 
-    $(function() {
-        $('.search-btn').click(function() {
-            $('.search-modal').addClass('search-modal-active')
-            $('.search-modal__bg').addClass('search-modal-active')
-        });
-    });
+    // $(function() {
+    //     $('.search-btn').click(function() {
+    //         $('.search-modal').addClass('search-modal-active')
+    //         $('.search-modal__bg').addClass('search-modal-active')
+    //     });
+    // });
 
 });
