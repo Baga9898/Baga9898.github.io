@@ -809,4 +809,54 @@
     .flc__block-7 {
         margin-right: 135px;
     }
+    .footer-w {
+        width: 425px;
+    }
+    .footer-1-a {
+        width: 100%;
+        text-align: -webkit-center;
+    }
+    .footer-2-a {
+        width: 100%;
+    }
+    .footer-3-a {
+        width: 100%;
+    }
+    .footer-4-a {
+        width: 100%;
+    }
+    .footer-w {
+        width: 425px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .copyright {
+        right: -73px;
+        bottom: -1120px;
+    }
+    .adress {
+        width: 100%;
+        position: absolute;
+        bottom: -70px;
+        right: -30px;
+    }
+    .footer__btn {
+        right: 43px;
+        bottom: -332px;
+    }
+    .call {
+        bottom: -128px;
+        left: 112px;
+        width: 100%;
+    }
+    .mail {
+        bottom: -213px;
+        left: 135px;
+    }
+    .footer__icons {
+        bottom: -239px;
+    }
+    .footer__bg {
+        padding-bottom: 420px;
+    }
 }
