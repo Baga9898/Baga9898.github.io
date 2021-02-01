@@ -744,10 +744,16 @@
     .calendar__slide {
         padding-left: 40px;
     }
+    .calendar__bg {
+        width: 100% !important;
+    }
     .clnd-btn {
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
         width: 380px;
+    }
+    .calendar__slider .slick-track {
+        height: 325px;
     }
     .down-buttonsb {
         width: 100%;
@@ -780,6 +786,9 @@
     }
     .second-line-count__block p {
         margin-top: 15px;
+    }
+    .third-line-count {
+        height: 172px;
     }
     .cnt-6-p {
         margin-top: 15px;
