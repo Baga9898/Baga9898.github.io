@@ -856,7 +856,7 @@
     .call {
         bottom: -128px;
         left: 112px;
-        width: 100%;
+        width: 50%;
     }
     .mail {
         bottom: -213px;
@@ -867,5 +867,187 @@
     }
     .footer__bg {
         padding-bottom: 420px;
+    }
+    .cnt-6 {
+        top: 62px;
+    }
+    .cnt-7 {
+        top: 62px;
+    }
+    .third-line-count__block p {
+        margin-top: 31px;
+    }
+    .cnt-7-p {
+        margin-top: 37px !important;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .slide__tourism {
+        width: 300px !important;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .slide__fincontest {
+        width: 300px !important;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .slide__third {
+        width: 300px !important;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .left-arrow {
+        left: -173px;
+    }
+    .right-arrow {
+        right: -173px;
+    }
+    .leftside h1 {
+        font-size: 25px;
+        line-height: 38px;
+        width: 215px;
+    }
+    .leftside p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #626E79;
+        margin-bottom: 50px;
+        width: 247px;
+    }
+    .leftside-fincontest h1 {
+        font-size: 20px;
+        width: 230px;
+        line-height: 30px;
+    }
+    .leftside-fincontest p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #626E79;
+        margin-bottom: 50px;
+        width: 243px;
+    }
+    .covid {
+        width: 300px;
+    }
+    .covid-sec-w {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .education-program {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .education-program__bg h3 {
+        font-size: 28px;
+        width: 270px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+    .tile1 {
+        width: 300px;
+    }
+    .program-block {
+        height: 280px;
+        padding: 20px;
+    }
+    .downside {
+        flex-direction: column;
+    }
+    .downside__3 {
+        right: -136px;
+        bottom: 50px;
+    }
+    .pbp-4 {
+        margin-bottom: 3px !important;
+    }
+    .downtileblock {
+        width: 300px;
+    }
+    .innumbers {
+        width: 300px;
+    }
+    .innumbers h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .innumbers img {
+        margin-bottom: 20px;
+    }
+    .innump {
+        font-size: 16px;
+    }
+    .flc__block-1 {
+        width: 108px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .first-line-count {
+        flex-direction: column;
+        width: 30%;
+        margin-right: 92px;
+    }
+    .first-line-count__block {
+        margin-top: 0px;
+    }
+    .innumb-flex {
+        display: flex;
+        margin-bottom: 170px;
+    }
+    .second-line-count {
+        flex-direction: column;
+    }
+    .cnt-2-p {
+        width: 155px;
+        position: absolute;
+    }
+    .flc__block-2 {
+        margin-bottom: 91px;
+    }
+    .flc__block-4 img {
+        margin-top: 8px;
+    }
+    .cnt-4-p {
+        margin-top: 27px !important;
+    }
+    .flc__block-7 {
+        margin-right: 7px;
+        width: 167px;
+    }
+    .third-line-count {
+        position: absolute;
+        bottom: -163px;
+    }
+    .down-buttons {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .header {
+        width: 300px !important;
+    }
+    .lenswitch-btn {
+        right: 74px;
+        position: absolute;
+        top: -42px;
+        width: 44px;
+    }
+    .login-btn {
+        position: absolute;
+        right: 144px;
+    }
+    .exclude-btn {
+        position: absolute;
+        left: 13px;
+    }
+    .search-btn {
+        margin-left: 5px;
+        top: 20px;
+    }
+    .menu-btn {
+        width: 104px;
     }
 }
