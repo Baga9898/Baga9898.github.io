@@ -1050,4 +1050,41 @@
     .menu-btn {
         width: 104px;
     }
+    .footer-w {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .adress {
+        width: 70%;
+        position: absolute;
+        bottom: -90px;
+        right: 55px;
+    }
+    .call {
+        bottom: -144px;
+        left: 45px;
+        width: 70%;
+    }
+    .mail {
+        bottom: -224px;
+        left: 64px;
+    }
+    .ft-mg {
+        margin-left: 3px;
+    }
+    .footer__icons {
+        position: absolute;
+        right: 11px;
+        bottom: -244px;
+    }
+    .footer__btn {
+        right: 13px;
+        bottom: -343px;
+        width: 275px;
+    }
+    .copyright {
+        right: -43px;
+        bottom: -1140px;
+    }
 }
