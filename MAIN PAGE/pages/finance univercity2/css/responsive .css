@@ -1,4 +1,4 @@
-@media (min-width:1530px) {
+@media screen and (min-width:1530px) {
     .pb-1:hover {
         margin-top: 20px;
     }
@@ -157,7 +157,6 @@
         padding: 0;
     }
     .mini-1l-mg {
-        margin-left: 15px;
         padding-left: 0;
     }
     .rightside::before {
@@ -200,10 +199,6 @@
         width: 90% !important;
         height: auto;
     }
-    .calendar__slider.slick-initialized.slick-slider {
-        width: 1075px;
-        margin-left: 27px;
-    }
     .down-buttons {
         width: 1150px;
         margin: 0 auto;
@@ -226,6 +221,12 @@
 }
 
 @media screen and (max-width: 1465px) {
+    .tabs {
+        width: 100%;
+    }
+    .mini-1l-mg {
+        margin: 0;
+    }
     .header {
         width: 1150px;
         margin: 0 auto;
@@ -524,9 +525,30 @@
     .ft-mg {
         margin-left: 11px;
     }
+    .calendar__slide {
+        width: 705px;
+    }
 }
 
 @media screen and (max-width: 995px) {
+    .search-m-form {
+        margin-left: 23%;
+    }
+    .right-arrow3 {
+        right: 0;
+    }
+    .left-arrow3 {
+        left: 0;
+    }
+    .calendar__slider.slick-initialized.slick-slider {
+        width: 100%;
+        margin-left: 0;
+    }
+    .calendar__slide {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 25px;
+    }
     .covid-sec {
         margin: 0 auto;
         margin-bottom: 60px;
@@ -598,6 +620,18 @@
         bottom: -39px;
         right: 43px;
         bottom: -6px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .search-m-form {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .search-m-form {
+        margin-left: 15.8%;
     }
 }
 
@@ -880,6 +914,11 @@
     .cnt-7-p {
         margin-top: 37px !important;
     }
+    .search-btn-m {
+        position: absolute;
+        margin-top: 26.5%;
+        margin-left: -3%;
+    }
 }
 
 @media screen and (max-width: 585px) {
@@ -1086,5 +1125,105 @@
     .copyright {
         right: -43px;
         bottom: -1140px;
+    }
+    .covid-sec {
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .covid-sec-cont {
+        max-width: 300px;
+    }
+    .epb-w {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .second-line-count {
+        width: 70px;
+    }
+    .flc__block-4 {
+        width: 97px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .flc__block-5 {
+        width: 97px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .flc__block-6 {
+        width: 105px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .third-line-count {
+        position: absolute;
+        bottom: -163px;
+        width: 180px;
+    }
+    .flc__block-7 {
+        margin-right: 70px;
+        width: 167px;
+    }
+    .flc__block-2 {
+        margin-bottom: 91px;
+        width: 82px;
+    }
+    .flc__block-3 {
+        width: 223px;
+    }
+    .first-line-count {
+        flex-direction: column;
+        width: 30%;
+        margin-right: 75px;
+    }
+    .cnt-2-p {
+        width: 155px;
+        position: absolute;
+        top: 90px;
+    }
+    .calendar {
+        width: 300px !important;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .clnd-w {
+        width: 300px !important;
+        margin: 0 auto;
+    }
+    .innumbers h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .left-arrow .la-arrow::before {
+        border-right: 3px solid rgb(98, 98, 98);
+        border-bottom: 3px solid rgb(98, 98, 98);
+        width: 20px;
+        height: 20px;
+    }
+    .right-arrow .ra-arrow::before {
+        border-right: 3px solid rgb(98, 98, 98);
+        border-bottom: 3px solid rgb(98, 98, 98);
+        width: 20px;
+        height: 20px;
+    }
+    .left-arrow {
+        background-color: transparent;
+        left: -151px;
+    }
+    .right-arrow {
+        background-color: transparent;
+        right: -151px;
+    }
+    .left-arrow:hover {
+        background-color: transparent;
+    }
+    .right-arrow:hover {
+        background-color: transparent;
     }
 }

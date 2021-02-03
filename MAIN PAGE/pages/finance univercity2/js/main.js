@@ -57,6 +57,7 @@ $(document).ready(function() {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     centerMode: true,
+
                 }
             }
         ]
@@ -648,13 +649,21 @@ $(document).ready(function() {
             });
     });
 
-    // SearchModal
+    //SearchModal
 
-    // $(function() {
-    //     $('.search-btn').click(function() {
-    //         $('.search-modal').addClass('search-modal-active')
-    //         $('.search-modal__bg').addClass('search-modal-active')
-    //     });
-    // });
+    $(function() {
+        $('.search-btn').click(function() {
+            $('.search-modal').addClass('search-modal-active')
+            $('.search-modal__bg').addClass('search-modal-active')
+        });
+    });
+
+    //SearchModalClose
+
+    $(document).keyup(function(e) {
+        if (e.keyCode === 27) {
+            $('.search-modal').removeClass('search-modal-active');
+        }
+    });
 
 });
