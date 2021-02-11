@@ -1,0 +1,19 @@
+/*NullStyle*/
+
+@import "null.scss";
+
+/*BootstrapLink*/
+
+@import "bootstrap/bootstrap.scss";
+
+/*START*/
+
+.alert-new {
+    width: 100%;
+    height: 50px;
+    background-color: #407BFF;
+}
+
+.alert__content {
+    justify-content: center;
+}
