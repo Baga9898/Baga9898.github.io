@@ -5,8 +5,19 @@
 /*BootstrapLink*/
 
 @import "bootstrap/bootstrap.scss";
+// Mixins
+@mixin fontspec($fw, $fz, $lh, $col) {
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    color: $col;
+}
+
 
 /*START*/
+
+
+/*AlertSection*/
 
 .alert-new {
     width: 100%;
@@ -15,5 +26,53 @@
 }
 
 .alert__content {
-    justify-content: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    >p {
+        @include fontspec(600, 16px, 20px, #fff);
+        padding-top: 12px;
+    }
+    button {
+        background-color: transparent;
+        border: 1px solid #FFF;
+        border-radius: 29px;
+        width: 121px;
+        height: 35px;
+        position: relative;
+        p {
+            margin: 0;
+            position: absolute;
+            left: 15px;
+            top: 7px;
+            @include fontspec(normal, 16px, 19px, #fff);
+        }
+    }
+    .close {
+        position: absolute;
+        right: 32px;
+        top: 32px;
+        width: 32px;
+        height: 32px;
+        opacity: 1;
+        &:hover {
+            opacity: 1 !important;
+        }
+    }
+    .close:before,
+    .close:after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 16px;
+        width: 2px;
+        background-color: #fff;
+    }
+    .close:before {
+        transform: rotate(45deg);
+    }
+    .close:after {
+        transform: rotate(-45deg);
+    }
 }

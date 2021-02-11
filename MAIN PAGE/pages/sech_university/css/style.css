@@ -10029,6 +10029,7 @@ h3 {
   }
 }
 /*START*/
+/*AlertSection*/
 .alert-new {
   width: 100%;
   height: 50px;
@@ -10036,5 +10037,59 @@ h3 {
 }
 
 .alert__content {
-  justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.alert__content > p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  padding-top: 12px;
+}
+.alert__content button {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-radius: 29px;
+  width: 121px;
+  height: 35px;
+  position: relative;
+}
+.alert__content button p {
+  margin: 0;
+  position: absolute;
+  left: 15px;
+  top: 7px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+.alert__content .close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+.alert__content .close:hover {
+  opacity: 1 !important;
+}
+.alert__content .close:before,
+.alert__content .close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 16px;
+  width: 2px;
+  background-color: #fff;
+}
+.alert__content .close:before {
+  transform: rotate(45deg);
+}
+.alert__content .close:after {
+  transform: rotate(-45deg);
 }
