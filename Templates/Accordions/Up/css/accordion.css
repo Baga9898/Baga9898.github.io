@@ -35,4 +35,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.accordion-item__trigger:hover {
+    background-color: rgb(60, 106, 255);
 }
