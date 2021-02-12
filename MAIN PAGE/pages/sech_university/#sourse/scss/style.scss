@@ -27,11 +27,7 @@
     width: 100%;
     height: 50px;
     background-color: #407BFF;
-    display: none;
-}
-
-.alert-new-active {
-    display: block;
+    // display: none;
 }
 
 .alert__content {
@@ -94,17 +90,28 @@
     .container {
         .row {
             .col-12 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
                 .header__leftside {
                     .logo {
                         & img {}
                     }
                 }
                 .header__rightside {
+                    display: flex;
+                    height: 21px;
                     .menu {
+                        height: 21px;
                         nav {
                             ul {
                                 display: flex;
-                                li {}
+                                li {
+                                    margin-right: 30px;
+                                    a {
+                                        @include fontspec(500, 16px, 19px, #1A1616);
+                                    }
+                                }
                             }
                         }
                     }

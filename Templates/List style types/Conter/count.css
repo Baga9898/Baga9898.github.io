@@ -1,0 +1,19 @@
+.accordion-item__content ul.cost li {
+    margin-bottom: 24px;
+}
+
+.accordion-item__content ul.cost {
+    counter-reset: section;
+}
+
+.accordion-item__content ul.cost>li::before {
+    counter-increment: section;
+    content: " " counter(section) " ";
+    color: #BEB400;
+    position: absolute;
+    left: -45px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    top: -6px;
+}
