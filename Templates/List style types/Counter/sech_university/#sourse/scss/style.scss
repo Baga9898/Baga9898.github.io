@@ -1,0 +1,122 @@
+/*NullStyle*/
+
+@import "null.scss";
+
+/*BootstrapLink*/
+
+@import "bootstrap/bootstrap.scss";
+// Mixins
+@mixin fontspec($fw, $fz, $lh, $col) {
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    color: $col;
+}
+
+
+/*START*/
+
+.col-12 {
+    padding: 0;
+}
+
+
+/*AlertSection*/
+
+.alert-new {
+    width: 100%;
+    height: 50px;
+    background-color: #407BFF;
+    // display: none;
+}
+
+.alert__content {
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    >p {
+        @include fontspec(600, 16px, 20px, #fff);
+        padding-top: 12px;
+    }
+    button {
+        background-color: transparent;
+        border: 1px solid #FFF;
+        border-radius: 29px;
+        width: 121px;
+        height: 35px;
+        position: relative;
+        p {
+            margin: 0;
+            position: absolute;
+            left: 15px;
+            top: 7px;
+            @include fontspec(normal, 16px, 19px, #fff);
+        }
+    }
+    .close {
+        position: absolute;
+        right: 7px;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        opacity: 1;
+        &:hover {
+            opacity: 1 !important;
+        }
+    }
+    .close:before,
+    .close:after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 16px;
+        width: 2px;
+        background-color: #fff;
+    }
+    .close:before {
+        transform: rotate(45deg);
+    }
+    .close:after {
+        transform: rotate(-45deg);
+    }
+}
+
+
+/* Header */
+
+.header {
+    margin-top: 21px;
+    .container {
+        .row {
+            .col-12 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .header__leftside {
+                    .logo {
+                        & img {}
+                    }
+                }
+                .header__rightside {
+                    display: flex;
+                    height: 21px;
+                    .menu {
+                        height: 21px;
+                        nav {
+                            ul {
+                                display: flex;
+                                li {
+                                    margin-right: 30px;
+                                    a {
+                                        @include fontspec(500, 16px, 19px, #1A1616);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

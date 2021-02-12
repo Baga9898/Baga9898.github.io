@@ -1,0 +1,31 @@
+.block {
+    padding-top: 300px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul.cost li {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+ul.cost {
+    counter-reset: section;
+}
+
+ul.cost>li::before {
+    counter-increment: section;
+    content: " " counter(section) " ";
+    color: #BEB400;
+    position: absolute;
+    left: -45px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    top: -6px;
+    position: absolute;
+}
