@@ -1,10 +1,7 @@
     @import 'stylesheet.css';
-    /*NullStyle*/
-    
     @import "null.scss";
-    /*BootstrapLink*/
-    
     @import "bootstrap/bootstrap.scss";
+    @import 'slick/slick.scss';
     // Mixins
     @mixin fontspec($fw, $fz, $lh, $col) {
         font-weight: $fw;
@@ -109,6 +106,7 @@
     
     .header {
         margin-top: 21px;
+        margin-bottom: 22px;
         .container {
             .row {
                 .col-12 {
@@ -147,9 +145,6 @@
                             @include btnspec(72px, 39px, 1px solid #C0D3FD, 29px, transparent);
                             @include fontspec(500, 16px, 19px, $maincolor);
                             font-family: $gilroy;
-                            p {
-                                margin: 0;
-                            }
                         }
                         .authorization {
                             @include btnspec(138px, 39px, 0px, 29px, $maincolor);
@@ -157,9 +152,6 @@
                             font-family: $gilroy;
                             margin-left: 30px;
                             transition: 0.7s;
-                            p {
-                                margin: 0;
-                            }
                             &:hover {
                                 background-color: $hover;
                             }
@@ -173,9 +165,35 @@
     
     .slider {
         margin-bottom: 140px;
+        background-color: #5C94FF;
         .container {
             .row {
-                .col-12 {}
+                .col-12 {
+                    .slides {
+                        .slides__slide {
+                            .slider__leftside {
+                                width: 580px;
+                                p {
+                                    @include fontspec(normal, 18px, 60px, #fff);
+                                    margin-top: 140px;
+                                }
+                                h1 {
+                                    @include fontspec(900, 60px, 60px, #fff);
+                                    margin-bottom: 50px;
+                                    text-shadow: 0px 4px 50px rgba(13, 45, 117, 0.2);
+                                }
+                                button {
+                                    @include btnspec(216px, 58px, 0px, 40px, #fff);
+                                    @include fontspec(600, 16px, 22px, #407BFF);
+                                    margin-bottom: 190px;
+                                }
+                            }
+                        }
+                        .slide1 {}
+                        .slide2 {}
+                        .slide3 {}
+                    }
+                }
             }
         }
     }

@@ -18,3 +18,7 @@ Fonts:
 		https://fonts.google.com/
 	free_fonts_catalog:
 		https://nomail.com.ua/
+
+SlickSlider:
+	
+	https://kenwheeler.github.io/slick/

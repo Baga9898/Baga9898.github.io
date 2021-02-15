@@ -6,6 +6,13 @@ jQuery(document).ready(function() {
         $('.alert-new').removeClass('active')
     });
 
+    // Slider
+
+    $('.slides').slick({
+        vertical: true
+    });
+
+
     // Counter
 
     $('.counter').each(function() {
