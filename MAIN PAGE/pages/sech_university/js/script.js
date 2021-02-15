@@ -9,7 +9,16 @@ jQuery(document).ready(function() {
     // Slider
 
     $('.slides').slick({
-        vertical: true
+        vertical: true,
+        verticalSwiping: true,
+        dots: true,
+
+        appendArrows: $('.arrows'),
+        prevArrow: '<div class="arrows__up"></div>',
+        nextArrow: '<div class="arrows__down"></div>',
+
+        appendDots: $('.dots'),
+
     });
 
 

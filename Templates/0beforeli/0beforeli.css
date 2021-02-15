@@ -1,0 +1,7 @@
+.slick-dots li button::before {
+    content: "0";
+}
+
+.slick-dots li:nth-child(n + 10) button::before {
+    content: none;
+}

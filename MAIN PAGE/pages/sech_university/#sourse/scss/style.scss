@@ -166,9 +166,46 @@
     .slider {
         margin-bottom: 140px;
         background-color: #5C94FF;
+        position: relative;
         .container {
             .row {
                 .col-12 {
+                    .slider__arrows {}
+                    .arrows {
+                        position: absolute;
+                        z-index: 10;
+                        top: 50%;
+                        right: 26px;
+                        .arrows__up {
+                            width: 16px;
+                            height: 16px;
+                            border-top: 2px solid #fff;
+                            border-right: 2px solid #fff;
+                            margin-right: 60px;
+                            transform: rotate(-45deg);
+                            margin: 0;
+                            position: absolute;
+                            top: -27px;
+                        }
+                        .arrows__down {
+                            width: 16px;
+                            height: 16px;
+                            border-top: 2px solid #fff;
+                            border-right: 2px solid #fff;
+                            margin-right: 60px;
+                            transform: rotate(135deg);
+                            margin: 0;
+                            position: absolute;
+                            bottom: -137px;
+                        }
+                    }
+                    .slider__dots {}
+                    .dots {
+                        position: absolute;
+                        z-index: 10;
+                        top: 50%;
+                        right: 0;
+                    }
                     .slides {
                         .slides__slide {
                             .slider__leftside {
@@ -176,11 +213,13 @@
                                 p {
                                     @include fontspec(normal, 18px, 60px, #fff);
                                     margin-top: 140px;
+                                    font-family: $gilroy;
                                 }
                                 h1 {
                                     @include fontspec(900, 60px, 60px, #fff);
                                     margin-bottom: 50px;
                                     text-shadow: 0px 4px 50px rgba(13, 45, 117, 0.2);
+                                    font-family: $gilroy;
                                 }
                                 button {
                                     @include btnspec(216px, 58px, 0px, 40px, #fff);
@@ -196,6 +235,37 @@
                 }
             }
         }
+    }
+    
+    button:not(:disabled),
+    [type=button]:not(:disabled),
+    [type=reset]:not(:disabled),
+    [type=submit]:not(:disabled) {
+        cursor: pointer;
+        @include btnspec(36px, 36px, 0, 30px, transparent);
+        @include fontspec(500, 14px, 20px, #fff);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+    
+    .slick-active {
+        background-color: #fff;
+        color: $hover;
+        border-radius: 30px;
+        transition: 0.5s;
+        button {
+            color: $hover !important;
+        }
+    }
+    
+    .slick-dots li button::before {
+        content: "0";
+    }
+    
+    .slick-dots li:nth-child(n + 10) button::before {
+        content: none;
     }
     /* About */
     
@@ -255,18 +325,18 @@
                             }
                         }
                     }
-                }
-                .about__platform {
-                    width: 430px;
-                    h2 {
-                        @include fontspec(bold, 25px, 60px, #1A1616);
-                        font-family: $gilroy;
-                    }
-                    img {
-                        margin-bottom: 20px;
-                    }
-                    p {
-                        @include fontspec(400, 16px, 24px, #1A1616)
+                    .about__platform {
+                        width: 430px;
+                        h2 {
+                            @include fontspec(bold, 25px, 60px, #1A1616);
+                            font-family: $gilroy;
+                        }
+                        img {
+                            margin-bottom: 20px;
+                        }
+                        p {
+                            @include fontspec(400, 16px, 24px, #1A1616)
+                        }
                     }
                 }
             }
