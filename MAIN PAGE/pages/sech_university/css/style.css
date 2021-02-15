@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import 'stylesheet.css';
 /*NullStyle*/
 * {
   padding: 0;
@@ -10033,6 +10034,10 @@ h3 {
   padding: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 /*AlertSection*/
 .alert-new {
   width: 100%;
@@ -10057,6 +10062,7 @@ h3 {
   line-height: 20px;
   color: #fff;
   padding-top: 12px;
+  font-family: "Gilroy", sans-serif;
 }
 .alert__content button {
   background-color: transparent;
@@ -10075,11 +10081,12 @@ h3 {
   font-size: 16px;
   line-height: 19px;
   color: #fff;
+  font-family: "Gilroy", sans-serif;
 }
 .alert__content .close {
   position: absolute;
   right: 7px;
-  top: 10px;
+  top: 9px;
   width: 32px;
   height: 32px;
   opacity: 1;
@@ -10131,6 +10138,7 @@ h3 {
   font-size: 16px;
   line-height: 19px;
   color: #1A1616;
+  font-family: "Gilroy", sans-serif;
 }
 .header .container .row .col-12 .header__rightside .menu nav ul li a:hover {
   text-decoration: underline;
@@ -10146,6 +10154,7 @@ h3 {
   font-size: 16px;
   line-height: 19px;
   color: #407BFF;
+  font-family: "Gilroy", sans-serif;
 }
 .header .container .row .col-12 .header__rightside .langswitch p {
   margin: 0;
@@ -10160,6 +10169,7 @@ h3 {
   font-size: 16px;
   line-height: 19px;
   color: #fff;
+  font-family: "Gilroy", sans-serif;
   margin-left: 30px;
   transition: 0.7s;
 }
@@ -10205,6 +10215,7 @@ h3 {
   font-size: 80px;
   line-height: 56px;
   color: #1047C5;
+  font-family: "Gilroy", sans-serif;
   top: 17px;
   left: -17px;
 }
@@ -10244,6 +10255,7 @@ h3 {
   font-size: 25px;
   line-height: 60px;
   color: #1A1616;
+  font-family: "Gilroy", sans-serif;
 }
 .about .container .row .about__platform img {
   margin-bottom: 20px;

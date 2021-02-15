@@ -1,3 +1,4 @@
+    @import 'stylesheet.css';
     /*NullStyle*/
     
     @import "null.scss";
@@ -21,12 +22,22 @@
     }
     
     // Variables
+    // Colors
     $maincolor: #407BFF;
     $hover: #1047C5;
+    // Fonts
+    $mainfont: 'Montserrat',
+    sans-serif;
+    $gilroy: 'Gilroy',
+    sans-serif;
     /*START*/
     
     .col-12 {
         padding: 0;
+    }
+    
+    body {
+        font-family: $mainfont;
     }
     /*AlertSection*/
     
@@ -49,6 +60,7 @@
         >p {
             @include fontspec(600, 16px, 20px, #fff);
             padding-top: 12px;
+            font-family: $gilroy;
         }
         button {
             background-color: transparent;
@@ -63,12 +75,13 @@
                 left: 15px;
                 top: 7px;
                 @include fontspec(normal, 16px, 19px, #fff);
+                font-family: $gilroy;
             }
         }
         .close {
             position: absolute;
             right: 7px;
-            top: 10px;
+            top: 9px;
             width: 32px;
             height: 32px;
             opacity: 1;
@@ -120,6 +133,7 @@
                                         margin-right: 30px;
                                         a {
                                             @include fontspec(500, 16px, 19px, #1A1616);
+                                            font-family: $gilroy;
                                             &:hover {
                                                 text-decoration: underline;
                                                 color: $hover
@@ -132,6 +146,7 @@
                         .langswitch {
                             @include btnspec(72px, 39px, 1px solid #C0D3FD, 29px, transparent);
                             @include fontspec(500, 16px, 19px, $maincolor);
+                            font-family: $gilroy;
                             p {
                                 margin: 0;
                             }
@@ -139,6 +154,7 @@
                         .authorization {
                             @include btnspec(138px, 39px, 0px, 29px, $maincolor);
                             @include fontspec(500, 16px, 19px, #fff);
+                            font-family: $gilroy;
                             margin-left: 30px;
                             transition: 0.7s;
                             p {
@@ -191,6 +207,7 @@
                                 position: absolute;
                                 display: table-cell;
                                 @include fontspec(500, 80px, 56px, #1047C5);
+                                font-family: $gilroy;
                                 top: 17px;
                                 left: -17px;
                             }
@@ -225,6 +242,7 @@
                     width: 430px;
                     h2 {
                         @include fontspec(bold, 25px, 60px, #1A1616);
+                        font-family: $gilroy;
                     }
                     img {
                         margin-bottom: 20px;
