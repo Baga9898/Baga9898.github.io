@@ -13,6 +13,17 @@
     color: $col;
 }
 
+@mixin btnspec($w, $h, $b, $br, $bgc) {
+    width: $w;
+    height: $h;
+    border: $b;
+    border-radius: $br;
+    background-color: $bgc;
+}
+
+// Variables
+$maincolor: #407BFF;
+$hover: #1047C5;
 
 /*START*/
 
@@ -27,7 +38,11 @@
     width: 100%;
     height: 50px;
     background-color: #407BFF;
-    // display: none;
+    display: none;
+}
+
+.active {
+    display: block;
 }
 
 .alert__content {
@@ -101,6 +116,7 @@
                 .header__rightside {
                     display: flex;
                     height: 21px;
+                    align-items: center;
                     .menu {
                         height: 21px;
                         nav {
@@ -110,9 +126,32 @@
                                     margin-right: 30px;
                                     a {
                                         @include fontspec(500, 16px, 19px, #1A1616);
+                                        &:hover {
+                                            text-decoration: underline;
+                                            color: $hover
+                                        }
                                     }
                                 }
                             }
+                        }
+                    }
+                    .langswitch {
+                        @include btnspec(72px, 39px, 1px solid #C0D3FD, 29px, transparent);
+                        @include fontspec(500, 16px, 19px, $maincolor);
+                        p {
+                            margin: 0;
+                        }
+                    }
+                    .authorization {
+                        @include btnspec(138px, 39px, 0px, 29px, $maincolor);
+                        @include fontspec(500, 16px, 19px, #fff);
+                        margin-left: 30px;
+                        transition: 0.7s;
+                        p {
+                            margin: 0;
+                        }
+                        &:hover {
+                            background-color: $hover;
                         }
                     }
                 }

@@ -10038,6 +10038,11 @@ h3 {
   width: 100%;
   height: 50px;
   background-color: #407BFF;
+  display: none;
+}
+
+.active {
+  display: block;
 }
 
 .alert__content {
@@ -10110,6 +10115,7 @@ h3 {
 .header .container .row .col-12 .header__rightside {
   display: flex;
   height: 21px;
+  align-items: center;
 }
 .header .container .row .col-12 .header__rightside .menu {
   height: 21px;
@@ -10125,4 +10131,41 @@ h3 {
   font-size: 16px;
   line-height: 19px;
   color: #1A1616;
+}
+.header .container .row .col-12 .header__rightside .menu nav ul li a:hover {
+  text-decoration: underline;
+  color: #1047C5;
+}
+.header .container .row .col-12 .header__rightside .langswitch {
+  width: 72px;
+  height: 39px;
+  border: 1px solid #C0D3FD;
+  border-radius: 29px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #407BFF;
+}
+.header .container .row .col-12 .header__rightside .langswitch p {
+  margin: 0;
+}
+.header .container .row .col-12 .header__rightside .authorization {
+  width: 138px;
+  height: 39px;
+  border: 0px;
+  border-radius: 29px;
+  background-color: #407BFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  margin-left: 30px;
+  transition: 0.7s;
+}
+.header .container .row .col-12 .header__rightside .authorization p {
+  margin: 0;
+}
+.header .container .row .col-12 .header__rightside .authorization:hover {
+  background-color: #1047C5;
 }
