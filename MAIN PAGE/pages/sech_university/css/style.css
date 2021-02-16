@@ -10276,6 +10276,7 @@ body {
 
 /* Slider */
 .slider {
+  overflow-x: hidden;
   margin-bottom: 140px;
   background-color: #5C94FF;
   position: relative;
@@ -10356,7 +10357,27 @@ body {
   position: absolute;
   top: 180px;
   left: 414px;
+  z-index: 100;
 }
+.slider::after {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-bottom: 125px solid #fff;
+  border-left: 1920px solid transparent;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.slick-dots li button {
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #fff;
+}
+
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -10374,14 +10395,11 @@ button:not(:disabled),
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
+  transition: all 0.3s ease-in-out;
 }
 
 .slick-active {
-  background-color: #fff;
   color: #1047C5;
-  border-radius: 30px;
-  transition: 0.5s;
 }
 .slick-active button {
   color: #1047C5 !important;
@@ -10533,6 +10551,47 @@ button:not(:disabled),
 .news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item {
   display: none;
   margin-bottom: 100px;
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .bignew {
+  position: relative;
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .bignew .d-block::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(360deg, #1D2E52 0%, rgba(0, 0, 0, 0) 109.06%);
+  width: 578px;
+  height: 287px;
+  border-radius: 10px;
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .bignew .bignew__image {
+  width: 578px;
+  height: 287px;
+  display: inline-block;
+  position: relative;
+  line-height: 0;
+  border-radius: 10px;
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .bignew .bignew__date {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  z-index: 2;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #fff;
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .bignew .bignew__maintext {
+  position: absolute;
+  top: 225px;
+  left: 20px;
+  z-index: 2;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
 }
 .news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item--active {
   display: block;
