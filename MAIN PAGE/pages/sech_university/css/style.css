@@ -10317,7 +10317,7 @@ body {
   right: 0;
 }
 .slider .container .row .col-12 .slides .slides__slide .slider__leftside {
-  width: 595px;
+  width: 509px;
 }
 .slider .container .row .col-12 .slides .slides__slide .slider__leftside p {
   font-weight: normal;
@@ -10541,7 +10541,7 @@ button:not(:disabled),
 .footer .container .row .social a img {
   width: 20px;
   height: 20px;
-  margin-top: 40px;
+  margin-top: 25px;
   margin-bottom: 40px;
   margin-left: 15px;
   margin-right: 15px;

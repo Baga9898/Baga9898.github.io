@@ -235,7 +235,7 @@ body {
                 .slides {
                     .slides__slide {
                         .slider__leftside {
-                            width: 595px;
+                            width: 509px;
                             p {
                                 @include fontspec(normal, 18px, 60px, #fff);
                                 margin-top: 140px;
@@ -405,6 +405,9 @@ button:not(:disabled),
     }
 }
 
+// News
+.news {}
+
 // Footer
 .footer {
     background-color: #F4F5FB;
@@ -472,7 +475,7 @@ button:not(:disabled),
                     img {
                         width: 20px;
                         height: 20px;
-                        margin-top: 40px;
+                        margin-top: 25px;
                         margin-bottom: 40px;
                         margin-left: 15px;
                         margin-right: 15px;
