@@ -34,6 +34,10 @@ sans-serif;
     padding: 0;
 }
 
+.col-4 {
+    padding: 0;
+}
+
 body {
     font-family: $mainfont;
 }
@@ -309,6 +313,7 @@ button:not(:disabled),
 /* About */
 
 .about {
+    margin-bottom: 100px;
     .container {
         .row {
             .col-12 {
@@ -403,17 +408,77 @@ button:not(:disabled),
 // Footer
 .footer {
     background-color: #F4F5FB;
+    padding-top: 52px;
     .container {
         .row {
-            .mail {
-                a {
-                    text-decoration: underline;
-                    color: #407BFF;
+            .col-12 {
+                justify-content: space-between;
+                .mail {}
+                .call {}
+                .adress {
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                .social {}
+                .footer__upside {
+                    align-items: baseline;
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                    a {
+                        text-decoration: underline;
+                        @include fontspec(500,
+                        18px,
+                        22px,
+                        #407BFF);
+                        font-family: $gilroy;
+                        margin-left: 11px;
+                        margin-bottom: 11px;
+                    }
+                    h6 {
+                        @include fontspec(500,
+                        18px,
+                        22px,
+                        #1A1616);
+                        font-family: $gilroy;
+                        margin-left: 11px;
+                    }
+                }
+                p {
+                    @include fontspec(500,
+                    14px,
+                    17px,
+                    #77839D);
+                    font-family: $gilroy;
+                    margin-left: 35px;
                 }
             }
-            .call {}
-            .adress {}
-            .social {}
+            .social {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    &:first-child img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                    &:last-child img {
+                        width: 22px;
+                        height: 16px;
+                    }
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                        margin-left: 15px;
+                        margin-right: 15px;
+                    }
+                }
+            }
         }
     }
 }
