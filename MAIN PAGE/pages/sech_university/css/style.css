@@ -10121,6 +10121,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+@media (min-width: 1200px) {
+  .container-xl,
+.container-lg,
+.container-md,
+.container-sm,
+.container {
+    max-width: 1200px;
+  }
+}
 /*AlertSection*/
 .alert-new {
   width: 100%;
@@ -10134,7 +10143,7 @@ body {
 }
 
 .alert__content {
-  max-width: 1140px;
+  max-width: 1200px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -10148,12 +10157,12 @@ body {
   font-family: "Gilroy", sans-serif;
 }
 .alert__content button {
-  background-color: transparent;
-  border: 1px solid #FFF;
-  border-radius: 29px;
-  width: 121px;
-  height: 35px;
-  position: relative;
+  background-color: transparent !important;
+  border: 1px solid #FFF !important;
+  border-radius: 29px !important;
+  width: 121px !important;
+  height: 35px !important;
+  position: relative !important;
 }
 .alert__content button p {
   margin: 0;
@@ -10240,6 +10249,9 @@ body {
   color: #407BFF;
   font-family: "Gilroy", sans-serif;
 }
+.header .container .row .col-12 .header__rightside .langswitch:hover {
+  background-color: #F4F5FB;
+}
 .header .container .row .col-12 .header__rightside .authorization {
   width: 138px;
   height: 39px;
@@ -10280,6 +10292,7 @@ body {
   margin: 0;
   position: absolute;
   top: -27px;
+  cursor: pointer;
 }
 .slider .container .row .col-12 .arrows .arrows__down {
   width: 16px;
@@ -10291,6 +10304,7 @@ body {
   margin: 0;
   position: absolute;
   bottom: -137px;
+  cursor: pointer;
 }
 .slider .container .row .col-12 .dots {
   position: absolute;
@@ -10299,7 +10313,7 @@ body {
   right: 0;
 }
 .slider .container .row .col-12 .slides .slides__slide .slider__leftside {
-  width: 580px;
+  width: 595px;
 }
 .slider .container .row .col-12 .slides .slides__slide .slider__leftside p {
   font-weight: normal;
@@ -10329,6 +10343,15 @@ body {
   line-height: 22px;
   color: #407BFF;
   margin-bottom: 190px;
+}
+.slider .container .row .col-12 .slides .slide1 {
+  background: url("../img/doctors.png") 93% 69%/645px 600px no-repeat;
+  position: relative;
+}
+.slider .container .row .col-12 .slides .slide1 .pills {
+  position: absolute;
+  top: 180px;
+  left: 414px;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -10449,4 +10472,12 @@ button:not(:disabled),
   font-size: 16px;
   line-height: 24px;
   color: #1A1616;
+}
+
+.footer {
+  background-color: #F4F5FB;
+}
+.footer .container .row .mail a {
+  text-decoration: underline;
+  color: #407BFF;
 }
