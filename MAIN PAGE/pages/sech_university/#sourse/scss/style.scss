@@ -424,6 +424,99 @@ button:not(:disabled),
 }
 
 
+/* WhoWeNeed */
+
+.whoweneed {
+    background-color: #f4f5fb;
+    .container {
+        .row {
+            .col-12 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2 {
+                    font-family: $gilroy;
+                    @include fontspec(700,
+                    50px,
+                    60px,
+                    #1A1616);
+                    margin-bottom: 20px;
+                    margin-top: 100px;
+                }
+                img {
+                    width: 100px;
+                    height: 5px;
+                    margin-bottom: 50px;
+                }
+            }
+            .who__contents {
+                .who__wrapper {
+                    .who__tabs {
+                        .who__tabs-triggers {
+                            display: flex;
+                            width: 1200px;
+                            justify-content: space-between;
+                            .whotabs-triggers__item {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                text-decoration: none;
+                                transition: 0.5s;
+                                margin-bottom: 40px;
+                                @include btnspec(auto,
+                                38px,
+                                0,
+                                40px,
+                                #fff);
+                                @include fontspec(500,
+                                13px,
+                                140%,
+                                #1A1616);
+                                font-family: $gilroy;
+                            }
+                            .item1 {
+                                width: 63px;
+                            }
+                            .item2 {
+                                width: 345px;
+                            }
+                            .item3 {
+                                width: 164px;
+                            }
+                            .item4 {
+                                width: 93px;
+                            }
+                            .item5 {
+                                width: 193px;
+                            }
+                            .item6 {
+                                width: 309px;
+                            }
+                            .whotabs-triggers__item--active {
+                                background-color: #407BFF;
+                                color: #F4F5FB;
+                            }
+                        }
+                        .who__tabs-content {
+                            .whotabs-content__item {
+                                display: none;
+                                .who-wrap {
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                }
+                            }
+                            .whotabs-content__item--active {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 /* News */
 
 .news {

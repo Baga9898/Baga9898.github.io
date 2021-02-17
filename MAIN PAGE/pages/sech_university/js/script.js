@@ -48,6 +48,20 @@ jQuery(document).ready(function() {
 
     });
 
+    //WhoTabs
+
+    $('.whotabs-triggers__item').click(function(e) {
+        e.preventDefault();
+
+        $('.whotabs-triggers__item').removeClass('whotabs-triggers__item--active');
+        $('.whotabs-content__item').removeClass('whotabs-content__item--active');
+
+        $(this).addClass('whotabs-triggers__item--active');
+        $($(this).attr('href')).addClass('whotabs-content__item--active');
+    });
+
+    $('.whotabs-triggers__item:first').click();
+
     //NewsTabs
 
     $('.tabs-triggers__item').click(function(e) {
