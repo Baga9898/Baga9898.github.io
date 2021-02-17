@@ -450,9 +450,11 @@ button:not(:disabled),
             }
             .news__contents {
                 .wrapper {
+                    width: 1200px;
                     .tabs {
                         .tabs-triggers {
                             display: flex;
+                            justify-content: center;
                             .tabs-triggers__item {
                                 display: flex;
                                 justify-content: center;
@@ -482,6 +484,9 @@ button:not(:disabled),
                             .tabs-content__item {
                                 display: none;
                                 margin-bottom: 100px;
+                                width: 1200px;
+                                justify-content: space-between;
+                                flex-wrap: wrap;
                                 .bignew {
                                     position: relative;
                                     .d-block::after {
@@ -501,6 +506,8 @@ button:not(:disabled),
                                         position: relative;
                                         line-height: 0;
                                         border-radius: 10px;
+                                        margin: 0;
+                                        margin-bottom: 40px;
                                     }
                                     .bignew__date {
                                         position: absolute;
@@ -521,6 +528,38 @@ button:not(:disabled),
                                         14px,
                                         140%,
                                         #fff);
+                                    }
+                                }
+                                .mininew {
+                                    position: relative;
+                                    border-radius: 10px;
+                                    width: 269px;
+                                    height: 287px;
+                                    background: #FFFFFF;
+                                    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+                                    img {
+                                        position: absolute;
+                                        width: 269px;
+                                        height: 135px;
+                                    }
+                                    .mininew__date {
+                                        position: absolute;
+                                        @include fontspec(500,
+                                        12px,
+                                        17px,
+                                        #1047C5);
+                                        top: 158px;
+                                        left: 20px;
+                                    }
+                                    .mininew__maintext {
+                                        position: absolute;
+                                        @include fontspec(500,
+                                        14px,
+                                        20px,
+                                        #191B26);
+                                        top: 180px;
+                                        left: 20px;
+                                        width: 240px;
                                     }
                                 }
                             }

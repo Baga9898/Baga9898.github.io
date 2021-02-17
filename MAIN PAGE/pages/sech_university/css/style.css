@@ -10521,8 +10521,12 @@ button:not(:disabled),
   height: 5px;
   margin-bottom: 50px;
 }
+.news .container .row .news__contents .wrapper {
+  width: 1200px;
+}
 .news .container .row .news__contents .wrapper .tabs .tabs-triggers {
   display: flex;
+  justify-content: center;
 }
 .news .container .row .news__contents .wrapper .tabs .tabs-triggers .tabs-triggers__item {
   display: flex;
@@ -10551,6 +10555,9 @@ button:not(:disabled),
 .news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item {
   display: none;
   margin-bottom: 100px;
+  width: 1200px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .bignew {
   position: relative;
@@ -10572,6 +10579,8 @@ button:not(:disabled),
   position: relative;
   line-height: 0;
   border-radius: 10px;
+  margin: 0;
+  margin-bottom: 40px;
 }
 .news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .bignew .bignew__date {
   position: absolute;
@@ -10592,6 +10601,38 @@ button:not(:disabled),
   font-size: 14px;
   line-height: 140%;
   color: #fff;
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .mininew {
+  position: relative;
+  border-radius: 10px;
+  width: 269px;
+  height: 287px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .mininew img {
+  position: absolute;
+  width: 269px;
+  height: 135px;
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .mininew .mininew__date {
+  position: absolute;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #1047C5;
+  top: 158px;
+  left: 20px;
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item .mininew .mininew__maintext {
+  position: absolute;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #191B26;
+  top: 180px;
+  left: 20px;
+  width: 240px;
 }
 .news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item--active {
   display: block;
