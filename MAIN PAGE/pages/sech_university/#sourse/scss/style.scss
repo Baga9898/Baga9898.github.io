@@ -10,6 +10,12 @@
     color: $col;
 }
 
+@mixin fontspecnocol($fw, $fz, $lh) {
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+}
+
 @mixin btnspec($w, $h, $b, $br, $bgc) {
     width: $w;
     height: $h;
@@ -18,10 +24,22 @@
     background-color: $bgc;
 }
 
+@mixin cardspec ($w, $h, $br, $bgc) {
+    width: $w;
+    height: $h;
+    border-radius: $br;
+    background-color: $bgc;
+}
+
 // Variables
 // Colors
 $maincolor: #407BFF;
 $hover: #1047C5;
+$lightblue: #039BE5;
+$purple: #5E35B1;
+$lightorange: #FD693A;
+$lightgreen: #47C34C;
+$malina: #D81B60;
 // Fonts
 $mainfont: 'Montserrat',
 sans-serif;
@@ -40,6 +58,27 @@ sans-serif;
 
 body {
     font-family: $mainfont;
+}
+
+// ColorChange
+.lightblue {
+    color: $lightblue;
+}
+
+.purple {
+    color: $purple;
+}
+
+.lightorange {
+    color: $lightorange;
+}
+
+.lightgreen {
+    color: $lightgreen;
+}
+
+.malina {
+    color: $malina;
 }
 
 @media (min-width: 1200px) {
@@ -501,8 +540,55 @@ button:not(:disabled),
                             .whotabs-content__item {
                                 display: none;
                                 .who-wrap {
+                                    display: flex;
                                     flex-wrap: wrap;
                                     justify-content: space-between;
+                                    .who__block {
+                                        padding: 20px;
+                                        @include cardspec(372px,
+                                        190px,
+                                        10px,
+                                        #fff);
+                                        margin-bottom: 40px;
+                                        .who__category {
+                                            @include fontspecnocol(500,
+                                            12px,
+                                            17px);
+                                        }
+                                        .who__maintext {
+                                            @include fontspec(500,
+                                            14px,
+                                            20px,
+                                            #000);
+                                            margin-bottom: 35px
+                                        }
+                                        .who__schedule {
+                                            @include fontspec(500,
+                                            12px,
+                                            17px,
+                                            #1047C5);
+                                        }
+                                        .who__date {
+                                            @include fontspec(500,
+                                            12px,
+                                            17px,
+                                            #77839D);
+                                        }
+                                    }
+                                }
+                                button {
+                                    @include btnspec(308px,
+                                    58px,
+                                    0,
+                                    40px,
+                                    #407BFF);
+                                    @include fontspec(600,
+                                    16px,
+                                    140%,
+                                    #fff);
+                                    margin: 0 auto;
+                                    margin-top: 40px;
+                                    margin-bottom: 100px;
                                 }
                             }
                             .whotabs-content__item--active {

@@ -10125,6 +10125,26 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.lightblue {
+  color: #039BE5;
+}
+
+.purple {
+  color: #5E35B1;
+}
+
+.lightorange {
+  color: #FD693A;
+}
+
+.lightgreen {
+  color: #47C34C;
+}
+
+.malina {
+  color: #D81B60;
+}
+
 @media (min-width: 1200px) {
   .container-xl,
 .container-lg,
@@ -10571,8 +10591,55 @@ button:not(:disabled),
   display: none;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap {
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block {
+  padding: 20px;
+  width: 372px;
+  height: 190px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__category {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+}
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__maintext {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 35px;
+}
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__schedule {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #1047C5;
+}
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__date {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #77839D;
+}
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item button {
+  width: 308px;
+  height: 58px;
+  border: 0;
+  border-radius: 40px;
+  background-color: #407BFF;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item--active {
   display: block;
