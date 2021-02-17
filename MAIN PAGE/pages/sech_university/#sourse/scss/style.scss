@@ -483,89 +483,88 @@ button:not(:disabled),
                         .tabs-content {
                             .tabs-content__item {
                                 display: none;
-                                margin-bottom: 100px;
+                                margin-bottom: 60px;
                                 width: 1200px;
-                                justify-content: space-between;
-                                flex-wrap: wrap;
-                                .bignew {
-                                    position: relative;
-                                    .d-block::after {
-                                        content: '';
-                                        position: absolute;
-                                        top: 0;
-                                        left: 0;
-                                        background: linear-gradient(360deg, #1D2E52 0%, rgba(0, 0, 0, 0) 109.06%);
-                                        width: 578px;
-                                        height: 287px;
-                                        border-radius: 10px;
-                                    }
-                                    .bignew__image {
-                                        width: 578px;
-                                        height: 287px;
-                                        display: inline-block;
+                                .news-wrap {
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                    .bignew {
                                         position: relative;
-                                        line-height: 0;
+                                        .d-block::after {
+                                            content: '';
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            background: linear-gradient(360deg, #1D2E52 0%, rgba(0, 0, 0, 0) 109.06%);
+                                            width: 578px;
+                                            height: 287px;
+                                            border-radius: 10px;
+                                        }
+                                        .bignew__image {
+                                            width: 578px;
+                                            height: 287px;
+                                            display: inline-block;
+                                            position: relative;
+                                            line-height: 0;
+                                            border-radius: 10px;
+                                            margin: 0;
+                                            margin-bottom: 40px;
+                                        }
+                                        .bignew__date {
+                                            position: absolute;
+                                            top: 200px;
+                                            left: 20px;
+                                            z-index: 2;
+                                            @include fontspec(500,
+                                            12px,
+                                            140%,
+                                            #fff);
+                                        }
+                                        .bignew__maintext {
+                                            position: absolute;
+                                            top: 225px;
+                                            left: 20px;
+                                            z-index: 2;
+                                            @include fontspec(500,
+                                            14px,
+                                            140%,
+                                            #fff);
+                                        }
+                                    }
+                                    .mininew {
+                                        position: relative;
                                         border-radius: 10px;
-                                        margin: 0;
-                                        margin-bottom: 40px;
-                                    }
-                                    .bignew__date {
-                                        position: absolute;
-                                        top: 200px;
-                                        left: 20px;
-                                        z-index: 2;
-                                        @include fontspec(500,
-                                        12px,
-                                        140%,
-                                        #fff);
-                                    }
-                                    .bignew__maintext {
-                                        position: absolute;
-                                        top: 225px;
-                                        left: 20px;
-                                        z-index: 2;
-                                        @include fontspec(500,
-                                        14px,
-                                        140%,
-                                        #fff);
-                                    }
-                                }
-                                .mininew {
-                                    position: relative;
-                                    border-radius: 10px;
-                                    width: 269px;
-                                    height: 287px;
-                                    background: #FFFFFF;
-                                    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
-                                    img {
-                                        position: absolute;
                                         width: 269px;
-                                        height: 135px;
-                                    }
-                                    .mininew__date {
-                                        position: absolute;
-                                        @include fontspec(500,
-                                        12px,
-                                        17px,
-                                        #1047C5);
-                                        top: 158px;
-                                        left: 20px;
-                                    }
-                                    .mininew__maintext {
-                                        position: absolute;
-                                        @include fontspec(500,
-                                        14px,
-                                        20px,
-                                        #191B26);
-                                        top: 180px;
-                                        left: 20px;
-                                        width: 240px;
+                                        height: 287px;
+                                        background: #FFFFFF;
+                                        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+                                        margin-bottom: 40px;
+                                        img {
+                                            position: absolute;
+                                            width: 269px;
+                                            height: 135px;
+                                        }
+                                        .mininew__date {
+                                            position: absolute;
+                                            @include fontspec(500,
+                                            12px,
+                                            17px,
+                                            #1047C5);
+                                            top: 158px;
+                                            left: 20px;
+                                        }
+                                        .mininew__maintext {
+                                            position: absolute;
+                                            @include fontspec(500,
+                                            14px,
+                                            20px,
+                                            #191B26);
+                                            top: 180px;
+                                            left: 20px;
+                                            width: 240px;
+                                        }
                                     }
                                 }
-                            }
-                            .news-wrap {
-                                flex-wrap: wrap;
-                                justify-content: space-between;
                             }
                             .tabs-content__item--active {
                                 display: block;
