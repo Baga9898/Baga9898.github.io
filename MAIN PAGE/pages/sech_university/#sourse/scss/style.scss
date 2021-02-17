@@ -563,6 +563,10 @@ button:not(:disabled),
                                     }
                                 }
                             }
+                            .news-wrap {
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                            }
                             .tabs-content__item--active {
                                 display: block;
                             }

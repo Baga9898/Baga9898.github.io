@@ -10634,6 +10634,10 @@ button:not(:disabled),
   left: 20px;
   width: 240px;
 }
+.news .container .row .news__contents .wrapper .tabs .tabs-content .news-wrap {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .news .container .row .news__contents .wrapper .tabs .tabs-content .tabs-content__item--active {
   display: block;
 }
