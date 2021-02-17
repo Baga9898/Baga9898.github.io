@@ -10125,23 +10125,23 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.lightblue {
+.administration {
   color: #039BE5;
 }
 
-.purple {
+.postdoc {
   color: #5E35B1;
 }
 
-.lightorange {
+.medicine {
   color: #FD693A;
 }
 
-.lightgreen {
+.science {
   color: #47C34C;
 }
 
-.malina {
+.teachers {
   color: #D81B60;
 }
 
@@ -10613,13 +10613,13 @@ button:not(:disabled),
   font-size: 14px;
   line-height: 20px;
   color: #000;
-  margin-bottom: 35px;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__schedule {
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
   color: #1047C5;
+  margin-top: 35px;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__date {
   font-weight: 500;

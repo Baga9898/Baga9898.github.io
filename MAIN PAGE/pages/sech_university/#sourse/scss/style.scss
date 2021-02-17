@@ -35,11 +35,11 @@
 // Colors
 $maincolor: #407BFF;
 $hover: #1047C5;
-$lightblue: #039BE5;
-$purple: #5E35B1;
-$lightorange: #FD693A;
-$lightgreen: #47C34C;
-$malina: #D81B60;
+$administration: #039BE5;
+$postdoc: #5E35B1;
+$medicine: #FD693A;
+$science: #47C34C;
+$teachers: #D81B60;
 // Fonts
 $mainfont: 'Montserrat',
 sans-serif;
@@ -61,24 +61,24 @@ body {
 }
 
 // ColorChange
-.lightblue {
-    color: $lightblue;
+.administration {
+    color: $administration;
 }
 
-.purple {
-    color: $purple;
+.postdoc {
+    color: $postdoc;
 }
 
-.lightorange {
-    color: $lightorange;
+.medicine {
+    color: $medicine;
 }
 
-.lightgreen {
-    color: $lightgreen;
+.science {
+    color: $science;
 }
 
-.malina {
-    color: $malina;
+.teachers {
+    color: $teachers;
 }
 
 @media (min-width: 1200px) {
@@ -560,13 +560,13 @@ button:not(:disabled),
                                             14px,
                                             20px,
                                             #000);
-                                            margin-bottom: 35px
                                         }
                                         .who__schedule {
                                             @include fontspec(500,
                                             12px,
                                             17px,
                                             #1047C5);
+                                            margin-top: 35px;
                                         }
                                         .who__date {
                                             @include fontspec(500,
