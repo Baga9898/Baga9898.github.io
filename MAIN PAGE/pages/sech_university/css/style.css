@@ -10795,6 +10795,46 @@ button:not(:disabled),
   display: block;
 }
 
+.whotop {
+  background-color: #5C94FF;
+}
+.whotop .container .row .col-12 .whotop__navigate {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.whotop .container .row .col-12 .whotop__navigate .breadcrumb {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+.whotop .container .row .col-12 .whotop__navigate .breadcrumb .breadcrumb-item a {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 60px;
+  font-family: "Gilroy", sans-serif;
+}
+.whotop .container .row .col-12 .whotop__navigate .breadcrumb .breadcrumb-item.active {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 60px;
+  font-family: "Gilroy", sans-serif;
+}
+.whotop .container .row .col-12 h1 {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  color: #fff;
+  text-shadow: 0px 4px 50px rgba(13, 45, 117, 0.2);
+  margin-bottom: 160px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Gilroy", sans-serif;
+}
+
 .footer {
   background-color: #F4F5FB;
   padding-top: 52px;
