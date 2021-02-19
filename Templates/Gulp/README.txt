@@ -1,33 +1,71 @@
-If you run gulp first time on your maschine:
+If you haven't installed Gulp and Node before on your maschine:
+
+Сhecking node version:
+
+	npm -v
+		// if you have node installed then it will give the version;
+
+example: 
+6.14.10
+
+Сhecking node version:
+
+	gulp -v
+		// if you have gulp installed then it will give global and local versions;
+example:
+CLI version: 2.3.0
+Local version: 4.0.2
 
 
 Global install:
-1.) Install Node.js (https://nodejs.org);
+Install Node.js (https://nodejs.org);
 
-2.) Install Gulp:
+Install Gulp:
 	# Create new folder for your project;
-	# Open terminal and run the following commands:
-		a.)npm install --global gulp-cli
+	# Open terminal with administrator rights and run:
+
+		Set-ExecutionPolice RemoteSigned
+			
+			then run the commands:
+				a.)npm install --global gulp-cli
 
 
 
+Open terminal in project folder;
+Local (project) install: 
+	run the commands:
+
+		// create package.json:
+		# npm init
+			// fill in the form;
+			entry point: index.html
+			// if necessary, you can make changes after creating
+
+		// local install Gulp:
+		# npm install gulp --save-dev 
+
+Copy files and folders:
+	#source;
+	gulpfile.js;
 
 
-local (project) install:
+////////////////////////////////////////////////////////////////////////////
 
 
+If you have gulp already installed on your maschine:
 
-
-
-If you have gulp on your maschine (second, third... run):
-
-1.) Copy folders & files in new project folder:
+Copy folders & files in new project folder:
 	#source;
 	gulpfile.js;
 	package.json;
 
 
-2.) In terminal in your project folder: npm i
+Open terminal in your project folder: npm i
+
+The project is ready to use.
+=)=)
+
+
 
 
 
