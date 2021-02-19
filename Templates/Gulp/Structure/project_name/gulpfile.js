@@ -115,7 +115,7 @@ gulp.task('otf2ttf', function() {
 function fontsStyle(params) {
     let file_content = fs.readFileSync(source_folder + '/scss/fonts.scss');
     if (file_content == '') {
-        fs.writeFile(source_folder + '/scss/fonts.scss', '', cd);
+        fs.writeFile(source_folder + '/scss/fonts.scss', '', cb);
         return fs.readdir(path.build.fonts, function(err, items) {
             if (items) {
                 let c_fontname;
