@@ -10370,14 +10370,22 @@ body {
   margin-bottom: 190px;
 }
 .slider .container .row .col-12 .slides .slide1 {
-  background: url("../img/doctors.png") 93% 69%/645px 600px no-repeat;
+  background: url("../img/doctors.png") 82% 90%/580px 600px no-repeat;
   position: relative;
 }
 .slider .container .row .col-12 .slides .slide1 .pills {
   position: absolute;
-  top: 180px;
-  left: 414px;
-  z-index: 100;
+  top: 200px;
+  left: 469px;
+  z-index: 1;
+}
+.slider .container .row .col-12 .slides .slide1 .pill {
+  position: absolute;
+  top: 350px;
+  right: 53px;
+  z-index: -1;
+  width: 108px;
+  height: 100px;
 }
 .slider::after {
   content: "";

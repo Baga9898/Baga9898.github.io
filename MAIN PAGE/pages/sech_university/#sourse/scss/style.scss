@@ -295,13 +295,21 @@ body {
                         }
                     }
                     .slide1 {
-                        background: url('../img/doctors.png') 93% 69%/645px 600px no-repeat;
+                        background: url("../img/doctors.png") 82% 90%/580px 600px no-repeat;
                         position: relative;
                         .pills {
                             position: absolute;
-                            top: 180px;
-                            left: 414px;
-                            z-index: 100;
+                            top: 200px;
+                            left: 469px;
+                            z-index: 1;
+                        }
+                        .pill {
+                            position: absolute;
+                            top: 350px;
+                            right: 53px;
+                            z-index: -1;
+                            width: 108px;
+                            height: 100px;
                         }
                     }
                     .slide2 {}
@@ -756,6 +764,7 @@ button:not(:disabled),
     }
 }
 
+// Who page 
 // Footer
 .footer {
     background-color: #F4F5FB;
