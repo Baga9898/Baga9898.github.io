@@ -10848,6 +10848,28 @@ button:not(:disabled),
   z-index: 1;
 }
 
+.vacancies {
+  background-color: #F4F5FB;
+}
+.vacancies .container .row .col-12 .search {
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.vacancies .container .row .col-12 .search .search-txt {
+  width: 578px;
+  height: 44px;
+  border-radius: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+.vacancies .container .row .col-12 .search .search-btn img {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 65px;
+  left: 545px;
+}
+
 .footer {
   background-color: #F4F5FB;
   padding-top: 52px;
