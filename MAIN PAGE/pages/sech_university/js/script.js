@@ -76,4 +76,31 @@ jQuery(document).ready(function() {
 
     $('.tabs-triggers__item:first').click();
 
+    // Job cards chenge orientation
+
+    var mode = 'list'
+
+
+    $('.jobminiblock').click(function() {
+
+        if (mode == 'list') {
+            $('.big-card').toggleClass('mini-card')
+            $('.imgactive').toggleClass('unactive')
+            $('.imgunactive').toggleClass('unactive')
+            mode = 'tables'
+        }
+
+    });
+
+    $('.jobbigblock').click(function() {
+
+        if (mode == 'tables') {
+            $('.big-card').toggleClass('mini-card')
+            $('.imgactive').toggleClass('unactive')
+            $('.imgunactive').toggleClass('unactive')
+            mode = 'list'
+        }
+
+    });
+
 });

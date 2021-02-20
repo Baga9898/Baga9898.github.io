@@ -48,6 +48,14 @@ sans-serif;
 
 /*START*/
 
+.active {
+    display: block;
+}
+
+.unactive {
+    display: none;
+}
+
 .col-12 {
     padding: 0;
 }
@@ -864,14 +872,25 @@ button:not(:disabled),
     .container {
         .row {
             .col-12 {
-                .job-card {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .big-card {
+                    @include cardspec(1200px,
+                    221px,
+                    10px,
+                    #fff);
+                    margin-bottom: 10px;
+                    padding: 25px;
+                    position: relative;
+                    transition: 0.5s;
                     .upsidebigcard {
                         justify-content: space-between;
                         .job-card__bigdate {
                             @include fontspec(500,
                             14px,
                             20px,
-                            #77839D)
+                            #77839D);
                         }
                     }
                     .job-card__heading {
@@ -900,17 +919,72 @@ button:not(:disabled),
                         14px,
                         20px,
                         #1047C5);
+                        position: absolute;
+                        bottom: 0;
+                    }
+                    .job-card__minidate {
+                        display: none;
                     }
                 }
-                .bigcard {
-                    @include cardspec(1200px,
-                    221px,
+                .mini-card {
+                    @include cardspec(372px,
+                    190px,
                     10px,
                     #fff);
-                    margin-bottom: 10px;
-                    padding: 25px;
+                    padding: 20px;
+                    position: relative;
+                    margin-bottom: 40px;
+                    transition: 0.5s;
+                    .upsidebigcard {
+                        justify-content: space-between;
+                        .job-card__bigdate {
+                            @include fontspec(500,
+                            14px,
+                            20px,
+                            #77839D);
+                            display: none;
+                        }
+                    }
+                    .job-card__heading {
+                        @include fontspecnocol(500,
+                        12px,
+                        17px);
+                        margin-bottom: 10px;
+                    }
+                    .job-card__title {
+                        @include fontspec(500,
+                        14px,
+                        20px,
+                        #1A1616);
+                        margin-bottom: 40px;
+                    }
+                    .job-card__maintext {
+                        @include fontspec(500,
+                        16px,
+                        22px,
+                        #3C4350);
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        display: none;
+                    }
+                    .job-card__shedule {
+                        @include fontspec(500,
+                        12px,
+                        17px,
+                        #1047C5);
+                        position: absolute;
+                        bottom: 27px;
+                    }
+                    .job-card__minidate {
+                        @include fontspec(500,
+                        14px,
+                        20px,
+                        #77839D);
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                    }
                 }
-                .mini-card {}
             }
         }
     }
