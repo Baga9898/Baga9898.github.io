@@ -10878,6 +10878,12 @@ button:not(:disabled),
   left: 545px;
 }
 
+.choices__inner {
+  background-color: #fff !important;
+  border-radius: 20px !important;
+  border: 0 !important;
+}
+
 .job-cards {
   background-color: #F4F5FB;
   padding-top: 20px;

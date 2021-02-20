@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/choices.min.css">
 
 
 </head>
@@ -84,6 +85,13 @@
                         <a href="#" class="search-btn">
                             <img src="img/searchicon.svg" alt="search">
                         </a>
+                        <select class="fullperiod" name="Весь период" id="period">
+                            <option value="весь период">весь период</option>
+                            <option value="За неделю">За неделю</option>
+                            <option value="За месяц">За месяц</option>
+                            <option value="За 3 дня">За 3 дня</option>
+                            <option value="За сутки">За сутки</option>
+                        </select>
                         <button class="jobbigblock" type="button">
                             <img class="bigblockimg imgactive" src="img/bigBlockActive.svg" alt="bigblock">
                             <img class="bigblockimg imgunactive unactive" src="img/bigBlockUnactive.svg" alt="bigblock">
@@ -245,6 +253,7 @@
     </footer>
 
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/choices.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 

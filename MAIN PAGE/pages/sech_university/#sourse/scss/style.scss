@@ -865,6 +865,13 @@ button:not(:disabled),
     }
 }
 
+// Select customization 
+.choices__inner {
+    background-color: #fff !important;
+    border-radius: 20px !important;
+    border: 0 !important;
+}
+
 // Job cards
 .job-cards {
     background-color: #F4F5FB;

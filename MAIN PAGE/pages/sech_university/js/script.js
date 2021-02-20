@@ -104,3 +104,12 @@ jQuery(document).ready(function() {
     });
 
 });
+
+const defaultSelect = () => {
+    const element = document.querySelector('.fullperiod');
+    const choices = new Choices(element, {
+        searchEnabled: false,
+    });
+};
+
+defaultSelect();
