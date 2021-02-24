@@ -11226,6 +11226,31 @@ button:not(:disabled),
   bottom: 0;
 }
 
+.vacationcard {
+  background-color: #F4F5FB;
+  background: url("../img/bluebg.svg") no-repeat;
+}
+.vacationcard .container .row .col-12 .breadcrumb {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+.vacationcard .container .row .col-12 .breadcrumb .breadcrumb-item a {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 60px;
+  font-family: "Gilroy", sans-serif;
+}
+.vacationcard .container .row .col-12 .breadcrumb .breadcrumb-item.active {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 60px;
+  font-family: "Gilroy", sans-serif;
+}
+
 .footer {
   background-color: #F4F5FB;
   padding-top: 52px;
