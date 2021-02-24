@@ -872,7 +872,7 @@ button:not(:disabled),
     border: 0 !important;
     @include fontspec(500,
     16px !important,
-    140%,
+    21px,
     #1A1616);
     font-family: $gilroy;
     width: 162px !important;
@@ -885,7 +885,7 @@ button:not(:disabled),
     border: 0 !important;
     @include fontspec(500,
     16px !important,
-    140%,
+    21px,
     #1A1616);
     font-family: $gilroy;
     width: 162px !important;
@@ -903,7 +903,7 @@ button:not(:disabled),
     border-top-right-radius: 0 !important;
     @include fontspec(500,
     16px !important,
-    22px,
+    21px,
     #1A1616);
     font-family: $gilroy;
     border-top: 1px solid #DDE3F1;
@@ -914,7 +914,7 @@ button:not(:disabled),
 .choices__item .choices__item--selectable {
     @include fontspec(500,
     16px,
-    22px,
+    21px,
     #1A1616);
 }
 
@@ -922,7 +922,7 @@ button:not(:disabled),
     background-color: transparent;
     @include fontspec(500,
     16px !important,
-    22px,
+    21px,
     #1A1616);
     color: #1047C5;
     font-family: $gilroy;
@@ -936,7 +936,7 @@ button:not(:disabled),
 .choices__list--dropdown .choices__item {
     @include fontspec(500,
     16px !important,
-    22px,
+    21px,
     #1A1616);
 }
 
@@ -951,7 +951,7 @@ button:not(:disabled),
     border: 0 !important;
     @include fontspec(500,
     16px !important,
-    140%,
+    21px,
     #1A1616);
     font-family: $gilroy;
     height: 44px;
@@ -963,7 +963,7 @@ button:not(:disabled),
     border: 0 !important;
     @include fontspec(500,
     16px !important,
-    140%,
+    21px,
     #1A1616);
     font-family: $gilroy;
     width: 286px;
@@ -1020,6 +1020,79 @@ button:not(:disabled),
 
 .choices[data-type*=select-one].is-open:after {
     margin-top: -2px !important;
+}
+
+.modify__choice[data-type*=select-one]:after {
+    position: absolute;
+    right: 125px;
+    top: 60%;
+    content: "";
+    border-style: unset!important;
+    border: none;
+    width: 13px!important;
+    height: 8px!important;
+    background: url(../img/dropdown.svg) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.modify__choice[data-type*=select-one].is-open:after {
+    margin-top: 0px !important;
+}
+
+// Pagination
+.pagination {
+    background-color: #F4F5FB;
+    padding-top: 10px;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    background-color: #fff;
+    border: 0;
+    border-radius: 31px;
+    transition: 0.5s;
+    margin-right: 5px;
+    width: 44px;
+    height: 44px;
+    font-family: $gilroy;
+    @include fontspec(700,
+    16px,
+    22px,
+    #1047C5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link:hover {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    background-color: #1047C5;
+    border: 0;
+    border-radius: 31px;
+    transition: 0.5s;
+    @include fontspec(700,
+    16px,
+    22px,
+    #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 31px;
+    border-bottom-right-radius: 31px;
+    width: 101px;
+    border-radius: 20px;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 31px;
+    border-bottom-left-radius: 31px;
 }
 
 // Job cards
