@@ -64,8 +64,3 @@ Open terminal in your project folder: npm i
 
 The project is ready to use.
 =)=)
-
-
-
-
-
