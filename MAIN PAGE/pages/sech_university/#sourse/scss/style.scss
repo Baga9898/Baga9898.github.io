@@ -870,6 +870,156 @@ button:not(:disabled),
     background-color: #fff !important;
     border-radius: 20px !important;
     border: 0 !important;
+    @include fontspec(500,
+    16px !important,
+    140%,
+    #1A1616);
+    font-family: $gilroy;
+    width: 162px !important;
+    height: 44px;
+}
+
+.is-open .choices__inner {
+    background-color: #fff !important;
+    border-radius: 20px !important;
+    border: 0 !important;
+    @include fontspec(500,
+    16px !important,
+    140%,
+    #1A1616);
+    font-family: $gilroy;
+    width: 162px !important;
+    height: 44px;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: 0px 10px 15px gray;
+}
+
+.is-open .choices__list--dropdown {
+    background-color: #fff !important;
+    border-radius: 20px !important;
+    border: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    @include fontspec(500,
+    16px !important,
+    22px,
+    #1A1616);
+    font-family: $gilroy;
+    border-top: 1px solid #DDE3F1;
+    transition: 0.5s;
+    box-shadow: 0px 10px 10px gray;
+}
+
+.choices__item .choices__item--selectable {
+    @include fontspec(500,
+    16px,
+    22px,
+    #1A1616);
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted {
+    background-color: transparent;
+    @include fontspec(500,
+    16px !important,
+    22px,
+    #1A1616);
+    color: #1047C5;
+    font-family: $gilroy;
+    background-color: transparent !important;
+}
+
+.choices__list--dropdown .choices__item--selectable {
+    padding-right: 0 !important;
+}
+
+.choices__list--dropdown .choices__item {
+    @include fontspec(500,
+    16px !important,
+    22px,
+    #1A1616);
+}
+
+.modify__choice {
+    width: 286px;
+}
+
+.modify__inner {
+    width: 286px;
+    background-color: #fff !important;
+    border-radius: 20px !important;
+    border: 0 !important;
+    @include fontspec(500,
+    16px !important,
+    140%,
+    #1A1616);
+    font-family: $gilroy;
+    height: 44px;
+}
+
+.is-open .modify__inner {
+    background-color: #fff !important;
+    border-radius: 20px !important;
+    border: 0 !important;
+    @include fontspec(500,
+    16px !important,
+    140%,
+    #1A1616);
+    font-family: $gilroy;
+    width: 286px;
+    height: 44px;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: 0px 10px 15px gray;
+}
+
+.modify__choice .choices__list .choices__list--dropdown {
+    max-width: 286px;
+    font-family: $gilroy;
+}
+
+.choices__list--dropdown {
+    top: 80% !important;
+    max-width: 286px;
+    font-family: $gilroy;
+}
+
+.choices__input {
+    max-width: 286px;
+    font-family: $gilroy;
+}
+
+.choices__list--dropdown .choices__item {
+    color: #77839D;
+}
+
+.modify__item--selectable {
+    padding-top: 8px;
+    padding-left: 10px;
+    @include fontspec(500,
+    16px !important,
+    140%,
+    #1A1616);
+    font-family: $gilroy;
+}
+
+.choices__list--dropdown .modify__item--selectable.is-highlighted {
+    color: #1047C5;
+    cursor: pointer;
+}
+
+.choices[data-type*=select-one]:after {
+    content: "";
+    border-style: unset!important;
+    border: none;
+    width: 13px!important;
+    height: 8px!important;
+    background: url(../img/dropdown.svg) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.choices[data-type*=select-one].is-open:after {
+    margin-top: -2px !important;
 }
 
 // Job cards

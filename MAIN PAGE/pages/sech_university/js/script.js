@@ -109,7 +109,45 @@ const defaultSelect = () => {
     const element = document.querySelector('.fullperiod');
     const choices = new Choices(element, {
         searchEnabled: false,
+        itemSelectText: "",
     });
 };
 
 defaultSelect();
+
+const multiDefault = () => {
+    const elements = document.querySelectorAll('.multiDefault');
+    elements.forEach(el => {
+        const choices = new Choices(el, {
+            searchEnabled: false,
+            itemSelectText: "",
+            classNames: {
+                containerOuter: 'modify__choice',
+                containerInner: 'modify__inner',
+                input: 'choices__input',
+                inputCloned: 'choices__input--cloned',
+                list: 'choices__list',
+                listItems: 'choices__list--multiple',
+                listSingle: 'choices__list--single',
+                listDropdown: 'choices__list--dropdown',
+                item: 'choices__item',
+                itemSelectable: 'modify__item--selectable',
+                itemDisabled: 'choices__item--disabled',
+                itemOption: 'choices__item--choice',
+                group: 'choices__group',
+                groupHeading: 'choices__heading',
+                button: 'choices__button',
+                activeState: 'is-active',
+                focusState: 'is-focused',
+                openState: 'is-open',
+                disabledState: 'is-disabled',
+                highlightedState: 'is-highlighted',
+                selectedState: 'is-selected',
+                flippedState: 'is-flipped',
+                selectedState: 'is-highlighted',
+            }
+        });
+    });
+}
+
+multiDefault();
