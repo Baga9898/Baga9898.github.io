@@ -1222,8 +1222,8 @@ button:not(:disabled),
 
 //vacationcard
 .vacationcard {
-    background-color: #F4F5FB;
     background: url('../img/bluebg.svg') no-repeat;
+    background-color: #F4F5FB;
     .container {
         .row {
             .col-12 {
@@ -1248,6 +1248,53 @@ button:not(:disabled),
                         60px);
                         font-family: $gilroy;
                     }
+                }
+                p {
+                    @include fontspec(600,
+                    16px,
+                    20px,
+                    #fff);
+                    font-family: $gilroy;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                h1 {
+                    @include fontspec(900,
+                    40px,
+                    40px,
+                    #fff);
+                    font-family: $gilroy;
+                    margin-bottom: 50px;
+                }
+                .vacation__full {
+                    .vacation__leftside {
+                        width: 784px;
+                        .vacation__leftside_upside {
+                            display: flex;
+                            justify-content: space-between;
+                            p {
+                                @include fontspec(600,
+                                16px,
+                                22px,
+                                #fff);
+                            }
+                            .vacation__leftside_date {
+                                @include fontspec(600,
+                                16px,
+                                20px,
+                                #fff);
+                                font-family: $gilroy;
+                            }
+                        }
+                        .vacation__leftside_middle {
+                            width: 100%;
+                            height: 867px;
+                            background-color: #fff;
+                            border-radius: 10px;
+                        }
+                        .vacation__leftside_downside {}
+                    }
+                    .vacation__rightside {}
                 }
             }
         }
