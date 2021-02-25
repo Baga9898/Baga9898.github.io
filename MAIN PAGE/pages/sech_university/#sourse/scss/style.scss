@@ -1291,12 +1291,145 @@ button:not(:disabled),
                             height: 867px;
                             background-color: #fff;
                             border-radius: 10px;
+                            padding-top: 30px;
+                            padding-left: 40px;
+                            .job-duties {
+                                h3 {
+                                    @include fontspec(600,
+                                    20px,
+                                    40px,
+                                    #1A1616);
+                                    font-family: $gilroy;
+                                }
+                                ul {
+                                    margin-bottom: 10px;
+                                    li {
+                                        list-style-type: none;
+                                        position: relative;
+                                        @include fontspec(500,
+                                        16px,
+                                        19px,
+                                        #3C4350);
+                                        font-family: $gilroy;
+                                        margin-bottom: 20px;
+                                        margin-left: 20px;
+                                        &::before {
+                                            content: '';
+                                            background-color: #5C94FF;
+                                            width: 14px;
+                                            height: 2px;
+                                            border-radius: 1px;
+                                            position: absolute;
+                                            top: 50%;
+                                            left: -20px;
+                                        }
+                                    }
+                                }
+                            }
+                            .demands {
+                                h3 {
+                                    @include fontspec(600,
+                                    20px,
+                                    40px,
+                                    #1A1616);
+                                    font-family: $gilroy;
+                                    margin-bottom: 10px;
+                                }
+                                p {
+                                    @include fontspec(500,
+                                    16px,
+                                    22px,
+                                    #3C4350);
+                                    font-family: $gilroy;
+                                    margin-bottom: 30px;
+                                }
+                            }
+                            .conditions {
+                                h3 {
+                                    @include fontspec(600,
+                                    20px,
+                                    40px,
+                                    #1A1616);
+                                    font-family: $gilroy;
+                                }
+                                ul {
+                                    li {
+                                        list-style-type: none;
+                                        position: relative;
+                                        @include fontspec(500,
+                                        16px,
+                                        19px,
+                                        #3C4350);
+                                        font-family: $gilroy;
+                                        margin-bottom: 20px;
+                                        margin-left: 20px;
+                                        &::before {
+                                            content: '';
+                                            background-color: #5C94FF;
+                                            width: 14px;
+                                            height: 2px;
+                                            border-radius: 1px;
+                                            position: absolute;
+                                            top: 50%;
+                                            left: -20px;
+                                        }
+                                    }
+                                }
+                            }
+                            .agreement {
+                                margin-top: 50px;
+                                display: flex;
+                                button {
+                                    @include btnspec(250px,
+                                    49px,
+                                    0,
+                                    29px,
+                                    #407BFF);
+                                    @include fontspec(500,
+                                    16px,
+                                    19px,
+                                    #fff);
+                                    font-family: $gilroy;
+                                    margin-right: 21px;
+                                }
+                                p {
+                                    @include fontspec(500,
+                                    14px,
+                                    17px,
+                                    #77839D);
+                                    font-family: $gilroy;
+                                    a {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
                         }
-                        .vacation__leftside_downside {}
+                        .vacation__leftside_downside {
+                            margin-top: 20px;
+                            .share {
+                                @include btnspec(170px,
+                                50px,
+                                1px solid #DDE3F1,
+                                38px,
+                                #fff);
+                                @include fontspec(500,
+                                16px,
+                                19px,
+                                #1a1616);
+                                font-family: $gilroy;
+                                padding-left: 30px;
+                                padding-right: 27px;
+                                transition: 0.5s;
+                                position: relative;
+                                img {
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
                     }
-                    .vacation__rightside {}
                 }
             }
+            .vacation__rightside {}
         }
     }
 }

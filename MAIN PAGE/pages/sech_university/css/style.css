@@ -11292,6 +11292,132 @@ button:not(:disabled),
   height: 867px;
   background-color: #fff;
   border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .job-duties h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: #1A1616;
+  font-family: "Gilroy", sans-serif;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .job-duties ul {
+  margin-bottom: 10px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .job-duties ul li {
+  list-style-type: none;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3C4350;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .job-duties ul li::before {
+  content: "";
+  background-color: #5C94FF;
+  width: 14px;
+  height: 2px;
+  border-radius: 1px;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .demands h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: #1A1616;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 10px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .demands p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3C4350;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 30px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .conditions h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: #1A1616;
+  font-family: "Gilroy", sans-serif;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .conditions ul li {
+  list-style-type: none;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3C4350;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .conditions ul li::before {
+  content: "";
+  background-color: #5C94FF;
+  width: 14px;
+  height: 2px;
+  border-radius: 1px;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .agreement {
+  margin-top: 50px;
+  display: flex;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .agreement button {
+  width: 250px;
+  height: 49px;
+  border: 0;
+  border-radius: 29px;
+  background-color: #407BFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  font-family: "Gilroy", sans-serif;
+  margin-right: 21px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .agreement p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #77839D;
+  font-family: "Gilroy", sans-serif;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_middle .agreement p a {
+  text-decoration: underline;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_downside {
+  margin-top: 20px;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_downside .share {
+  width: 170px;
+  height: 50px;
+  border: 1px solid #DDE3F1;
+  border-radius: 38px;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1a1616;
+  font-family: "Gilroy", sans-serif;
+  padding-left: 30px;
+  padding-right: 27px;
+  transition: 0.5s;
+  position: relative;
+}
+.vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_downside .share img {
+  margin-right: 10px;
 }
 .footer {
   background-color: #F4F5FB;
