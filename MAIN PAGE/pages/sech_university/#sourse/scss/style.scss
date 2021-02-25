@@ -560,35 +560,54 @@ button:not(:disabled),
                                     flex-wrap: wrap;
                                     justify-content: space-between;
                                     .who__block {
-                                        padding: 20px;
-                                        @include cardspec(372px,
-                                        190px,
+                                        padding-top: 23px;
+                                        padding-left: 34px;
+                                        padding-right: 31px;
+                                        @include cardspec(578px,
+                                        220px,
                                         10px,
                                         #fff);
                                         margin-bottom: 40px;
+                                        position: relative;
                                         .who__category {
                                             @include fontspecnocol(500,
                                             12px,
                                             17px);
                                         }
                                         .who__maintext {
-                                            @include fontspec(500,
-                                            14px,
-                                            20px,
-                                            #000);
+                                            @include fontspec(600,
+                                            16px,
+                                            22px,
+                                            #1a1616);
+                                        }
+                                        .who__adress {
+                                            margin-left: 30px;
+                                            margin-top: 20px;
+                                            margin-bottom: 24px;
+                                            @include fontspecnocol(500,
+                                            13px,
+                                            18px);
+                                            a {
+                                                color: #1047C5;
+                                            }
                                         }
                                         .who__schedule {
                                             @include fontspec(500,
                                             12px,
                                             17px,
                                             #1047C5);
-                                            margin-top: 35px;
                                         }
                                         .who__date {
                                             @include fontspec(500,
                                             12px,
                                             17px,
                                             #77839D);
+                                        }
+                                        img {
+                                            width: 18px;
+                                            height: 22px;
+                                            position: absolute;
+                                            top: 56%;
                                         }
                                     }
                                 }

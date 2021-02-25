@@ -10612,12 +10612,15 @@ button:not(:disabled),
   justify-content: space-between;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block {
-  padding: 20px;
-  width: 372px;
-  height: 190px;
+  padding-top: 23px;
+  padding-left: 34px;
+  padding-right: 31px;
+  width: 578px;
+  height: 220px;
   border-radius: 10px;
   background-color: #fff;
   margin-bottom: 40px;
+  position: relative;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__category {
   font-weight: 500;
@@ -10625,23 +10628,39 @@ button:not(:disabled),
   line-height: 17px;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__maintext {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a1616;
+}
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__adress {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 24px;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #000;
+  font-size: 13px;
+  line-height: 18px;
+}
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__adress a {
+  color: #1047C5;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__schedule {
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
   color: #1047C5;
-  margin-top: 35px;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block .who__date {
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
   color: #77839D;
+}
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item .who-wrap .who__block img {
+  width: 18px;
+  height: 22px;
+  position: absolute;
+  top: 56%;
 }
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item button {
   width: 308px;
