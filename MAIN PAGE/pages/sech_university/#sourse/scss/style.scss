@@ -1267,6 +1267,7 @@ button:not(:disabled),
                     margin-bottom: 50px;
                 }
                 .vacation__full {
+                    display: flex;
                     .vacation__leftside {
                         width: 784px;
                         .vacation__leftside_upside {
@@ -1429,7 +1430,65 @@ button:not(:disabled),
                     }
                 }
             }
-            .vacation__rightside {}
+            .vacation__rightside {
+                margin-left: 39px;
+                margin-top: 29px;
+                h5 {
+                    @include fontspec(900,
+                    20px,
+                    40px,
+                    #fff);
+                    font-family: $gilroy;
+                    margin-bottom: 10px;
+                }
+                .vacation__rightside_card {
+                    @include cardspec(372px,
+                    277px,
+                    10px,
+                    #fff);
+                    padding-top: 28px;
+                    padding-left: 29px;
+                    margin-bottom: 40px;
+                    position: relative;
+                    .vacation__rightside_card-category {
+                        @include fontspecnocol(500,
+                        13px,
+                        18px);
+                        margin-bottom: 9px;
+                    }
+                    .vacation__rightside_card-heading {
+                        @include fontspec(600,
+                        16px,
+                        22px,
+                        #1a1616);
+                    }
+                    .vacation__rightside_card-adress {
+                        @include fontspec(500,
+                        13px,
+                        18px,
+                        #1a1616);
+                        margin-left: 34px;
+                        margin-bottom: 24px;
+                        margin-top: 25px;
+                    }
+                    .vacation__rightside_card-shedule {
+                        @include fontspec(500,
+                        13px,
+                        18px,
+                        #1047C5);
+                    }
+                    .vacation__rightside_card-date {
+                        @include fontspec(500,
+                        13px,
+                        18px,
+                        #77839D);
+                    }
+                    img {
+                        position: absolute;
+                        top: 46%;
+                    }
+                }
+            }
         }
     }
 }

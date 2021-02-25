@@ -11267,6 +11267,9 @@ button:not(:disabled),
   font-family: "Gilroy", sans-serif;
   margin-bottom: 50px;
 }
+.vacationcard .container .row .col-12 .vacation__full {
+  display: flex;
+}
 .vacationcard .container .row .col-12 .vacation__full .vacation__leftside {
   width: 784px;
 }
@@ -11419,6 +11422,66 @@ button:not(:disabled),
 .vacationcard .container .row .col-12 .vacation__full .vacation__leftside .vacation__leftside_downside .share img {
   margin-right: 10px;
 }
+.vacationcard .container .row .vacation__rightside {
+  margin-left: 39px;
+  margin-top: 29px;
+}
+.vacationcard .container .row .vacation__rightside h5 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 10px;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card {
+  width: 372px;
+  height: 277px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding-top: 28px;
+  padding-left: 29px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card .vacation__rightside_card-category {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 9px;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card .vacation__rightside_card-heading {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a1616;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card .vacation__rightside_card-adress {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #1a1616;
+  margin-left: 34px;
+  margin-bottom: 24px;
+  margin-top: 25px;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card .vacation__rightside_card-shedule {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #1047C5;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card .vacation__rightside_card-date {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #77839D;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card img {
+  position: absolute;
+  top: 46%;
+}
+
 .footer {
   background-color: #F4F5FB;
   padding-top: 52px;
