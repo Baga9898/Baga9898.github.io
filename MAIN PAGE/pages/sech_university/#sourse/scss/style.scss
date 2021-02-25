@@ -1488,6 +1488,125 @@ button:not(:disabled),
                         top: 46%;
                     }
                 }
+                .vacation__rightside_button {
+                    @include btnspec(226px,
+                    49px,
+                    0,
+                    29px,
+                    #407BFF);
+                    @include fontspec(500,
+                    16px,
+                    19px,
+                    #fff);
+                    font-family: $gilroy;
+                    margin: 0 auto;
+                    margin-bottom: 60px;
+                }
+                .vacation__rightside_card-color {
+                    background: url('../img/cardtriengles.svg') 0% 100% no-repeat;
+                    @include cardspec(372px,
+                    325px,
+                    10px,
+                    #5C94FF);
+                    padding-top: 25px;
+                    padding-left: 26px;
+                    margin-bottom: 100px;
+                    h5 {
+                        @include fontspec(700,
+                        18px,
+                        25px,
+                        #fff);
+                    }
+                    p {
+                        @include fontspec(500,
+                        14px,
+                        20px,
+                        #fff);
+                        margin-bottom: 29px;
+                    }
+                    .vacation__rightside_form {
+                        width: 312px;
+                        height: 44px;
+                        border-radius: 20px;
+                        background-color: #fff;
+                        p {
+                            input {
+                                @include fontspec(500,
+                                16px,
+                                22px,
+                                #77839D);
+                                background-color: transparent;
+                                font-family: $gilroy;
+                                margin-top: 11px;
+                                margin-left: 20px;
+                                width: 87%;
+                            }
+                        }
+                    }
+                    .agree {
+                        position: relative;
+                        .agree__label {}
+                        .agree__checkbox {
+                            display: none;
+                        }
+                        .agree__fake {
+                            display: inline-block;
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 4px;
+                            background-color: #fff;
+                            position: absolute;
+                            top: 13px;
+                            cursor: pointer;
+                            &::before {
+                                content: '';
+                                position: absolute;
+                                display: block;
+                                width: 12px;
+                                height: 12px;
+                                background-color: #407BFF;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                border-radius: 2px;
+                                opacity: 0;
+                                transition: 0.5s;
+                            }
+                        }
+                        .agree__checkbox:checked+.agree__fake::before {
+                            opacity: 1;
+                        }
+                        .agree__text {
+                            @include fontspec(500,
+                            14px,
+                            17px,
+                            #fff);
+                            font-family: $gilroy;
+                            position: absolute;
+                            left: 30px;
+                            top: 15px;
+                            a {
+                                color: #fff;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                    .subscribe {
+                        @include btnspec(312px,
+                        44px,
+                        2px solid rgba(255,
+                        255,
+                        255,
+                        0.5),
+                        20px,
+                        transparent);
+                        margin-top: 73px;
+                        @include fontspec(500,
+                        16px,
+                        22px,
+                        #fff);
+                    }
+                }
             }
         }
     }

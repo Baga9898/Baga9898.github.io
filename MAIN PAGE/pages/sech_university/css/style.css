@@ -11481,6 +11481,119 @@ button:not(:disabled),
   position: absolute;
   top: 46%;
 }
+.vacationcard .container .row .vacation__rightside .vacation__rightside_button {
+  width: 226px;
+  height: 49px;
+  border: 0;
+  border-radius: 29px;
+  background-color: #407BFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  font-family: "Gilroy", sans-serif;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color {
+  background: url("../img/cardtriengles.svg") 0% 100% no-repeat;
+  width: 372px;
+  height: 325px;
+  border-radius: 10px;
+  background-color: #5C94FF;
+  padding-top: 25px;
+  padding-left: 26px;
+  margin-bottom: 100px;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 29px;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .vacation__rightside_form {
+  width: 312px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .vacation__rightside_form p input {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #77839D;
+  background-color: transparent;
+  font-family: "Gilroy", sans-serif;
+  margin-top: 11px;
+  margin-left: 20px;
+  width: 87%;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .agree {
+  position: relative;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .agree .agree__checkbox {
+  display: none;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .agree .agree__fake {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  position: absolute;
+  top: 13px;
+  cursor: pointer;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .agree .agree__fake::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #407BFF;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .agree .agree__checkbox:checked + .agree__fake::before {
+  opacity: 1;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .agree .agree__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  font-family: "Gilroy", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .agree .agree__text a {
+  color: #fff;
+  text-decoration: underline;
+}
+.vacationcard .container .row .vacation__rightside .vacation__rightside_card-color .subscribe {
+  width: 312px;
+  height: 44px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  background-color: transparent;
+  margin-top: 73px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
 
 .footer {
   background-color: #F4F5FB;
