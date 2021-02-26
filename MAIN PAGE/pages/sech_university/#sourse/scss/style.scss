@@ -1126,7 +1126,7 @@ button:not(:disabled),
                 flex-wrap: wrap;
                 .big-card {
                     @include cardspec(1200px,
-                    221px,
+                    240px,
                     10px,
                     #fff);
                     margin-bottom: 10px;
@@ -1140,6 +1140,9 @@ button:not(:disabled),
                             14px,
                             20px,
                             #77839D);
+                            position: absolute;
+                            bottom: 0;
+                            right: 25px;
                         }
                     }
                     .job-card__heading {
@@ -1156,9 +1159,9 @@ button:not(:disabled),
                         margin-bottom: 20px;
                     }
                     .job-card__maintext {
-                        @include fontspec(500,
-                        16px,
-                        22px,
+                        @include fontspec(400,
+                        15px,
+                        21px,
                         #3C4350);
                         margin-bottom: 20px;
                         margin-top: 20px;
@@ -1171,8 +1174,24 @@ button:not(:disabled),
                         position: absolute;
                         bottom: 0;
                     }
+                    .job-card___adress {
+                        @include fontspec(500,
+                        14px,
+                        20px,
+                        #1a1616);
+                        margin-left: 35px;
+                        a {
+                            color: #1047C5;
+                        }
+                    }
                     .job-card__minidate {
                         display: none;
+                    }
+                    img {
+                        width: 18px;
+                        height: 22px;
+                        position: absolute;
+                        top: 63%;
                     }
                 }
                 .mini-card {

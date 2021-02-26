@@ -11136,7 +11136,7 @@ button:not(:disabled),
 }
 .job-cards .container .row .col-12 .big-card {
   width: 1200px;
-  height: 221px;
+  height: 240px;
   border-radius: 10px;
   background-color: #fff;
   margin-bottom: 10px;
@@ -11152,6 +11152,9 @@ button:not(:disabled),
   font-size: 14px;
   line-height: 20px;
   color: #77839D;
+  position: absolute;
+  bottom: 0;
+  right: 25px;
 }
 .job-cards .container .row .col-12 .big-card .job-card__heading {
   font-weight: 500;
@@ -11167,9 +11170,9 @@ button:not(:disabled),
   margin-bottom: 20px;
 }
 .job-cards .container .row .col-12 .big-card .job-card__maintext {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
   color: #3C4350;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -11182,8 +11185,24 @@ button:not(:disabled),
   position: absolute;
   bottom: 0;
 }
+.job-cards .container .row .col-12 .big-card .job-card___adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1a1616;
+  margin-left: 35px;
+}
+.job-cards .container .row .col-12 .big-card .job-card___adress a {
+  color: #1047C5;
+}
 .job-cards .container .row .col-12 .big-card .job-card__minidate {
   display: none;
+}
+.job-cards .container .row .col-12 .big-card img {
+  width: 18px;
+  height: 22px;
+  position: absolute;
+  top: 63%;
 }
 .job-cards .container .row .col-12 .mini-card {
   width: 372px;
