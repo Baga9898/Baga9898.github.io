@@ -11206,7 +11206,7 @@ button:not(:disabled),
 }
 .job-cards .container .row .col-12 .mini-card {
   width: 372px;
-  height: 190px;
+  height: 277px;
   border-radius: 10px;
   background-color: #fff;
   padding: 20px;
@@ -11246,6 +11246,9 @@ button:not(:disabled),
   margin-top: 20px;
   display: none;
 }
+.job-cards .container .row .col-12 .mini-card .job-card___adress {
+  margin-top: 25px;
+}
 .job-cards .container .row .col-12 .mini-card .job-card__shedule {
   font-weight: 500;
   font-size: 12px;
@@ -11262,6 +11265,9 @@ button:not(:disabled),
   display: block;
   position: absolute;
   bottom: 0;
+}
+.job-cards .container .row .col-12 .mini-card img {
+  top: 50%;
 }
 
 .vacationcard {
