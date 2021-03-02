@@ -87,6 +87,8 @@ jQuery(document).ready(function() {
             $('.big-card').toggleClass('mini-card')
             $('.imgactive').toggleClass('unactive')
             $('.imgunactive').toggleClass('unactive')
+            $('.withoutbr').toggleClass('unactive')
+            $('.withbr').toggleClass('unactive')
             mode = 'tables'
         }
 
@@ -98,6 +100,8 @@ jQuery(document).ready(function() {
             $('.big-card').toggleClass('mini-card')
             $('.imgactive').toggleClass('unactive')
             $('.imgunactive').toggleClass('unactive')
+            $('.withoutbr').toggleClass('unactive')
+            $('.withbr').toggleClass('unactive')
             mode = 'list'
         }
 
