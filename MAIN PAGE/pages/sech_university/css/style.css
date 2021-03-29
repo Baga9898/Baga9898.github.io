@@ -10836,7 +10836,7 @@ button:not(:disabled),
 
 /* CafedralSearch */
 .cafedralsearch {
-  background: url("../img/119cafidras.png");
+  background: url("../img/119cafidras.png") no-repeat center top/cover;
 }
 .cafedralsearch .cafedralsearch__title {
   align-items: center;
@@ -10880,6 +10880,7 @@ button:not(:disabled),
   position: absolute;
   top: 20px;
   left: 39px;
+  width: 90%;
 }
 
 .whotop {
@@ -11742,22 +11743,33 @@ button:not(:disabled),
 }
 .footer .container .row .social {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
+}
+.footer .container .row .social a img {
+  width: 20px;
+  height: 20px;
+  margin-top: 42px;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .footer .container .row .social a:first-child img {
   width: 20px;
   height: 20px;
+  margin-left: 0;
 }
 .footer .container .row .social a:last-child img {
   width: 22px;
   height: 16px;
 }
-.footer .container .row .social a img {
-  width: 20px;
-  height: 20px;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  margin-left: 15px;
-  margin-right: 15px;
+.footer .container .row .privacypolicy {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 58px;
+}
+.footer .container .row .privacypolicy a {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #5C94FF;
 }
