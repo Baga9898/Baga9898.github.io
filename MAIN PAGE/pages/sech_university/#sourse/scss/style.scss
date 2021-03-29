@@ -803,6 +803,61 @@ button:not(:disabled),
     }
 }
 
+
+/* CafedralSearch */
+
+.cafedralsearch {
+    background: url("../img/119cafidras.png");
+    .cafedralsearch__title {
+        align-items: center;
+        margin-top: 94px;
+        h1 {
+            @include fontspec(bold,
+            50px,
+            60px,
+            #fff);
+            margin-bottom: 20px;
+            font-family: $gilroy;
+        }
+        img {
+            width: 100px;
+            height: 5px;
+            margin-bottom: 45px;
+        }
+    }
+    .cafedralsearch__search {
+        &_form {
+            background-color: #fff;
+            width: 1197px;
+            height: 60px;
+            border-radius: 45px;
+            position: relative;
+            padding: 18px, 39px;
+            color: rgba(0, 0, 0, 0.5);
+            @include fontspec(500,
+            18px,
+            140%,
+            rgba(0,
+            0,
+            0,
+            0.5));
+            margin-bottom: 116px;
+            img {
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                right: 36px;
+                top: 20px;
+            }
+            input {
+                position: absolute;
+                top: 20px;
+                left: 39px;
+            }
+        }
+    }
+}
+
 // Who page 
 .whotop {
     background-color: #5C94FF;

@@ -10834,6 +10834,54 @@ button:not(:disabled),
   display: block;
 }
 
+/* CafedralSearch */
+.cafedralsearch {
+  background: url("../img/119cafidras.png");
+}
+.cafedralsearch .cafedralsearch__title {
+  align-items: center;
+  margin-top: 94px;
+}
+.cafedralsearch .cafedralsearch__title h1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Gilroy", sans-serif;
+}
+.cafedralsearch .cafedralsearch__title img {
+  width: 100px;
+  height: 5px;
+  margin-bottom: 45px;
+}
+.cafedralsearch .cafedralsearch__search_form {
+  background-color: #fff;
+  width: 1197px;
+  height: 60px;
+  border-radius: 45px;
+  position: relative;
+  padding: 18px, 39px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 116px;
+}
+.cafedralsearch .cafedralsearch__search_form img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 36px;
+  top: 20px;
+}
+.cafedralsearch .cafedralsearch__search_form input {
+  position: absolute;
+  top: 20px;
+  left: 39px;
+}
+
 .whotop {
   background-color: #5C94FF;
   position: relative;
