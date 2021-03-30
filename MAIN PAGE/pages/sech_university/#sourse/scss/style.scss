@@ -1126,6 +1126,10 @@ button:not(:disabled),
     margin-top: 0px !important;
 }
 
+.choices__item--selectable {
+    margin-left: 10px;
+}
+
 // Pagination
 .pagination {
     background-color: #F4F5FB;
@@ -1800,6 +1804,7 @@ button:not(:disabled),
                 display: flex;
                 justify-content: flex-end;
                 margin-top: 58px;
+                padding: 0;
                 a {
                     @include fontspec(500,
                     15px,

@@ -11131,6 +11131,10 @@ button:not(:disabled),
   margin-top: 0px !important;
 }
 
+.choices__item--selectable {
+  margin-left: 10px;
+}
+
 .pagination {
   background-color: #F4F5FB;
   padding-top: 10px;
@@ -11766,6 +11770,7 @@ button:not(:disabled),
   display: flex;
   justify-content: flex-end;
   margin-top: 58px;
+  padding: 0;
 }
 .footer .container .row .privacypolicy a {
   font-weight: 500;
