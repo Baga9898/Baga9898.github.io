@@ -10317,7 +10317,7 @@ body {
 /* Slider */
 .slider {
   overflow-x: hidden;
-  margin-bottom: 140px;
+  margin-bottom: 30px;
   background-color: #5C94FF;
   position: relative;
 }
@@ -10389,13 +10389,16 @@ body {
   color: #407BFF;
   margin-bottom: 190px;
 }
+.slider .container .row .col-12 .slides .slides__slide .slider__leftside button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
 .slider .container .row .col-12 .slides .slide1 {
   background: url("../img/doctors.png") 82% 90%/580px 600px no-repeat;
   position: relative;
 }
 .slider .container .row .col-12 .slides .slide1 .pills {
   position: absolute;
-  top: 200px;
+  top: 160px;
   left: 469px;
   z-index: 1;
 }
@@ -10593,6 +10596,10 @@ button:not(:disabled),
   color: #1A1616;
   font-family: "Gilroy", sans-serif;
 }
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-triggers .whotabs-triggers__item:hover {
+  background-color: #1047C5;
+  color: #fff;
+}
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-triggers .item1 {
   width: 63px;
 }
@@ -10688,6 +10695,9 @@ button:not(:disabled),
   margin-top: 40px;
   margin-bottom: 100px;
 }
+.whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item button:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
 .whoweneed .container .row .who__contents .who__wrapper .who__tabs .who__tabs-content .whotabs-content__item--active {
   display: block;
 }
@@ -10740,6 +10750,10 @@ button:not(:disabled),
   line-height: 140%;
   color: #1A1616;
   font-family: "Gilroy", sans-serif;
+}
+.news .container .row .news__contents .wrapper .tabs .tabs-triggers .tabs-triggers__item:hover {
+  background-color: #1047C5;
+  color: #fff;
 }
 .news .container .row .news__contents .wrapper .tabs .tabs-triggers .tabs-triggers__item--active {
   background-color: #407BFF;
@@ -11769,7 +11783,7 @@ button:not(:disabled),
 .footer .container .row .privacypolicy {
   display: flex;
   justify-content: flex-end;
-  margin-top: 58px;
+  margin-top: 40px;
   padding: 0;
 }
 .footer .container .row .privacypolicy a {

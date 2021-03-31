@@ -248,7 +248,7 @@ body {
 
 .slider {
     overflow-x: hidden;
-    margin-bottom: 140px;
+    margin-bottom: 30px;
     background-color: #5C94FF;
     position: relative;
     .container {
@@ -311,6 +311,9 @@ body {
                                 @include btnspec(216px, 58px, 0px, 40px, #fff);
                                 @include fontspec(600, 16px, 22px, #407BFF);
                                 margin-bottom: 190px;
+                                &:hover {
+                                    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+                                }
                             }
                         }
                     }
@@ -319,7 +322,7 @@ body {
                         position: relative;
                         .pills {
                             position: absolute;
-                            top: 200px;
+                            top: 160px;
                             left: 469px;
                             z-index: 1;
                         }
@@ -540,6 +543,10 @@ button:not(:disabled),
                                 140%,
                                 #1A1616);
                                 font-family: $gilroy;
+                                &:hover {
+                                    background-color: $hover;
+                                    color: #fff;
+                                }
                             }
                             .item1 {
                                 width: 63px;
@@ -636,6 +643,9 @@ button:not(:disabled),
                                     margin: 0 auto;
                                     margin-top: 40px;
                                     margin-bottom: 100px;
+                                    &:hover {
+                                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+                                    }
                                 }
                             }
                             .whotabs-content__item--active {
@@ -700,6 +710,10 @@ button:not(:disabled),
                                 140%,
                                 #1A1616);
                                 font-family: $gilroy;
+                                &:hover {
+                                    background-color: $hover;
+                                    color: #fff;
+                                }
                             }
                             .tabs-triggers__item--active {
                                 background-color: #407BFF;
@@ -1803,7 +1817,7 @@ button:not(:disabled),
             .privacypolicy {
                 display: flex;
                 justify-content: flex-end;
-                margin-top: 58px;
+                margin-top: 40px;
                 padding: 0;
                 a {
                     @include fontspec(500,
