@@ -11783,7 +11783,7 @@ button:not(:disabled),
 .footer .container .row .privacypolicy {
   display: flex;
   justify-content: flex-end;
-  margin-top: 40px;
+  margin-top: 42px;
   padding: 0;
 }
 .footer .container .row .privacypolicy a {
@@ -11791,6 +11791,11 @@ button:not(:disabled),
   font-size: 15px;
   line-height: 18px;
   color: #5C94FF;
+}
+
+.footer__downside_wrapper {
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* Header */
@@ -11827,6 +11832,35 @@ button:not(:disabled),
 
   .cafedralsearch__search_form input {
     width: 72% !important;
+  }
+
+  .footer__downside_wrapper {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .footer .container .row .social a img {
+    width: 20px;
+    height: 20px;
+    margin-top: 29px;
+    margin-bottom: -6px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .social {
+    margin: 0 auto;
+  }
+
+  .privacypolicy {
+    margin-top: 45px;
+    margin-left: 158px;
+  }
+
+  .footer .container .row .social a:first-child img {
+    width: 20px;
+    height: 20px;
+    margin-left: 39px;
   }
 }
 @media screen and (max-width: 640px) {
