@@ -1910,6 +1910,31 @@ button:not(:disabled),
     }
 }
 
+@media screen and (max-width: 550px) {
+    .footer .container .row .col-12 .footer__upside a {
+        font-size: 14px;
+    }
+    .footer .container .row .col-12 .footer__upside h6 {
+        font-size: 14px;
+    }
+    .footer .container .row .social a:first-child img {
+        /* margin-left: -25px; */
+    }
+    .footer .container .row .privacypolicy a {
+        text-align: center;
+    }
+    .privacypolicy {
+        margin-top: 45px;
+        margin-left: 155px;
+        margin: 0 auto;
+    }
+    .footer .container .row .social a:first-child img {
+        width: 20px;
+        height: 20px;
+        margin-left: 0;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .cafedralsearch .cafedralsearch__title h1 {
         font-size: 25px;
