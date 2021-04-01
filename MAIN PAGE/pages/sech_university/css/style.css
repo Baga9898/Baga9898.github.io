@@ -11793,7 +11793,6 @@ button:not(:disabled),
   color: #5C94FF;
 }
 
-/* Responsive */
 /* Header */
 @media screen and (max-width: 1250px) {
   .cafedralsearch__search_form {
