@@ -11792,3 +11792,73 @@ button:not(:disabled),
   line-height: 18px;
   color: #5C94FF;
 }
+
+/* Responsive */
+/* Header */
+@media screen and (max-width: 1250px) {
+  .cafedralsearch__search_form {
+    width: 70% !important;
+    margin: 0 auto;
+    margin-bottom: 116px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .footer__wrapper {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cafedralsearch__search_form {
+    width: 70% !important;
+    margin: 0 auto;
+    margin-bottom: 116px;
+  }
+
+  .cafedralsearch .cafedralsearch__title h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .cafedralsearch__search_form input {
+    width: 72% !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .cafedralsearch .cafedralsearch__title h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .cafedralsearch__search_form input {
+    width: 66% !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cafedralsearch .cafedralsearch__title h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .cafedralsearch__search_form input {
+    width: 66% !important;
+    padding-left: -10px;
+  }
+
+  .cafedralsearch .cafedralsearch__search_form img {
+    width: 16px;
+    height: 16px;
+    right: 20px;
+    top: 23px;
+  }
+
+  .cafedralsearch__search_form input {
+    left: 22px !important;
+  }
+}
