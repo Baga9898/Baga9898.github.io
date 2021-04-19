@@ -24,6 +24,7 @@ body {
     cursor: pointer;
     font-weight: bold;
     border-radius: 50px;
+    margin: 10px;
 }
 
 form {
@@ -60,4 +61,14 @@ input[type="text" i] {
 
 .back {
     grid-column: 3/-1;
+}
+
+.equal {
+    grid-column: 4;
+    grid-row: 6/8;
+    background-color: rgb(214, 214, 214);
+}
+
+.zero {
+    grid-column: 1/3;
 }
