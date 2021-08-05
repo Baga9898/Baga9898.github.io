@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One of many</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <section class="mainsection left">
+            <div class="mainsection__wrapper mainsection__wrapper-left">
+                <div class="mainsection__wrapper_menu mainsection__wrapper_menu-left">
+                    <ul class="menu-items menu-items-left">
+                        <li class="menu-item menu-item-left">Main</li>
+                        <li class="menu-item menu-item-left">About us</li>
+                        <li class="menu-item menu-item-left">Contacts</li>
+                        <li class="menu-item menu-item-left">Welcome</li>
+                        <li class="menu-item menu-item-left">Adress</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="mainsection right">
+            <div class="mainsection__wrapper mainsection__wrapper-right">
+                <div class="mainsection__wrapper_menu mainsection__wrapper_menu-right">
+                    <ul class="menu-items menu-items-right">
+                        <li class="menu-item menu-item-right">Main</li>
+                        <li class="menu-item menu-item-right">About us</li>
+                        <li class="menu-item menu-item-right">Contacts</li>
+                        <li class="menu-item menu-item-right">Welcome</li>
+                        <li class="menu-item menu-item-right">Adress</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+<script>
+    let oneActive = document.querySelectorAll('.menu-item-left');
+    let allActive = document.querySelectorAll('.menu-item-right');
+
+    for (let i = 0; i < allActive.length; i++) {
+        allActive[i].onclick = function() {
+            allActive[i].classList.toggle('active');
+        }
+    }
+
+    for (let i = 0; i < oneActive.length; i++) {
+        oneActive[i].onclick = function() {
+            let j = 0;
+            while (j < oneActive.length) {
+                oneActive[j++].className = 'menu-item'
+            }
+            oneActive[i].classList.toggle('active');
+        }
+    }
+</script>
+
+</html>
