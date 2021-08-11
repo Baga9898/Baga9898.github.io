@@ -22,3 +22,7 @@ Fonts:
 SlickSlider:
 	
 	https://kenwheeler.github.io/slick/
+
+Design:
+	
+	https://sanstv.ru/color
