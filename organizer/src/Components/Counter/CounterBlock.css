@@ -1,0 +1,20 @@
+.counterBlockWrapper {
+    max-width: 230px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+}
+
+.counter button {
+    font-size: 28px;
+}

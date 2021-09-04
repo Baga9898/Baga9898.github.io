@@ -1,0 +1,57 @@
+.toDoBlockWrapper {
+    max-width: 300px;
+    max-height: 345px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.toDoBlock__form {
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    min-height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toDoBlick__form_input {
+    background: transparent;
+}
+
+.toDoBlick__form_button {
+    background: transparent;
+}
+
+.toDoBlock__item {
+    background-color: #fff;
+    border-radius: 20px;
+    min-height: 50px;
+    margin: 10px 0 10px 0;
+    width: 250px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toDoBlock__item_wrapper {
+    overflow-y: scroll;
+}
+
+.toDoBlock__item_delete {
+    cursor: pointer;
+}
+
+.item-text {
+    cursor: pointer;
+}
+
+.strike {
+    text-decoration: line-through;
+}
