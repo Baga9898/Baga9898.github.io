@@ -1,8 +1,10 @@
-All pages:
+React project:
+Some projects on React.
 
-MAIN PAGE -> pages
+Sites: 
+Sites (main page) -> pages
+Web pages examples.
 
 Templates:
-
 Templates of different tools, use them.
 =)=)
