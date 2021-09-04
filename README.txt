@@ -6,5 +6,5 @@ Sites (main page) -> pages
 Web pages examples.
 
 Templates:
-Templates of different tools, use them.
+Templates of different elements, presets and scripts, use them.
 =)=)
