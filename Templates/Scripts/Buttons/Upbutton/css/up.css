@@ -1,0 +1,31 @@
+/* ScrollToTop */
+
+.topbtn {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 15px;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    z-index: 999;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+    display: none;
+    transition: 0.7s;
+}
+
+.topbtn-show {
+    display: block;
+}
+
+.topbtn:hover {
+    cursor: pointer;
+    background-color: #663d15;
+}
+
+.topbtn__arrow {
+    text-align: center;
+    padding-top: 7px;
+    display: block;
+    z-index: 99;
+}
