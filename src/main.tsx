@@ -1,0 +1,14 @@
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+
+import App from './view/components/App/App';
+
+import './view/common/styles/index.css';
+
+createRoot(document.getElementById('root')!).render(
+  <BrowserRouter>
+    <App />
+    <ToastContainer />
+  </BrowserRouter>
+);

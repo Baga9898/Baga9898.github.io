@@ -1,0 +1,10 @@
+@import './nulling.css';
+@import './scrollbar.css';
+@import './tokens.css';
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
